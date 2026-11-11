@@ -8,6 +8,7 @@
   <a href="https://leetcode.com/u/mengalpratik/"><img src="https://img.shields.io/badge/LeetCode-mengalpratik-003B19?style=for-the-badge&labelColor=000000&logoColor=00FF66&logo=leetcode" alt="LeetCode profile"></a>
   <a href="https://github.com/mengalpratik"><img src="https://img.shields.io/badge/GitHub-mengalpratik-003B19?style=for-the-badge&labelColor=000000&logoColor=00FF66&logo=github" alt="GitHub profile"></a>
   <a href="mailto:iampratikmengal@gmail.com"><img src="https://img.shields.io/badge/Email-iampratikmengal@gmail.com-003B19?style=for-the-badge&labelColor=000000&logoColor=00FF66&logo=gmail" alt="Email iampratikmengal@gmail.com"></a>
+  <a href="https://buymeacoffee.com/pratikmengal" target="_blank"><img src="https://img.shields.io/badge/Buy_Me_A_Coffee-pratikmengal-003B19?style=for-the-badge&labelColor=000000&logoColor=FFDD00&logo=buy-me-a-coffee" alt="Buy Me A Coffee"></a>
 </p>
 
 <img src="assets/title-about.svg" width="100%" alt="01 About — Hello, I'm Pratik.">
@@ -59,6 +60,13 @@
   <a href="https://leetcode.com/u/mengalpratik/"><img src="https://img.shields.io/badge/LeetCode-mengalpratik-003B19?style=for-the-badge&labelColor=000000&logoColor=00FF66&logo=leetcode" alt="LeetCode profile"></a>
   <a href="https://github.com/mengalpratik"><img src="https://img.shields.io/badge/GitHub-mengalpratik-003B19?style=for-the-badge&labelColor=000000&logoColor=00FF66&logo=github" alt="GitHub profile"></a>
   <a href="https://mengalpratik.github.io/PersonalPortfolioSite/"><img src="https://img.shields.io/badge/Portfolio-mengalpratik.github.io-003B19?style=for-the-badge&labelColor=000000&logoColor=00FF66&logo=githubpages" alt="Portfolio website"></a>
+  <a href="https://buymeacoffee.com/pratikmengal" target="_blank"><img src="https://img.shields.io/badge/Buy_Me_A_Coffee-pratikmengal-003B19?style=for-the-badge&labelColor=000000&logoColor=FFDD00&logo=buy-me-a-coffee" alt="Buy Me A Coffee"></a>
+</p>
+
+<p align="center">
+  <a href="https://buymeacoffee.com/pratikmengal" target="_blank">
+    <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" height="42" style="border-radius: 8px;">
+  </a>
 </p>
 
 <a href="https://mengalpratik.github.io/PersonalPortfolioSite/">
