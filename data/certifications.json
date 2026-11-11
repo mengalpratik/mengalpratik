@@ -1,0 +1,83 @@
+{
+  "credentials": [
+    {
+      "id": "cert-1",
+      "track": "GOOGLE · COURSERA",
+      "title": "Google Cybersecurity",
+      "status": "Score: 98.81 / 100 (8 Courses)",
+      "skills": "Networks, Linux, SQL, Python",
+      "badge": "GOOGLE CYBERSECURITY PRO",
+      "accent": "#00FF66"
+    },
+    {
+      "id": "cert-2",
+      "track": "GOOGLE · FORENSICS",
+      "title": "Cyber Forensics & SOC",
+      "status": "Threat Detection & Response",
+      "skills": "Vulnerability Assessment",
+      "badge": "SECURITY & SOC ANALYSIS",
+      "accent": "#05FFA1"
+    },
+    {
+      "id": "cert-3",
+      "track": "JAVA · ALGORITHMS",
+      "title": "Data Structures & Algo",
+      "status": "Trees, Graphs, Recursion",
+      "skills": "Dynamic Prog & Complexity",
+      "badge": "JAVA & ALGORITHMS",
+      "accent": "#00FF66"
+    },
+    {
+      "id": "cert-4",
+      "track": "CORE JAVA · OOP",
+      "title": "Programming using Java",
+      "status": "OOP, Collections, Threads",
+      "skills": "JDBC, Exception Handling",
+      "badge": "JAVA OOP & ARCHITECTURE",
+      "accent": "#05FFA1"
+    },
+    {
+      "id": "cert-5",
+      "track": "DATABASE · SQL",
+      "title": "Database Management",
+      "status": "Advanced SQL & ERD Design",
+      "skills": "Indexing, Tuning & Concurrency",
+      "badge": "RELATIONAL ARCHITECTURE",
+      "accent": "#05FFA1"
+    },
+    {
+      "id": "cert-6",
+      "track": "CLOUD COMPUTING",
+      "title": "Introduction to Cloud",
+      "status": "IaaS, PaaS, SaaS Models",
+      "skills": "Virtualization & Microservices",
+      "badge": "CLOUD ARCHITECTURE",
+      "accent": "#00FF66"
+    },
+    {
+      "id": "cert-7",
+      "track": "SOFTWARE ENGINEERING",
+      "title": "Agile Software Dev",
+      "status": "Scrum, Kanban, Sprint Life",
+      "skills": "SDLC & Version Control (Git)",
+      "badge": "AGILE PRACTITIONER",
+      "accent": "#05FFA1"
+    },
+    {
+      "id": "cert-8",
+      "track": "TCS · FORAGE",
+      "title": "TCS ESG Experience",
+      "status": "Governance & Sustainability",
+      "skills": "Risk Mgmt & Compliance",
+      "badge": "TATA CONSULTANCY SERVICES",
+      "accent": "#00FF66"
+    }
+  ],
+  "accolades": [
+    { "text": "🛡️ Google Cyber 98.81%", "accent": "#00FF66" },
+    { "text": "📄 IJNRD Author (2025)", "accent": "#05FFA1" },
+    { "text": "☕ Java & DSA Specialist", "accent": "#00FF66" },
+    { "text": "☁️ Cloud Computing", "accent": "#05FFA1" },
+    { "text": "🤝 TCS Forage ESG", "accent": "#00FF66" }
+  ]
+}

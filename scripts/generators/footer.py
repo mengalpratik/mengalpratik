@@ -1,0 +1,55 @@
+"""
+scripts/generators/footer.py
+
+Generates footer-signature.svg (1200x200) with glowing signature and host metadata.
+"""
+
+from .common import load_profile, validate_and_save_svg, xml_escape
+
+def generate_footer() -> None:
+    profile = load_profile()
+    
+    svg = f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 200" width="1200" height="200" role="img" aria-labelledby="sig-title">
+  <title id="sig-title">{xml_escape(profile["name"])} — {xml_escape(profile["tagline"])}</title>
+  <defs>
+    <linearGradient id="sig-bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#040F06"/>
+      <stop offset="100%" stop-color="#000000"/>
+    </linearGradient>
+    <radialGradient id="sig-glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#00FF66" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#00FF66" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="sig-name-grad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#E6FFF0"/>
+      <stop offset="50%" stop-color="#00FF66"/>
+      <stop offset="100%" stop-color="#05FFA1"/>
+    </linearGradient>
+  </defs>
+  <style>
+    .sig-mono {{ font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", "Fira Code", monospace; }}
+    .sig-heading {{ font-family: Georgia, "Iowan Old Style", "Palatino Linotype", serif; }}
+    .sig-sans {{ font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }}
+  </style>
+
+  <rect width="1200" height="200" fill="url(#sig-bg)"/>
+  <ellipse cx="600" cy="100" rx="480" ry="80" fill="url(#sig-glow)"/>
+
+  <line x1="40" y1="10" x2="1160" y2="10" stroke="#00FF66" stroke-width="1" stroke-opacity="0.3"/>
+
+  <!-- Glowing Signature -->
+  <text class="sig-heading" x="600" y="86" text-anchor="middle" font-size="60" font-style="italic" fill="url(#sig-name-grad)">
+    {profile["name"]}
+  </text>
+
+  <!-- Tagline -->
+  <text class="sig-sans" x="600" y="130" text-anchor="middle" font-size="16.5" fill="#E6FFF0" letter-spacing="0.5">
+    Engineering intelligence. Designing secure &amp; resilient distributed architectures.
+  </text>
+
+  <!-- Telemetry Metadata Footer -->
+  <text class="sig-mono" x="600" y="168" text-anchor="middle" font-size="11" letter-spacing="2.5" fill="#72A884">
+    STATUS: 200 OK · PROTOCOL: HTTPS · HOST: mengalpratik.github.io · LOCATION: PUNE, INDIA
+  </text>
+</svg>'''
+    validate_and_save_svg("footer-signature.svg", svg)

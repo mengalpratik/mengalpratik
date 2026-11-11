@@ -1,0 +1,66 @@
+[
+  {
+    "filename": "project-neuromatrix.svg",
+    "num": "01",
+    "category": "FULL-STACK · PYTHON ENGINEERING",
+    "title": "NeuroMatrix Learning Academy",
+    "repo_name": "NeuroMatrixLearningAcademy",
+    "repo_url": "https://github.com/mengalpratik/NeuroMatrixLearningAcademy",
+    "desc": "Full-stack learning & engineering platform delivering a comprehensive 112-day Python engineering curriculum.",
+    "built": "modular neural pipelines › automated curriculum progression › real-time telemetry dashboard",
+    "metrics": [
+      ["112-Day", "Curriculum Roadmap"],
+      ["Full-Stack", "FastAPI & React"],
+      ["Telemetry", "Persisted Progress"]
+    ],
+    "chips": ["Python 3.13", "FastAPI", "React", "TypeScript", "Tailwind CSS", "Docker"]
+  },
+  {
+    "filename": "project-myraa.svg",
+    "num": "02",
+    "category": "AGENTIC AI · LLM ORCHESTRATION",
+    "title": "Myraa AI Assistant",
+    "repo_name": "myraa-ai-assistant",
+    "repo_url": "https://github.com/mengalpratik/myraa-ai-assistant",
+    "desc": "Autonomous multi-modal conversational assistant and desktop agent with streaming tool calling and agentic memory.",
+    "built": "multi-turn dialogue system › type-safe TypeScript runtime › extensible agent toolchains",
+    "metrics": [
+      ["Multi-Turn", "Autonomous Agent"],
+      ["Type-Safe", "TypeScript Core"],
+      ["Streaming", "Low Latency"]
+    ],
+    "chips": ["TypeScript", "Python", "LLMs", "Tool Calling", "WebSockets", "Electron"]
+  },
+  {
+    "filename": "project-neurostore.svg",
+    "num": "03",
+    "category": "LOCAL-FIRST · DIGITAL COMMAND CENTER",
+    "title": "NEURO//NODE Interface",
+    "repo_name": "neuro-node",
+    "repo_url": "https://github.com/mengalpratik/neuro-node",
+    "desc": "Local-first cyberpunk personal dashboard & digital command center with offline matrix clusters.",
+    "built": "0ms local UI latency › privacy-first data sovereignty › modular matrix clusters",
+    "metrics": [
+      ["0ms Latency", "Local-First UI"],
+      ["100% Offline", "True Independence"],
+      ["Modern", "Cyberpunk HUD"]
+    ],
+    "chips": ["TypeScript", "React", "Tailwind CSS", "Vite", "Docker", "Node.js"]
+  },
+  {
+    "filename": "project-axcentra.svg",
+    "num": "04",
+    "category": "ENTERPRISE · WEB DEVELOPMENT",
+    "title": "Axcentra Engineering Suite",
+    "repo_name": "Axcentra-Internship-Work-2026",
+    "repo_url": "https://github.com/mengalpratik/Axcentra-Internship-Work-2026",
+    "desc": "Enterprise web applications and engineering modules developed during Axcentra software trainee tenure.",
+    "built": "modular component architecture › automated API integrations › robust enterprise UX",
+    "metrics": [
+      ["Enterprise", "Weekly Modules"],
+      ["Full-Stack", "JavaScript & Java"],
+      ["REST APIs", "Modern Workflows"]
+    ],
+    "chips": ["JavaScript", "TypeScript", "Java", "REST APIs", "Modern CSS", "Git"]
+  }
+]

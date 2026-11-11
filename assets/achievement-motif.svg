@@ -51,7 +51,7 @@
       <text class="ach-sans" x="32" y="174" font-size="13" fill="#88B99A">
         published in IJNRD (ISSN: 2456-4184). Certified by Google in Networks, Threat Detection &amp; SQL.
       </text>
-      <text class="ach-mono" x="32" y="208" font-size="11" letter-spacing="1.2" fill="#05FFA1">> DUAL CREDENTIAL ALIGNED · FORENSICS · THREAT MITIGATION</text>
+      <text class="ach-mono" x="32" y="208" font-size="11" letter-spacing="1.2" fill="#05FFA1">> PROFESSIONAL CERTIFICATE · FORENSICS · THREAT DETECTION</text>
     </g>
 
     <!-- Right Major Panel: Industry Internships -->
@@ -119,7 +119,7 @@
       <circle cx="12" cy="12" r="3.5" fill="#00FF66"/>
       <text class="ach-mono" x="24" y="16" font-size="11" font-weight="700" letter-spacing="2" fill="#00FF66">ACADEMICS</text>
       <text class="ach-heading" x="0" y="60" font-size="34" fill="#E6FFF0">B.E. CSE</text>
-      <text x="0" y="84" fill="#88B99A">DYPIEMR · Akurdi, Pune</text>
+      <text x="0" y="84" fill="#88B99A">DYPIEMR, Akurdi, Pune</text>
       <text x="0" y="102" font-size="11" fill="#72A884">Computer Science &amp; Eng.</text>
     </g>
   </g>

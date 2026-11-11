@@ -21,26 +21,26 @@
 <p><img src="assets/title-work.svg" width="100%" alt="03 Selected work — Products, not assignments."></p>
 
 <p>
-  <a href="https://github.com/mengalpratik/NeuroMatrix">
-    <img src="assets/project-neuromatrix.svg" width="100%" alt="NeuroMatrix: Neural model execution, data preprocessing, and vector pipeline optimization in Python. Real-time vector processing, multi-model architecture, modular design.">
+  <a href="https://github.com/mengalpratik/NeuroMatrixLearningAcademy">
+    <img src="assets/project-neuromatrix.svg" width="100%" alt="NeuroMatrix Learning Academy: Full-stack learning &amp; engineering platform delivering a comprehensive 112-day Python engineering curriculum.">
   </a>
 </p>
 
 <p>
   <a href="https://github.com/mengalpratik/myraa-ai-assistant">
-    <img src="assets/project-myraa.svg" width="100%" alt="Myraa AI Assistant: Autonomous multi-modal conversational assistant with streaming tool calling and agentic memory. TypeScript, Python, Node.js, WebSockets.">
+    <img src="assets/project-myraa.svg" width="100%" alt="Myraa AI Assistant: Autonomous multi-modal conversational assistant and desktop agent with streaming tool calling and agentic memory.">
   </a>
 </p>
 
 <p>
-  <a href="https://github.com/mengalpratik/NeuroStore-mern-Ecommerce">
-    <img src="assets/project-neurostore.svg" width="100%" alt="NeuroStore MERN Platform: High-concurrency e-commerce architecture with multi-level JWT RBAC and payment state machine. React, Node.js, Express, MongoDB, Docker.">
+  <a href="https://github.com/mengalpratik/neuro-node">
+    <img src="assets/project-neurostore.svg" width="100%" alt="NEURO//NODE Interface: Local-first cyberpunk personal dashboard &amp; digital command center with offline matrix clusters.">
   </a>
 </p>
 
 <p>
   <a href="https://github.com/mengalpratik/Axcentra-Internship-Work-2026">
-    <img src="assets/project-axcentra.svg" width="100%" alt="Axcentra Production Suite: Production-grade enterprise web applications delivering high-performance UI and resilient services. JavaScript, TypeScript, Java, REST APIs.">
+    <img src="assets/project-axcentra.svg" width="100%" alt="Axcentra Engineering Suite: Enterprise web applications and engineering modules developed during Axcentra software trainee tenure.">
   </a>
 </p>
 
@@ -52,7 +52,7 @@
 
 <p>
   <a href="https://github.com/mengalpratik">
-    <img src="assets/github-telemetry.svg" width="100%" alt="GitHub Telemetry &amp; Language Distribution: 24 Public Repos, 52+ Verified Contributions, 13 Peak Velocity Commits/Day, 100% Codebase Availability, Primary Languages: Java, JavaScript, Python, TypeScript.">
+    <img src="assets/github-telemetry.svg" width="100%" alt="GitHub Telemetry &amp; Language Distribution: 24 Public Repos, 53 Verified Contributions, 13 Peak Daily Velocity, 100% Open Source Access, Primary Languages: TypeScript, JavaScript, Python, CSS/HTML, Java.">
   </a>
 </p>
 

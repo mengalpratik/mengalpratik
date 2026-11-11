@@ -1,41 +1,35 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 480" width="1200" height="480" role="img" aria-labelledby="hero-title hero-desc">
-  <title id="hero-title">Pratik Mengal — Full-Stack Software Engineer, Cybersecurity Analyst &amp; AI Systems Developer</title>
-  <desc id="hero-desc">B.E. Computer Science at DYPIEMR. Google Cybersecurity Certified (98.81%). Axcentra SWE Intern. Full-Stack MERN, Java, Python &amp; Neural Systems.</desc>
+  <title id="hero-title">Pratik Mengal — Full-Stack Software Engineer · Cybersecurity Analyst · AI Systems Developer</title>
+  <desc id="hero-desc">B.E. Computer Science &amp; Engineering at DYPIEMR, Akurdi, Pune. Google Cybersecurity Certified (98.81%). Axcentra SWE Intern. Full-Stack MERN, Java, Python &amp; Neural Systems.</desc>
   <defs>
     <!-- Background Gradients -->
     <radialGradient id="hero-bg" cx="50%" cy="30%" r="90%">
-      <stop offset="0%" stop-color="#051408"/>
+      <stop offset="0" stop-color="#051408"/>
       <stop offset="50%" stop-color="#020803"/>
       <stop offset="100%" stop-color="#000000"/>
     </radialGradient>
     <radialGradient id="hero-glow-green" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="#00FF66" stop-opacity="0.35"/>
+      <stop offset="0" stop-color="#00FF66" stop-opacity="0.35"/>
       <stop offset="100%" stop-color="#00FF66" stop-opacity="0"/>
     </radialGradient>
     <radialGradient id="hero-glow-cyan" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="#05FFA1" stop-opacity="0.25"/>
+      <stop offset="0" stop-color="#05FFA1" stop-opacity="0.25"/>
       <stop offset="100%" stop-color="#05FFA1" stop-opacity="0"/>
     </radialGradient>
     <linearGradient id="hero-name-grad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#E6FFF0"/>
+      <stop offset="0" stop-color="#E6FFF0"/>
       <stop offset="35%" stop-color="#00FF66"/>
       <stop offset="70%" stop-color="#05FFA1"/>
       <stop offset="100%" stop-color="#00FF41"/>
     </linearGradient>
-    <linearGradient id="hero-laser-line" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#00FF66" stop-opacity="0"/>
-      <stop offset="20%" stop-color="#00FF66"/>
-      <stop offset="80%" stop-color="#05FFA1"/>
-      <stop offset="100%" stop-color="#05FFA1" stop-opacity="0"/>
-    </linearGradient>
     <linearGradient id="hero-sheen" x1="-300" y1="0" x2="0" y2="0" gradientUnits="userSpaceOnUse">
-      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0"/>
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity="0"/>
       <stop offset="50%" stop-color="#FFFFFF" stop-opacity="0.9"/>
       <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/>
       <animateTransform attributeName="gradientTransform" type="translate" values="0 0; 1500 0; 1500 0" keyTimes="0; 0.45; 1" dur="7s" begin="1.5s" repeatCount="indefinite"/>
     </linearGradient>
     <linearGradient id="hero-scanline" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#00FF66" stop-opacity="0"/>
+      <stop offset="0" stop-color="#00FF66" stop-opacity="0"/>
       <stop offset="50%" stop-color="#00FF66" stop-opacity="0.08"/>
       <stop offset="100%" stop-color="#00FF66" stop-opacity="0"/>
     </linearGradient>
@@ -69,6 +63,7 @@
 
     @media (prefers-reduced-motion: reduce) {
       .radar-spin, .radar-spin-rev, .pulse-dot, .blink { animation: none; }
+      .hero-motion { display: none; }
     }
   </style>
 
@@ -82,9 +77,11 @@
     <ellipse cx="970" cy="225" rx="260" ry="260" fill="url(#hero-glow-cyan)"/>
 
     <!-- Scanline traveling beam -->
-    <rect x="0" y="-120" width="1200" height="120" fill="url(#hero-scanline)">
-      <animate attributeName="y" values="-120;480" dur="9s" repeatCount="indefinite"/>
-    </rect>
+    <g class="hero-motion">
+      <rect x="0" y="-120" width="1200" height="120" fill="url(#hero-scanline)">
+        <animate attributeName="y" values="-120;480" dur="9s" repeatCount="indefinite"/>
+      </rect>
+    </g>
 
     <!-- Outer Border Frame with Corner Brackets -->
     <rect x="18" y="18" width="1164" height="444" rx="14" fill="none" stroke="#00FF66" stroke-width="1" stroke-opacity="0.25"/>

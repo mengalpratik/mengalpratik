@@ -1,0 +1,23 @@
+{
+  "public_repos": 24,
+  "contributions_year": 53,
+  "peak_daily_velocity": 13,
+  "peak_velocity_unit": "CONTRIBUTIONS / DAY",
+  "active_days": 15,
+  "total_days": 368,
+  "longest_streak": 2,
+  "system_availability": "100%",
+  "system_availability_label": "OPEN SOURCE ACCESS",
+  "languages": [
+    { "name": "TypeScript", "pct": 32, "bytes": 721623, "color": "#05FFA1" },
+    { "name": "JavaScript", "pct": 28, "bytes": 626249, "color": "#00FF66" },
+    { "name": "Python", "pct": 21, "bytes": 479808, "color": "#05FFA1" },
+    { "name": "CSS / HTML", "pct": 14, "bytes": 311191, "color": "#00FF66" },
+    { "name": "Java", "pct": 5, "bytes": 107233, "color": "#05FFA1" }
+  ],
+  "metadata": {
+    "snapshot_date": "November 2026",
+    "source": "GitHub REST API v3 (/users/mengalpratik/repos)",
+    "verified": true
+  }
+}

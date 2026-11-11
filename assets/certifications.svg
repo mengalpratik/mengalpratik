@@ -22,38 +22,32 @@
 
   <!-- Row 1: 4 Cards -->
   <g transform="translate(36, 16)">
-    <!-- Card 1: Google Cybersecurity -->
     <g transform="translate(0, 0)">
-      <rect width="265" height="174" rx="12" fill="url(#ce-card-bg)" stroke="#00FF66" stroke-width="1.2" stroke-opacity="0.5"/>
+      <rect width="265" height="174" rx="12" fill="url(#ce-card-bg)" stroke="#00FF66" stroke-width="1.2" stroke-opacity="0.35"/>
       <rect x="0" y="0" width="4" height="174" rx="2" fill="#00FF66"/>
       <text class="ce-mono" x="18" y="28" font-size="10" font-weight="700" letter-spacing="1.8" fill="#00FF66">GOOGLE · COURSERA</text>
-      <text class="ce-heading" x="18" y="64" font-size="17" fill="#E6FFF0">Google Cybersecurity</text>
+      <text class="ce-heading" x="18" y="64" font-size="16.5" fill="#E6FFF0">Google Cybersecurity</text>
       <text class="ce-sans" x="18" y="90" font-size="12.5" font-weight="600" fill="#00FF66">Score: 98.81 / 100 (8 Courses)</text>
       <text class="ce-sans" x="18" y="112" font-size="11.5" fill="#88B99A">Networks, Linux, SQL, Python</text>
-      <!-- Badge Pill -->
       <g transform="translate(18, 134)">
         <rect width="228" height="22" rx="4" fill="#00240E" stroke="#00FF66" stroke-width="0.8"/>
-        <text class="ce-mono" x="10" y="15" font-size="9.5" font-weight="700" fill="#00FF66">★ GOOGLE VERIFIED PRO</text>
+        <text class="ce-mono" x="10" y="15" font-size="9.5" font-weight="700" fill="#00FF66">GOOGLE CYBERSECURITY PRO</text>
       </g>
     </g>
-
-    <!-- Card 2: Cyber Forensics -->
     <g transform="translate(288, 0)">
-      <rect width="265" height="174" rx="12" fill="url(#ce-card-bg)" stroke="#00FF66" stroke-width="1" stroke-opacity="0.3"/>
+      <rect width="265" height="174" rx="12" fill="url(#ce-card-bg)" stroke="#00FF66" stroke-width="1.2" stroke-opacity="0.35"/>
       <rect x="0" y="0" width="4" height="174" rx="2" fill="#05FFA1"/>
       <text class="ce-mono" x="18" y="28" font-size="10" font-weight="700" letter-spacing="1.8" fill="#05FFA1">GOOGLE · FORENSICS</text>
-      <text class="ce-heading" x="18" y="64" font-size="17" fill="#E6FFF0">Cyber Forensics &amp; SOC</text>
+      <text class="ce-heading" x="18" y="64" font-size="16.5" fill="#E6FFF0">Cyber Forensics &amp; SOC</text>
       <text class="ce-sans" x="18" y="90" font-size="12.5" font-weight="600" fill="#05FFA1">Threat Detection &amp; Response</text>
-      <text class="ce-sans" x="18" y="112" font-size="11.5" fill="#88B99A">Vulnerability Mitigation</text>
+      <text class="ce-sans" x="18" y="112" font-size="11.5" fill="#88B99A">Vulnerability Assessment</text>
       <g transform="translate(18, 134)">
         <rect width="228" height="22" rx="4" fill="#00240E" stroke="#05FFA1" stroke-width="0.8"/>
-        <text class="ce-mono" x="10" y="15" font-size="9.5" font-weight="700" fill="#05FFA1">COMPTIA SECURITY+ ALIGNED</text>
+        <text class="ce-mono" x="10" y="15" font-size="9.5" font-weight="700" fill="#05FFA1">SECURITY &amp; SOC ANALYSIS</text>
       </g>
     </g>
-
-    <!-- Card 3: DSA Java -->
     <g transform="translate(576, 0)">
-      <rect width="265" height="174" rx="12" fill="url(#ce-card-bg)" stroke="#00FF66" stroke-width="1" stroke-opacity="0.3"/>
+      <rect width="265" height="174" rx="12" fill="url(#ce-card-bg)" stroke="#00FF66" stroke-width="1.2" stroke-opacity="0.35"/>
       <rect x="0" y="0" width="4" height="174" rx="2" fill="#00FF66"/>
       <text class="ce-mono" x="18" y="28" font-size="10" font-weight="700" letter-spacing="1.8" fill="#00FF66">JAVA · ALGORITHMS</text>
       <text class="ce-heading" x="18" y="64" font-size="16.5" fill="#E6FFF0">Data Structures &amp; Algo</text>
@@ -61,30 +55,27 @@
       <text class="ce-sans" x="18" y="112" font-size="11.5" fill="#88B99A">Dynamic Prog &amp; Complexity</text>
       <g transform="translate(18, 134)">
         <rect width="228" height="22" rx="4" fill="#00240E" stroke="#00FF66" stroke-width="0.8"/>
-        <text class="ce-mono" x="10" y="15" font-size="9.5" font-weight="700" fill="#00FF66">500+ PROBLEMS SOLVED</text>
+        <text class="ce-mono" x="10" y="15" font-size="9.5" font-weight="700" fill="#00FF66">JAVA &amp; ALGORITHMS</text>
       </g>
     </g>
-
-    <!-- Card 4: Java OOP -->
     <g transform="translate(864, 0)">
-      <rect width="265" height="174" rx="12" fill="url(#ce-card-bg)" stroke="#00FF66" stroke-width="1" stroke-opacity="0.3"/>
+      <rect width="265" height="174" rx="12" fill="url(#ce-card-bg)" stroke="#00FF66" stroke-width="1.2" stroke-opacity="0.35"/>
       <rect x="0" y="0" width="4" height="174" rx="2" fill="#05FFA1"/>
       <text class="ce-mono" x="18" y="28" font-size="10" font-weight="700" letter-spacing="1.8" fill="#05FFA1">CORE JAVA · OOP</text>
-      <text class="ce-heading" x="18" y="64" font-size="17" fill="#E6FFF0">Programming using Java</text>
+      <text class="ce-heading" x="18" y="64" font-size="16.5" fill="#E6FFF0">Programming using Java</text>
       <text class="ce-sans" x="18" y="90" font-size="12.5" font-weight="600" fill="#05FFA1">OOP, Collections, Threads</text>
       <text class="ce-sans" x="18" y="112" font-size="11.5" fill="#88B99A">JDBC, Exception Handling</text>
       <g transform="translate(18, 134)">
         <rect width="228" height="22" rx="4" fill="#00240E" stroke="#05FFA1" stroke-width="0.8"/>
-        <text class="ce-mono" x="10" y="15" font-size="9.5" font-weight="700" fill="#05FFA1">ENTERPRISE JAVA EXPERT</text>
+        <text class="ce-mono" x="10" y="15" font-size="9.5" font-weight="700" fill="#05FFA1">JAVA OOP &amp; ARCHITECTURE</text>
       </g>
     </g>
   </g>
 
   <!-- Row 2: 4 Cards -->
   <g transform="translate(36, 206)">
-    <!-- Card 5: DBMS -->
     <g transform="translate(0, 0)">
-      <rect width="265" height="174" rx="12" fill="url(#ce-card-bg)" stroke="#00FF66" stroke-width="1" stroke-opacity="0.3"/>
+      <rect width="265" height="174" rx="12" fill="url(#ce-card-bg)" stroke="#00FF66" stroke-width="1.2" stroke-opacity="0.35"/>
       <rect x="0" y="0" width="4" height="174" rx="2" fill="#05FFA1"/>
       <text class="ce-mono" x="18" y="28" font-size="10" font-weight="700" letter-spacing="1.8" fill="#05FFA1">DATABASE · SQL</text>
       <text class="ce-heading" x="18" y="64" font-size="16.5" fill="#E6FFF0">Database Management</text>
@@ -95,24 +86,20 @@
         <text class="ce-mono" x="10" y="15" font-size="9.5" font-weight="700" fill="#05FFA1">RELATIONAL ARCHITECTURE</text>
       </g>
     </g>
-
-    <!-- Card 6: Cloud -->
     <g transform="translate(288, 0)">
-      <rect width="265" height="174" rx="12" fill="url(#ce-card-bg)" stroke="#00FF66" stroke-width="1" stroke-opacity="0.3"/>
+      <rect width="265" height="174" rx="12" fill="url(#ce-card-bg)" stroke="#00FF66" stroke-width="1.2" stroke-opacity="0.35"/>
       <rect x="0" y="0" width="4" height="174" rx="2" fill="#00FF66"/>
       <text class="ce-mono" x="18" y="28" font-size="10" font-weight="700" letter-spacing="1.8" fill="#00FF66">CLOUD COMPUTING</text>
-      <text class="ce-heading" x="18" y="64" font-size="17" fill="#E6FFF0">Introduction to Cloud</text>
+      <text class="ce-heading" x="18" y="64" font-size="16.5" fill="#E6FFF0">Introduction to Cloud</text>
       <text class="ce-sans" x="18" y="90" font-size="12.5" font-weight="600" fill="#00FF66">IaaS, PaaS, SaaS Models</text>
       <text class="ce-sans" x="18" y="112" font-size="11.5" fill="#88B99A">Virtualization &amp; Microservices</text>
       <g transform="translate(18, 134)">
         <rect width="228" height="22" rx="4" fill="#00240E" stroke="#00FF66" stroke-width="0.8"/>
-        <text class="ce-mono" x="10" y="15" font-size="9.5" font-weight="700" fill="#00FF66">CLOUD NATIVE ARCHITECTURE</text>
+        <text class="ce-mono" x="10" y="15" font-size="9.5" font-weight="700" fill="#00FF66">CLOUD ARCHITECTURE</text>
       </g>
     </g>
-
-    <!-- Card 7: Agile & SE -->
     <g transform="translate(576, 0)">
-      <rect width="265" height="174" rx="12" fill="url(#ce-card-bg)" stroke="#00FF66" stroke-width="1" stroke-opacity="0.3"/>
+      <rect width="265" height="174" rx="12" fill="url(#ce-card-bg)" stroke="#00FF66" stroke-width="1.2" stroke-opacity="0.35"/>
       <rect x="0" y="0" width="4" height="174" rx="2" fill="#05FFA1"/>
       <text class="ce-mono" x="18" y="28" font-size="10" font-weight="700" letter-spacing="1.8" fill="#05FFA1">SOFTWARE ENGINEERING</text>
       <text class="ce-heading" x="18" y="64" font-size="16.5" fill="#E6FFF0">Agile Software Dev</text>
@@ -123,13 +110,11 @@
         <text class="ce-mono" x="10" y="15" font-size="9.5" font-weight="700" fill="#05FFA1">AGILE PRACTITIONER</text>
       </g>
     </g>
-
-    <!-- Card 8: TCS ESG -->
     <g transform="translate(864, 0)">
-      <rect width="265" height="174" rx="12" fill="url(#ce-card-bg)" stroke="#00FF66" stroke-width="1" stroke-opacity="0.3"/>
+      <rect width="265" height="174" rx="12" fill="url(#ce-card-bg)" stroke="#00FF66" stroke-width="1.2" stroke-opacity="0.35"/>
       <rect x="0" y="0" width="4" height="174" rx="2" fill="#00FF66"/>
       <text class="ce-mono" x="18" y="28" font-size="10" font-weight="700" letter-spacing="1.8" fill="#00FF66">TCS · FORAGE</text>
-      <text class="ce-heading" x="18" y="64" font-size="17" fill="#E6FFF0">TCS ESG Experience</text>
+      <text class="ce-heading" x="18" y="64" font-size="16.5" fill="#E6FFF0">TCS ESG Experience</text>
       <text class="ce-sans" x="18" y="90" font-size="12.5" font-weight="600" fill="#00FF66">Governance &amp; Sustainability</text>
       <text class="ce-sans" x="18" y="112" font-size="11.5" fill="#88B99A">Risk Mgmt &amp; Compliance</text>
       <g transform="translate(18, 134)">
@@ -146,27 +131,22 @@
 
     <!-- 5 Badge Chips -->
     <g transform="translate(22, 34)">
-      <!-- Chip 1 -->
       <g transform="translate(0, 0)">
         <rect width="210" height="28" rx="6" fill="#020C05" stroke="#00FF66" stroke-width="0.9"/>
         <text class="ce-mono" x="12" y="18" font-size="10" font-weight="700" fill="#00FF66">🛡️ Google Cyber 98.81%</text>
       </g>
-      <!-- Chip 2 -->
       <g transform="translate(222, 0)">
         <rect width="200" height="28" rx="6" fill="#020C05" stroke="#05FFA1" stroke-width="0.9"/>
         <text class="ce-mono" x="12" y="18" font-size="10" font-weight="700" fill="#05FFA1">📄 IJNRD Author (2025)</text>
       </g>
-      <!-- Chip 3 -->
       <g transform="translate(434, 0)">
         <rect width="210" height="28" rx="6" fill="#020C05" stroke="#00FF66" stroke-width="0.9"/>
         <text class="ce-mono" x="12" y="18" font-size="10" font-weight="700" fill="#00FF66">☕ Java &amp; DSA Specialist</text>
       </g>
-      <!-- Chip 4 -->
       <g transform="translate(656, 0)">
         <rect width="216" height="28" rx="6" fill="#020C05" stroke="#05FFA1" stroke-width="0.9"/>
-        <text class="ce-mono" x="12" y="18" font-size="10" font-weight="700" fill="#05FFA1">☁️ Cloud Native Architecture</text>
+        <text class="ce-mono" x="12" y="18" font-size="10" font-weight="700" fill="#05FFA1">☁️ Cloud Computing</text>
       </g>
-      <!-- Chip 5 -->
       <g transform="translate(884, 0)">
         <rect width="200" height="28" rx="6" fill="#020C05" stroke="#00FF66" stroke-width="0.9"/>
         <text class="ce-mono" x="12" y="18" font-size="10" font-weight="700" fill="#00FF66">🤝 TCS Forage ESG</text>

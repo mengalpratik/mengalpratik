@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 240" width="1200" height="240" role="img" aria-labelledby="tel-title tel-desc">
   <title id="tel-title">GitHub Telemetry &amp; Language Distribution</title>
-  <desc id="tel-desc">Real telemetry metrics: 24 Public Repos, 52+ Commits &amp; Contributions, 13 Peak Velocity. Top languages: Java 28%, JavaScript 26%, Python 16%, TypeScript 15%, HTML &amp; CSS 15%.</desc>
+  <desc id="tel-desc">Real telemetry metrics: 24 Public Repos, 53 Verified Contributions, 13 Peak Daily Velocity. Top languages: TypeScript 32%, JavaScript 28%, Python 21%, CSS &amp; HTML 14%, Java 5%.</desc>
   <defs>
     <linearGradient id="tel-bg" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#050F07"/>
@@ -49,8 +49,8 @@
         <g transform="translate(260, 0)">
           <rect width="240" height="66" rx="8" fill="#030C05" stroke="#05FFA1" stroke-width="0.8" stroke-opacity="0.4"/>
           <rect x="0" y="0" width="3" height="66" rx="1.5" fill="#05FFA1"/>
-          <text class="tel-mono" x="16" y="24" font-size="9.5" font-weight="700" letter-spacing="1.5" fill="#72A884">COMMITS &amp; PRs (YEAR)</text>
-          <text class="tel-heading" x="16" y="52" font-size="26" fill="#E6FFF0">52+ <tspan font-size="12" fill="#05FFA1">VERIFIED</tspan></text>
+          <text class="tel-mono" x="16" y="24" font-size="9.5" font-weight="700" letter-spacing="1.5" fill="#72A884">VERIFIED CONTRIBUTIONS</text>
+          <text class="tel-heading" x="16" y="52" font-size="26" fill="#E6FFF0">53 <tspan font-size="12" fill="#05FFA1">YEAR</tspan></text>
         </g>
 
         <!-- Metric 3: Peak Velocity -->
@@ -58,15 +58,15 @@
           <rect width="240" height="66" rx="8" fill="#030C05" stroke="#05FFA1" stroke-width="0.8" stroke-opacity="0.4"/>
           <rect x="0" y="0" width="3" height="66" rx="1.5" fill="#05FFA1"/>
           <text class="tel-mono" x="16" y="24" font-size="9.5" font-weight="700" letter-spacing="1.5" fill="#72A884">PEAK VELOCITY</text>
-          <text class="tel-heading" x="16" y="52" font-size="26" fill="#E6FFF0">13 <tspan font-size="12" fill="#05FFA1">COMMITS / DAY</tspan></text>
+          <text class="tel-heading" x="16" y="52" font-size="26" fill="#E6FFF0">13 <tspan font-size="12" fill="#05FFA1">CONTRIBS / DAY</tspan></text>
         </g>
 
         <!-- Metric 4: Codebase Health -->
         <g transform="translate(260, 78)">
           <rect width="240" height="66" rx="8" fill="#030C05" stroke="#00FF66" stroke-width="0.8" stroke-opacity="0.4"/>
           <rect x="0" y="0" width="3" height="66" rx="1.5" fill="#00FF66"/>
-          <text class="tel-mono" x="16" y="24" font-size="9.5" font-weight="700" letter-spacing="1.5" fill="#72A884">SYSTEM AVAILABILITY</text>
-          <text class="tel-heading" x="16" y="52" font-size="26" fill="#E6FFF0">100% <tspan font-size="12" fill="#00FF66">ACTIVE CODEBASES</tspan></text>
+          <text class="tel-mono" x="16" y="24" font-size="9.5" font-weight="700" letter-spacing="1.5" fill="#72A884">OPEN ACCESS</text>
+          <text class="tel-heading" x="16" y="52" font-size="26" fill="#E6FFF0">100% <tspan font-size="12" fill="#00FF66">PUBLIC ACCESS</tspan></text>
         </g>
       </g>
     </g>
@@ -80,44 +80,35 @@
 
       <!-- Language Bars -->
       <g transform="translate(0, 20)">
-        <!-- Java: 28% -->
         <g transform="translate(0, 0)">
-          <text class="tel-mono" x="0" y="10" font-size="11" font-weight="600" fill="#E6FFF0">Java</text>
+          <text class="tel-mono" x="0" y="10" font-size="11" font-weight="600" fill="#E6FFF0">TypeScript</text>
+          <text class="tel-mono" x="460" y="10" text-anchor="end" font-size="11" font-weight="700" fill="#05FFA1">32%</text>
+          <rect x="0" y="16" width="460" height="6" rx="3" fill="#020D05"/>
+          <rect x="0" y="16" width="147" height="6" rx="3" fill="#05FFA1"/>
+        </g>
+        <g transform="translate(0, 30)">
+          <text class="tel-mono" x="0" y="10" font-size="11" font-weight="600" fill="#E6FFF0">JavaScript</text>
           <text class="tel-mono" x="460" y="10" text-anchor="end" font-size="11" font-weight="700" fill="#00FF66">28%</text>
           <rect x="0" y="16" width="460" height="6" rx="3" fill="#020D05"/>
           <rect x="0" y="16" width="128" height="6" rx="3" fill="#00FF66"/>
         </g>
-
-        <!-- JavaScript: 26% -->
-        <g transform="translate(0, 30)">
-          <text class="tel-mono" x="0" y="10" font-size="11" font-weight="600" fill="#E6FFF0">JavaScript</text>
-          <text class="tel-mono" x="460" y="10" text-anchor="end" font-size="11" font-weight="700" fill="#05FFA1">26%</text>
-          <rect x="0" y="16" width="460" height="6" rx="3" fill="#020D05"/>
-          <rect x="0" y="16" width="120" height="6" rx="3" fill="#05FFA1"/>
-        </g>
-
-        <!-- Python: 16% -->
         <g transform="translate(0, 60)">
           <text class="tel-mono" x="0" y="10" font-size="11" font-weight="600" fill="#E6FFF0">Python</text>
-          <text class="tel-mono" x="460" y="10" text-anchor="end" font-size="11" font-weight="700" fill="#00FF66">16%</text>
+          <text class="tel-mono" x="460" y="10" text-anchor="end" font-size="11" font-weight="700" fill="#05FFA1">21%</text>
           <rect x="0" y="16" width="460" height="6" rx="3" fill="#020D05"/>
-          <rect x="0" y="16" width="74" height="6" rx="3" fill="#00FF66"/>
+          <rect x="0" y="16" width="96" height="6" rx="3" fill="#05FFA1"/>
         </g>
-
-        <!-- TypeScript: 15% -->
         <g transform="translate(0, 90)">
-          <text class="tel-mono" x="0" y="10" font-size="11" font-weight="600" fill="#E6FFF0">TypeScript</text>
-          <text class="tel-mono" x="460" y="10" text-anchor="end" font-size="11" font-weight="700" fill="#05FFA1">15%</text>
+          <text class="tel-mono" x="0" y="10" font-size="11" font-weight="600" fill="#E6FFF0">CSS / HTML</text>
+          <text class="tel-mono" x="460" y="10" text-anchor="end" font-size="11" font-weight="700" fill="#00FF66">14%</text>
           <rect x="0" y="16" width="460" height="6" rx="3" fill="#020D05"/>
-          <rect x="0" y="16" width="69" height="6" rx="3" fill="#05FFA1"/>
+          <rect x="0" y="16" width="64" height="6" rx="3" fill="#00FF66"/>
         </g>
-
-        <!-- HTML / CSS / Other: 15% -->
         <g transform="translate(0, 120)">
-          <text class="tel-mono" x="0" y="10" font-size="11" font-weight="600" fill="#E6FFF0">HTML / CSS / SQL</text>
-          <text class="tel-mono" x="460" y="10" text-anchor="end" font-size="11" font-weight="700" fill="#00FF66">15%</text>
+          <text class="tel-mono" x="0" y="10" font-size="11" font-weight="600" fill="#E6FFF0">Java</text>
+          <text class="tel-mono" x="460" y="10" text-anchor="end" font-size="11" font-weight="700" fill="#05FFA1">5%</text>
           <rect x="0" y="16" width="460" height="6" rx="3" fill="#020D05"/>
-          <rect x="0" y="16" width="69" height="6" rx="3" fill="#00FF66" fill-opacity="0.8"/>
+          <rect x="0" y="16" width="23" height="6" rx="3" fill="#05FFA1"/>
         </g>
       </g>
     </g>

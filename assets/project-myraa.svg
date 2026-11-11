@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 270" width="1200" height="270" role="img" aria-labelledby="p-02-t">
-  <title id="p-02-t">Myraa AI Assistant: Autonomous multi-modal conversational assistant with streaming tool calling and agentic memory.</title>
+  <title id="p-02-t">Myraa AI Assistant: Autonomous multi-modal conversational assistant and desktop agent with streaming tool calling and agentic memory.</title>
   <defs>
     <linearGradient id="p-bg-02" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#050F07"/>
@@ -37,7 +37,7 @@
     <text class="p-heading" x="48" y="76" font-size="34" letter-spacing="-0.8" fill="#E6FFF0">Myraa AI Assistant</text>
 
     <!-- Description -->
-    <text class="p-sans" x="50" y="104" font-size="14" fill="#88B99A">Autonomous multi-modal conversational assistant with streaming tool calling and agentic memory.</text>
+    <text class="p-sans" x="50" y="104" font-size="14" fill="#88B99A">Autonomous multi-modal conversational assistant and desktop agent with streaming tool calling and agentic memory.</text>
 
     <!-- Built Tagline -->
     <text class="p-mono" x="50" y="130" font-size="11.5" fill="#E6FFF0">
@@ -55,8 +55,8 @@
           <text class="p-sans" x="0" y="18" font-size="11" fill="#88B99A">TypeScript Core</text>
         </g>
         <g transform="translate(400, 166)">
-          <text class="p-heading" font-size="22" fill="#E6FFF0">Low Latency</text>
-          <text class="p-sans" x="0" y="18" font-size="11" fill="#88B99A">Streaming Inference</text>
+          <text class="p-heading" font-size="22" fill="#E6FFF0">Streaming</text>
+          <text class="p-sans" x="0" y="18" font-size="11" fill="#88B99A">Low Latency</text>
         </g>
 
     <!-- Embedded Cyber Button at bottom right -->
@@ -89,8 +89,8 @@
           <text class="p-mono" x="53.5" y="16" text-anchor="middle" font-size="10" font-weight="600" fill="#00FF66">WebSockets</text>
         </g>
         <g transform="translate(567.0, 208)">
-          <rect width="81.5" height="24" rx="12" fill="#041207" stroke="#00FF66" stroke-width="0.9" stroke-opacity="0.45"/>
-          <text class="p-mono" x="40.75" y="16" text-anchor="middle" font-size="10" font-weight="600" fill="#00FF66">Node.js</text>
+          <rect width="90.0" height="24" rx="12" fill="#041207" stroke="#00FF66" stroke-width="0.9" stroke-opacity="0.45"/>
+          <text class="p-mono" x="45.0" y="16" text-anchor="middle" font-size="10" font-weight="600" fill="#00FF66">Electron</text>
         </g>
   </g>
 </svg>

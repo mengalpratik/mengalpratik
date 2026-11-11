@@ -1,4 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 90" width="1200" height="90" role="img" aria-label="04 Toolkit — The tools I reach for.">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 90" width="1200" height="90" role="img" aria-labelledby="t-title-04">
+  <title id="t-title-04">04 Toolkit — The tools I reach for.</title>
   <defs>
     <linearGradient id="ta-line-04" x1="40" y1="0" x2="1160" y2="0" gradientUnits="userSpaceOnUse">
       <stop offset="0" stop-color="#00FF66"/>
@@ -20,6 +21,9 @@
   <style>
     .ta-mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", "Fira Code", monospace; }
     .ta-heading { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Fira Code", monospace; font-weight: 700; }
+    @media (prefers-reduced-motion: reduce) {
+      .ta-motion { display: none; }
+    }
   </style>
 
   <rect width="1200" height="90" fill="#000000"/>
@@ -43,8 +47,10 @@
   <path d="M40 82 H1160" stroke="url(#ta-line-04)" stroke-width="1.2"/>
 
   <!-- Traveling Pulse Laser Dot -->
-  <circle cx="40" cy="82" r="5" fill="url(#ta-pulse-04)" opacity="0">
-    <animate attributeName="cx" values="40;1160" dur="6s" begin="1.2s" repeatCount="indefinite" calcMode="spline" keyTimes="0;1" keySplines=".45 0 .55 1"/>
-    <animate attributeName="opacity" values="0;1;0" keyTimes="0;0.15;1" dur="6s" begin="1.2s" repeatCount="indefinite"/>
-  </circle>
+  <g class="ta-motion">
+    <circle cx="40" cy="82" r="5" fill="url(#ta-pulse-04)" opacity="0">
+      <animate attributeName="cx" values="40;1160" dur="6s" begin="1.2s" repeatCount="indefinite" calcMode="spline" keyTimes="0;1" keySplines=".45 0 .55 1"/>
+      <animate attributeName="opacity" values="0;1;0" keyTimes="0;0.15;1" dur="6s" begin="1.2s" repeatCount="indefinite"/>
+    </circle>
+  </g>
 </svg>

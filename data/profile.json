@@ -1,0 +1,78 @@
+{
+  "name": "Pratik Mengal",
+  "handle": "mengalpratik",
+  "title": "Full-Stack Software Engineer · Cybersecurity Analyst · AI Systems Developer",
+  "location": "Pune, Maharashtra, India",
+  "email": "iampratikmengal@gmail.com",
+  "status": "ONLINE · PROTOCOL: TLS 1.3",
+  "tagline": "Engineering intelligence. Building resilient architectures.",
+  "links": {
+    "portfolio": "https://mengalpratik.github.io/PersonalPortfolioSite/",
+    "linkedin": "https://www.linkedin.com/in/pratikmengal-/",
+    "github": "https://github.com/mengalpratik",
+    "email": "mailto:iampratikmengal@gmail.com",
+    "leetcode": "https://leetcode.com/u/mengalpratik/"
+  },
+  "education": {
+    "institution": "Dr. D Y Patil Institute of Engineering, Management & Research, Akurdi",
+    "short_institution": "DYPIEMR, Akurdi, Pune",
+    "degree": "B.E. Computer Science & Engineering",
+    "period": "2021 – 2025",
+    "status": "Graduate"
+  },
+  "research": {
+    "title": "Health management app: Nutrient analysis and personalized recommendations",
+    "journal": "International Journal of Novel Research and Development (IJNRD)",
+    "date": "May 2025",
+    "volume": "Volume 10, Issue 5",
+    "paper_id": "IJNRD2505070",
+    "issn": "2456-4184",
+    "role": "Published Research Author"
+  },
+  "experience": [
+    {
+      "company": "Axcentra",
+      "role": "Software Engineering Trainee",
+      "period": "2026",
+      "description": "Engineered enterprise web modules, interactive frontend interfaces, and modular REST services."
+    },
+    {
+      "company": "Devtown",
+      "role": "Full-Stack Web Developer Intern",
+      "period": "Apr 2024 – Sep 2024",
+      "description": "Built full-stack MERN web applications, responsive UIs, MongoDB schemas, and RESTful APIs."
+    },
+    {
+      "company": "Codsoft",
+      "role": "Java Software Developer Intern",
+      "period": "Jan 2024 – Feb 2024",
+      "description": "Engineered object-oriented software, desktop utilities, and algorithms in Core Java."
+    }
+  ],
+  "focus_cards": [
+    {
+      "category": "CORE LANGUAGES",
+      "primary": "Java · Python · TypeScript",
+      "secondary": "JavaScript (ES6+) · SQL · C/C++",
+      "accent": "#00FF66"
+    },
+    {
+      "category": "ARCHITECTURE & MERN",
+      "primary": "React · Node.js · Express",
+      "secondary": "MongoDB · REST APIs · Docker · JWT",
+      "accent": "#05FFA1"
+    },
+    {
+      "category": "SECURITY & AI",
+      "primary": "Google Cyber (98.81%)",
+      "secondary": "Threat Mitigation · LLMs · Forensics",
+      "accent": "#00FF66"
+    }
+  ],
+  "hero_chips": [
+    "MERN STACK ⚔️",
+    "CYBERSECURITY 🛡️",
+    "AI & NEURAL SYS",
+    "CLOUD & DOCKER"
+  ]
+}
