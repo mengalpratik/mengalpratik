@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 370" width="1200" height="370" role="img" aria-labelledby="p-02-t">
+  <title id="p-02-t">Myraa AI Assistant: Autonomous multi-modal conversational assistant with streaming tool calling and agentic memory.</title>
+  <defs>
+    <linearGradient id="p-bg-02" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#050F07"/>
+      <stop offset="100%" stop-color="#020603"/>
+    </linearGradient>
+    <radialGradient id="p-glow-02" cx="85%" cy="30%" r="75%">
+      <stop offset="0" stop-color="#00FF66" stop-opacity="0.22"/>
+      <stop offset="100%" stop-color="#00FF66" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="p-trace-02" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#00FF66"/>
+      <stop offset="100%" stop-color="#05FFA1" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <style>
+    .p-mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", "Fira Code", monospace; }
+    .p-heading { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Fira Code", monospace; font-weight: 700; }
+    .p-sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif; }
+    .p-trace { stroke-dasharray: 200 1100; animation: p-trace 7s linear infinite; }
+    @keyframes p-trace { to { stroke-dashoffset: -1300; } }
+    @media (prefers-reduced-motion: reduce) { .p-trace { animation: none; } }
+  </style>
+
+  <rect width="1200" height="370" fill="#000000"/>
+
+  <g transform="translate(40, 15)">
+    <!-- Main Card Body -->
+    <rect width="1120" height="340" rx="16" fill="url(#p-bg-02)" stroke="#00FF66" stroke-width="1.2" stroke-opacity="0.3"/>
+    <rect width="1120" height="340" rx="16" fill="url(#p-glow-02)"/>
+    <rect class="p-trace" width="1120" height="340" rx="16" fill="none" stroke="url(#p-trace-02)" stroke-width="1.4"/>
+
+    <!-- Category Monospace Tag -->
+    <text class="p-mono" x="56" y="58" font-size="11.5" font-weight="700" letter-spacing="2.6" fill="#00FF66">02 · AGENTIC AI · LLM ORCHESTRATION</text>
+
+    <!-- Main Title -->
+    <text class="p-heading" x="54" y="112" font-size="44" letter-spacing="-1" fill="#E6FFF0">Myraa AI Assistant</text>
+
+    <!-- Description -->
+    <text class="p-sans" x="56" y="148" font-size="16" fill="#88B99A">Autonomous multi-modal conversational assistant with streaming tool calling and agentic memory.</text>
+
+    <!-- Built Highlight Line -->
+    <text class="p-mono" x="56" y="184" font-size="12.5" fill="#E6FFF0">
+      <tspan fill="#05FFA1" font-weight="700">BUILT › </tspan>multi-turn dialogue system › type-safe TypeScript runtime › extensible agent toolchains
+    </text>
+
+    <!-- Key Metrics -->
+    
+        <g transform="translate(56, 264)">
+          <text class="p-heading" font-size="32" fill="#E6FFF0">Multi-Turn</text>
+          <text class="p-sans" y="24" font-size="12" fill="#88B99A">Autonomous Agent</text>
+        </g>
+        <g transform="translate(276, 264)">
+          <text class="p-heading" font-size="32" fill="#E6FFF0">Type-Safe</text>
+          <text class="p-sans" y="24" font-size="12" fill="#88B99A">TypeScript Core</text>
+        </g>
+        <g transform="translate(496, 264)">
+          <text class="p-heading" font-size="32" fill="#E6FFF0">Low Latency</text>
+          <text class="p-sans" y="24" font-size="12" fill="#88B99A">Streaming Inference</text>
+        </g>
+
+    <!-- Tech Stack Chips -->
+    
+        <g transform="translate(56, 314)">
+          <rect width="114" height="26" rx="13" fill="#041207" stroke="#00FF66" stroke-width="1" stroke-opacity="0.45"/>
+          <text class="p-mono" x="57.0" y="17" text-anchor="middle" font-size="10.5" font-weight="600" fill="#00FF66">TypeScript</text>
+        </g>
+        <g transform="translate(182, 314)">
+          <rect width="78" height="26" rx="13" fill="#041207" stroke="#00FF66" stroke-width="1" stroke-opacity="0.45"/>
+          <text class="p-mono" x="39.0" y="17" text-anchor="middle" font-size="10.5" font-weight="600" fill="#00FF66">Python</text>
+        </g>
+        <g transform="translate(272, 314)">
+          <rect width="60" height="26" rx="13" fill="#041207" stroke="#00FF66" stroke-width="1" stroke-opacity="0.45"/>
+          <text class="p-mono" x="30.0" y="17" text-anchor="middle" font-size="10.5" font-weight="600" fill="#00FF66">LLMs</text>
+        </g>
+        <g transform="translate(344, 314)">
+          <rect width="132" height="26" rx="13" fill="#041207" stroke="#00FF66" stroke-width="1" stroke-opacity="0.45"/>
+          <text class="p-mono" x="66.0" y="17" text-anchor="middle" font-size="10.5" font-weight="600" fill="#00FF66">Tool Calling</text>
+        </g>
+        <g transform="translate(488, 314)">
+          <rect width="114" height="26" rx="13" fill="#041207" stroke="#00FF66" stroke-width="1" stroke-opacity="0.45"/>
+          <text class="p-mono" x="57.0" y="17" text-anchor="middle" font-size="10.5" font-weight="600" fill="#00FF66">WebSockets</text>
+        </g>
+        <g transform="translate(614, 314)">
+          <rect width="87" height="26" rx="13" fill="#041207" stroke="#00FF66" stroke-width="1" stroke-opacity="0.45"/>
+          <text class="p-mono" x="43.5" y="17" text-anchor="middle" font-size="10.5" font-weight="600" fill="#00FF66">Node.js</text>
+        </g>
+  </g>
+</svg>

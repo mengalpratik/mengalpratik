@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" width="1200" height="120" role="img" aria-label="03 Selected work — Products, not assignments.">
+  <defs>
+    <linearGradient id="ta-line-03" x1="40" y1="0" x2="1160" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#00FF66"/>
+      <stop offset="0.6" stop-color="#00471B"/>
+      <stop offset="1" stop-color="#00471B" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="ta-sheen-03" x1="-300" y1="0" x2="0" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#E6FFF0"/>
+      <stop offset="0.5" stop-color="#00FF66"/>
+      <stop offset="1" stop-color="#E6FFF0"/>
+      <animateTransform attributeName="gradientTransform" type="translate" values="0 0; 1500 0; 1500 0" keyTimes="0; 0.4; 1" dur="7s" begin="1s" repeatCount="indefinite"/>
+    </linearGradient>
+    <radialGradient id="ta-pulse-03">
+      <stop offset="0" stop-color="#FFFFFF"/>
+      <stop offset="0.4" stop-color="#00FF66" stop-opacity="0.8"/>
+      <stop offset="1" stop-color="#00FF66" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <style>
+    .ta-mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", "Fira Code", monospace; }
+    .ta-heading { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Fira Code", monospace; font-weight: 700; }
+  </style>
+
+  <rect width="1200" height="120" fill="#000000"/>
+
+  <!-- Top Metadata Indicator -->
+  <g transform="translate(40, 34)">
+    <rect width="48" height="20" rx="3" fill="#041207" stroke="#00FF66" stroke-width="0.8"/>
+    <text class="ta-mono" x="8" y="14" font-size="11" font-weight="700" letter-spacing="1.5" fill="#00FF66">[03]</text>
+    <text class="ta-mono" x="62" y="14" font-size="11" letter-spacing="2.2" fill="#72A884">SHIPPED SYSTEMS // PRODUCTION</text>
+  </g>
+
+  <!-- Section Heading -->
+  <text class="ta-heading" x="38" y="82" font-size="38" letter-spacing="-0.5" fill="#E6FFF0">
+    Selected work — <tspan fill="url(#ta-sheen-03)"> Products, not assignments.</tspan>
+  </text>
+
+  <!-- Right Tag -->
+  <text class="ta-mono" x="1160" y="34" text-anchor="end" font-size="10.5" letter-spacing="2.4" fill="#00FF66">CODEBASES</text>
+
+  <!-- Base Rule Line -->
+  <path d="M40 104 H1160" stroke="url(#ta-line-03)" stroke-width="1.2"/>
+
+  <!-- Traveling Pulse Laser Dot -->
+  <circle cx="40" cy="104" r="5" fill="url(#ta-pulse-03)" opacity="0">
+    <animate attributeName="cx" values="40;1160" dur="6s" begin="1.2s" repeatCount="indefinite" calcMode="spline" keyTimes="0;1" keySplines=".45 0 .55 1"/>
+    <animate attributeName="opacity" values="0;1;0" keyTimes="0;0.15;1" dur="6s" begin="1.2s" repeatCount="indefinite"/>
+  </circle>
+</svg>

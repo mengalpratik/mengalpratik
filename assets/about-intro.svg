@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420" width="1200" height="420" role="img" aria-labelledby="ab-title ab-desc">
+  <title id="ab-title">About Pratik Mengal</title>
+  <desc id="ab-desc">Full-Stack Software Engineer &amp; AI Systems Developer. Pursuing B.Tech at DYPIEMR. Axcentra SWE Intern. Primary languages TypeScript, Python and Java. Passionate about system design, microservices, and autonomous AI agents.</desc>
+  <defs>
+    <linearGradient id="ab-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#050F07"/>
+      <stop offset="100%" stop-color="#020603"/>
+    </linearGradient>
+    <radialGradient id="ab-glow" cx="80%" cy="20%" r="70%">
+      <stop offset="0" stop-color="#00FF66" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#00FF66" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="ab-scan" width="4" height="4" patternUnits="userSpaceOnUse">
+      <rect width="4" height="1" fill="#00FF66" opacity="0.04"/>
+    </pattern>
+  </defs>
+  <style>
+    .ab-mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", "Fira Code", monospace; }
+    .ab-heading { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Fira Code", monospace; font-weight: 700; }
+    .ab-sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif; }
+    .ab-card { transition: transform 0.2s ease; }
+  </style>
+
+  <!-- Container Box -->
+  <g transform="translate(40, 16)">
+    <rect width="1120" height="388" rx="16" fill="url(#ab-bg)" stroke="#00FF66" stroke-width="1.2" stroke-opacity="0.3"/>
+    <rect width="1120" height="388" rx="16" fill="url(#ab-glow)"/>
+    <rect width="1120" height="388" rx="16" fill="url(#ab-scan)"/>
+
+    <!-- Terminal Window Top Bar -->
+    <path d="M 0 16 A 16 16 0 0 1 16 0 L 1104 0 A 16 16 0 0 1 1120 16 L 1120 42 L 0 42 Z" fill="#020904" stroke="#003B19" stroke-width="1"/>
+    <!-- Terminal Window Buttons -->
+    <circle cx="28" cy="21" r="5" fill="#FF5F56" fill-opacity="0.8"/>
+    <circle cx="46" cy="21" r="5" fill="#FFBD2E" fill-opacity="0.8"/>
+    <circle cx="64" cy="21" r="5" fill="#27C93F" fill-opacity="0.8"/>
+    <text class="ab-mono" x="560" y="25" text-anchor="middle" font-size="11" letter-spacing="1.5" fill="#72A884">neuro-terminal://profile/pratik_mengal.sys</text>
+
+    <!-- Shell Prompt -->
+    <text class="ab-mono" x="32" y="74" font-size="13" fill="#05FFA1">
+      <tspan fill="#00FF66">mengalpratik@neuro-box:~$</tspan> cat /sys/dev/profile_summary.md
+    </text>
+
+    <!-- Narrative Intro -->
+    <g class="ab-sans" font-size="14.5" fill="#E6FFF0" transform="translate(32, 106)">
+      <text x="0" y="0">
+        I am a <tspan font-weight="700" fill="#00FF66">Full-Stack Software Engineer</tspan> and <tspan font-weight="700" fill="#05FFA1">AI Systems Developer</tspan> pursuing B.Tech at <tspan font-weight="600" fill="#E6FFF0">DYPIEMR</tspan>, Pune.
+      </text>
+      <text x="0" y="26" fill="#88B99A">
+        Currently sharpening production workflows as a <tspan fill="#00FF66" font-weight="600">Software Engineering Trainee at Axcentra</tspan>, building resilient web products,
+      </text>
+      <text x="0" y="52" fill="#88B99A">
+        architecting microservices, and orchestrating autonomous LLM pipelines and neural systems in Python and TypeScript.
+      </text>
+      <text x="0" y="78" fill="#88B99A">
+        Shipped systems include <tspan fill="#E6FFF0">NeuroMatrix</tspan> (AI pipelines), <tspan fill="#E6FFF0">Myraa AI Assistant</tspan> (multi-modal agent), and <tspan fill="#E6FFF0">NeuroStore</tspan> (distributed MERN e-commerce).
+      </text>
+    </g>
+
+    <!-- 3 Bottom Focus Highlight Cards -->
+    <g transform="translate(32, 230)">
+      <!-- Card 1 -->
+      <g class="ab-card" transform="translate(0, 0)">
+        <rect width="338" height="126" rx="12" fill="#030C05" stroke="#00FF66" stroke-width="1" stroke-opacity="0.35"/>
+        <rect x="0" y="0" width="4" height="126" rx="2" fill="#00FF66"/>
+        <text class="ab-mono" x="20" y="30" font-size="10.5" font-weight="700" letter-spacing="2" fill="#00FF66">CORE LANGUAGES</text>
+        <text class="ab-heading" x="20" y="66" font-size="24" fill="#E6FFF0">TypeScript · Python</text>
+        <text class="ab-sans" x="20" y="94" font-size="13" fill="#88B99A">Java (OOP) · JavaScript · C/C++</text>
+      </g>
+
+      <!-- Card 2 -->
+      <g class="ab-card" transform="translate(358, 0)">
+        <rect width="338" height="126" rx="12" fill="#030C05" stroke="#00FF66" stroke-width="1" stroke-opacity="0.35"/>
+        <rect x="0" y="0" width="4" height="126" rx="2" fill="#05FFA1"/>
+        <text class="ab-mono" x="20" y="30" font-size="10.5" font-weight="700" letter-spacing="2" fill="#05FFA1">ARCHITECTURE</text>
+        <text class="ab-heading" x="20" y="66" font-size="24" fill="#E6FFF0">MERN · Microservices</text>
+        <text class="ab-sans" x="20" y="94" font-size="13" fill="#88B99A">FastAPI · REST APIs · Docker · JWT</text>
+      </g>
+
+      <!-- Card 3 -->
+      <g class="ab-card" transform="translate(716, 0)">
+        <rect width="338" height="126" rx="12" fill="#030C05" stroke="#00FF66" stroke-width="1" stroke-opacity="0.35"/>
+        <rect x="0" y="0" width="4" height="126" rx="2" fill="#00FF66"/>
+        <text class="ab-mono" x="20" y="30" font-size="10.5" font-weight="700" letter-spacing="2" fill="#00FF66">RESEARCH &amp; DOMAINS</text>
+        <text class="ab-heading" x="20" y="66" font-size="24" fill="#E6FFF0">Autonomous Agents</text>
+        <text class="ab-sans" x="20" y="94" font-size="13" fill="#88B99A">Neural Systems · System Design · Cloud</text>
+      </g>
+    </g>
+  </g>
+</svg>

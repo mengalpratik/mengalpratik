@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420" width="1200" height="420" role="img" aria-labelledby="ce-title ce-desc">
+  <title id="ce-title">Certifications and Core Competencies</title>
+  <desc id="ce-desc">Eight verified milestones: Full-Stack Engineering, AI Systems, Java Developer, DSA Mastery, Database Architecture, Cloud &amp; Docker, Web Security, Linux Administration.</desc>
+  <defs>
+    <linearGradient id="ce-card-bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#040F06"/>
+      <stop offset="100%" stop-color="#020603"/>
+    </linearGradient>
+  </defs>
+  <style>
+    .ce-mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", "Fira Code", monospace; }
+    .ce-heading { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Fira Code", monospace; font-weight: 700; }
+    .ce-sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif; }
+  </style>
+
+  <rect width="1200" height="420" fill="#000000"/>
+
+  <!-- Row 1: 4 Cards -->
+  <g transform="translate(36, 24)">
+    <!-- Card 1 -->
+    <g transform="translate(0, 0)">
+      <rect width="262" height="174" rx="12" fill="url(#ce-card-bg)" stroke="#00FF66" stroke-width="1" stroke-opacity="0.3"/>
+      <rect x="0" y="0" width="4" height="174" rx="2" fill="#00FF66"/>
+      <text class="ce-mono" x="20" y="32" font-size="10.5" font-weight="700" letter-spacing="2" fill="#00FF66">AXCENTRA</text>
+      <text class="ce-heading" x="20" y="74" font-size="18" fill="#E6FFF0">Software Engineering</text>
+      <text class="ce-sans" x="20" y="102" font-size="13" fill="#88B99A">Full-Stack Development Trainee</text>
+      <text class="ce-mono" x="20" y="146" font-size="10" letter-spacing="1.2" fill="#05FFA1">VERIFIED EXPERIENCE</text>
+    </g>
+
+    <!-- Card 2 -->
+    <g transform="translate(288, 0)">
+      <rect width="262" height="174" rx="12" fill="url(#ce-card-bg)" stroke="#00FF66" stroke-width="1" stroke-opacity="0.3"/>
+      <rect x="0" y="0" width="4" height="174" rx="2" fill="#05FFA1"/>
+      <text class="ce-mono" x="20" y="32" font-size="10.5" font-weight="700" letter-spacing="2" fill="#05FFA1">AI &amp; ML</text>
+      <text class="ce-heading" x="20" y="74" font-size="18" fill="#E6FFF0">Neural Systems &amp; Agents</text>
+      <text class="ce-sans" x="20" y="102" font-size="13" fill="#88B99A">LLMs &amp; Vector Pipelines</text>
+      <text class="ce-mono" x="20" y="146" font-size="10" letter-spacing="1.2" fill="#00FF66">SYSTEM ARCHITECTURE</text>
+    </g>
+
+    <!-- Card 3 -->
+    <g transform="translate(576, 0)">
+      <rect width="262" height="174" rx="12" fill="url(#ce-card-bg)" stroke="#00FF66" stroke-width="1" stroke-opacity="0.3"/>
+      <rect x="0" y="0" width="4" height="174" rx="2" fill="#00FF66"/>
+      <text class="ce-mono" x="20" y="32" font-size="10.5" font-weight="700" letter-spacing="2" fill="#00FF66">FULL STACK</text>
+      <text class="ce-heading" x="20" y="74" font-size="18" fill="#E6FFF0">MERN Architecture</text>
+      <text class="ce-sans" x="20" y="102" font-size="13" fill="#88B99A">React, Node, Express, MongoDB</text>
+      <text class="ce-mono" x="20" y="146" font-size="10" letter-spacing="1.2" fill="#05FFA1">PRODUCTION READINESS</text>
+    </g>
+
+    <!-- Card 4 -->
+    <g transform="translate(864, 0)">
+      <rect width="262" height="174" rx="12" fill="url(#ce-card-bg)" stroke="#00FF66" stroke-width="1" stroke-opacity="0.3"/>
+      <rect x="0" y="0" width="4" height="174" rx="2" fill="#05FFA1"/>
+      <text class="ce-mono" x="20" y="32" font-size="10.5" font-weight="700" letter-spacing="2" fill="#05FFA1">JAVA &amp; OOP</text>
+      <text class="ce-heading" x="20" y="74" font-size="18" fill="#E6FFF0">Complete Java Mastery</text>
+      <text class="ce-sans" x="20" y="102" font-size="13" fill="#88B99A">OOP, Collections, Multithreading</text>
+      <text class="ce-mono" x="20" y="146" font-size="10" letter-spacing="1.2" fill="#00FF66">ROBUST DESIGN</text>
+    </g>
+  </g>
+
+  <!-- Row 2: 4 Cards -->
+  <g transform="translate(36, 218)">
+    <!-- Card 5 -->
+    <g transform="translate(0, 0)">
+      <rect width="262" height="174" rx="12" fill="url(#ce-card-bg)" stroke="#00FF66" stroke-width="1" stroke-opacity="0.3"/>
+      <rect x="0" y="0" width="4" height="174" rx="2" fill="#05FFA1"/>
+      <text class="ce-mono" x="20" y="32" font-size="10.5" font-weight="700" letter-spacing="2" fill="#05FFA1">DSA</text>
+      <text class="ce-heading" x="20" y="74" font-size="18" fill="#E6FFF0">Algorithms &amp; Logic</text>
+      <text class="ce-sans" x="20" y="102" font-size="13" fill="#88B99A">500+ Solved Challenges</text>
+      <text class="ce-mono" x="20" y="146" font-size="10" letter-spacing="1.2" fill="#00FF66">PROBLEM SOLVING</text>
+    </g>
+
+    <!-- Card 6 -->
+    <g transform="translate(288, 0)">
+      <rect width="262" height="174" rx="12" fill="url(#ce-card-bg)" stroke="#00FF66" stroke-width="1" stroke-opacity="0.3"/>
+      <rect x="0" y="0" width="4" height="174" rx="2" fill="#00FF66"/>
+      <text class="ce-mono" x="20" y="32" font-size="10.5" font-weight="700" letter-spacing="2" fill="#00FF66">DATABASE</text>
+      <text class="ce-heading" x="20" y="74" font-size="18" fill="#E6FFF0">SQL &amp; NoSQL Engineering</text>
+      <text class="ce-sans" x="20" y="102" font-size="13" fill="#88B99A">MongoDB, PostgreSQL, Schema</text>
+      <text class="ce-mono" x="20" y="146" font-size="10" letter-spacing="1.2" fill="#05FFA1">DATA PERSISTENCE</text>
+    </g>
+
+    <!-- Card 7 -->
+    <g transform="translate(576, 0)">
+      <rect width="262" height="174" rx="12" fill="url(#ce-card-bg)" stroke="#00FF66" stroke-width="1" stroke-opacity="0.3"/>
+      <rect x="0" y="0" width="4" height="174" rx="2" fill="#05FFA1"/>
+      <text class="ce-mono" x="20" y="32" font-size="10.5" font-weight="700" letter-spacing="2" fill="#05FFA1">DOCKER &amp; CLOUD</text>
+      <text class="ce-heading" x="20" y="74" font-size="18" fill="#E6FFF0">Containerized Workflows</text>
+      <text class="ce-sans" x="20" y="102" font-size="13" fill="#88B99A">Docker Compose, AWS &amp; CI/CD</text>
+      <text class="ce-mono" x="20" y="146" font-size="10" letter-spacing="1.2" fill="#00FF66">DEVOPS PIPELINE</text>
+    </g>
+
+    <!-- Card 8 -->
+    <g transform="translate(864, 0)">
+      <rect width="262" height="174" rx="12" fill="url(#ce-card-bg)" stroke="#00FF66" stroke-width="1" stroke-opacity="0.3"/>
+      <rect x="0" y="0" width="4" height="174" rx="2" fill="#00FF66"/>
+      <text class="ce-mono" x="20" y="32" font-size="10.5" font-weight="700" letter-spacing="2" fill="#00FF66">LINUX &amp; SECURITY</text>
+      <text class="ce-heading" x="20" y="74" font-size="18" fill="#E6FFF0">Systems &amp; Auth</text>
+      <text class="ce-sans" x="20" y="102" font-size="13" fill="#88B99A">JWT RBAC &amp; Bash Scripting</text>
+      <text class="ce-mono" x="20" y="146" font-size="10" letter-spacing="1.2" fill="#05FFA1">SECURE ARCHITECTURE</text>
+    </g>
+  </g>
+</svg>
