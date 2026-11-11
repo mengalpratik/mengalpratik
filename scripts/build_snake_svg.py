@@ -29,8 +29,8 @@ STEP = CELL + GAP
 GRID_X = 118
 GRID_Y = 182
 
-# Hacker Green Levels: Level 0 (dark void) to Level 4 (neon laser)
-LEVELS = ["#041007", "#003D16", "#007A2E", "#00BD47", "#00FF66"]
+# Hacker Green Levels: Level 0 (cyber matrix grid) to Level 4 (neon laser)
+LEVELS = ["#082411", "#006622", "#00A838", "#00E64D", "#00FF66"]
 MONTHS = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
 
 def to_date(iso_str):
@@ -215,10 +215,8 @@ svg_content = f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {H}" 
   <style>
     .hm-heading {{ font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Fira Code", monospace; font-weight: 700; }}
     .hm-mono {{ font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", "Fira Code", monospace; }}
-    .hm-c {{ transform-box: fill-box; transform-origin: center; animation: hm-in .8s cubic-bezier(.34,1.56,.64,1) both; }}
-    .hm-fade {{ animation: hm-fade 1.2s ease both; }}
-    @keyframes hm-in {{ from {{ opacity: 0; transform: scale(.2); }} to {{ opacity: 1; transform: none; }} }}
-    @keyframes hm-fade {{ from {{ opacity: 0; }} to {{ opacity: 1; }} }}
+    .hm-c {{ transform-box: fill-box; transform-origin: center; }}
+    .hm-fade {{ opacity: 1; }}
     @media (prefers-reduced-motion: reduce) {{ .hm-c, .hm-fade {{ animation: none; }} .hm-motion {{ display: none; }} }}
   </style>
 

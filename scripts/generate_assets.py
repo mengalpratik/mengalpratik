@@ -379,17 +379,17 @@ about_svg = '''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 410" wi
     </text>
 
     <!-- Narrative Intro -->
-    <g class="ab-sans" font-size="14.5" fill="#E6FFF0" transform="translate(32, 100)">
-      <text x="0" y="0">
+    <g class="ab-sans" font-size="16" fill="#E6FFF0" transform="translate(32, 90)">
+      <text x="0" y="20">
         I am a <tspan font-weight="700" fill="#00FF66">Full-Stack Software Engineer</tspan> and <tspan font-weight="700" fill="#05FFA1">Google Certified Cybersecurity Analyst (98.81%)</tspan> graduating with B.E. from <tspan font-weight="600" fill="#E6FFF0">DYPIEMR</tspan>, Pune.
       </text>
-      <text x="0" y="26" fill="#88B99A">
+      <text x="0" y="48" fill="#88B99A">
         Co-authored published research in <tspan fill="#00FF66" font-weight="600">IJNRD (May 2025)</tspan> on health management systems with nutrient analysis &amp; personalized recommendations.
       </text>
-      <text x="0" y="52" fill="#88B99A">
+      <text x="0" y="76" fill="#88B99A">
         Proven industry experience across <tspan fill="#00FF66">Axcentra</tspan> (Software Engineering Trainee), <tspan fill="#E6FFF0">Devtown</tspan> (Full-Stack MERN Intern), and <tspan fill="#E6FFF0">Codsoft</tspan> (Java Software Developer).
       </text>
-      <text x="0" y="78" fill="#88B99A">
+      <text x="0" y="104" fill="#88B99A">
         Shipped systems include <tspan fill="#E6FFF0">NeuroMatrix</tspan> (neural pipelines), <tspan fill="#E6FFF0">Myraa AI Assistant</tspan> (multi-modal agent), and <tspan fill="#E6FFF0">NeuroStore</tspan> (MERN platform).
       </text>
     </g>
