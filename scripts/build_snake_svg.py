@@ -260,7 +260,7 @@ def build_snake_svg(input_path: Path = DEFAULT_INPUT_PATH, output_path: Path = D
         x = 610 + i * 150
         stats_svg.append(f'''<g transform="translate({x}, 58)">
       <text class="hm-mono" font-size="10" letter-spacing="1.8" fill="#00FF66">{stat_lbl}</text>
-      <text class="hm-heading" y="44" font-size="36" fill="#E6FFF0">{val}</text>
+      <text class="hm-serif" y="44" font-size="36" font-weight="300" fill="#E6FFF0">{val}</text>
       <text class="hm-mono" y="64" font-size="9.5" fill="#88B99A">{sub}</text>
     </g>''')
     stats_markup = "\n    ".join(stats_svg)
@@ -273,12 +273,12 @@ def build_snake_svg(input_path: Path = DEFAULT_INPUT_PATH, output_path: Path = D
   <desc id="hm-desc">{total} contributions from {fmt_date(first)} to {fmt_date(last)}: {active} active days, longest streak {best} days, busiest day {peak["count"]} contributions on {fmt_date(parse_iso_date(peak["date"]))}.</desc>
   <defs>
     <linearGradient id="hm-bg" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#050F07"/>
+      <stop offset="0" stop-color="#041207"/>
       <stop offset="100%" stop-color="#000000"/>
     </linearGradient>
     <radialGradient id="hm-light" cx="88%" cy="0%" r="70%">
-      <stop offset="0" stop-color="#00FF66" stop-opacity="0.25"/>
-      <stop offset="100%" stop-color="#00FF66" stop-opacity="0"/>
+      <stop offset="0" stop-color="#00FF66" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#00240E" stop-opacity="0"/>
     </radialGradient>
     <filter id="hm-glow" x="-60%" y="-60%" width="220%" height="220%">
       <feGaussianBlur stdDeviation="2.4" result="b"/>
@@ -286,8 +286,8 @@ def build_snake_svg(input_path: Path = DEFAULT_INPUT_PATH, output_path: Path = D
     </filter>
   </defs>
   <style>
-    .hm-heading {{ font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Fira Code", monospace; font-weight: 700; }}
-    .hm-mono {{ font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", "Fira Code", monospace; }}
+    .hm-serif {{ font-family: Georgia, "Iowan Old Style", "Palatino Linotype", "Times New Roman", serif; }}
+    .hm-mono {{ font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace; }}
     .hm-c {{ transform-box: fill-box; transform-origin: center; }}
     .hm-fade {{ opacity: 1; }}
     .hm-static-grid {{ display: none; }}
@@ -299,18 +299,18 @@ def build_snake_svg(input_path: Path = DEFAULT_INPUT_PATH, output_path: Path = D
     }}
   </style>
 
-  <rect width="{W}" height="{H}" rx="18" fill="url(#hm-bg)"/>
-  <rect width="{W}" height="{H}" rx="18" fill="url(#hm-light)"/>
-  <rect x="0.5" y="0.5" width="{W - 1}" height="{H - 1}" rx="17.5" fill="none" stroke="#00FF66" stroke-width="1" stroke-opacity="0.3"/>
+  <rect width="{W}" height="{H}" rx="20" fill="url(#hm-bg)"/>
+  <rect width="{W}" height="{H}" rx="20" fill="url(#hm-light)"/>
+  <rect x="0.5" y="0.5" width="{W - 1}" height="{H - 1}" rx="19.5" fill="none" stroke="#00FF66" stroke-width="1" stroke-opacity="0.16"/>
 
   <g class="hm-fade">
-    <text class="hm-mono" x="56" y="68" font-size="11" font-weight="700" letter-spacing="2.6" fill="#00FF66">COMMIT LOG · REAL GITHUB TELEMETRY</text>
-    <text class="hm-heading" x="54" y="110" font-size="28" fill="#E6FFF0">A year of building, <tspan fill="#00FF66">one commit</tspan> at a time.</text>
+    <text class="hm-mono" x="56" y="68" font-size="11" letter-spacing="2.6" fill="#00FF66">COMMIT LOG · REAL GITHUB TELEMETRY</text>
+    <text class="hm-serif" x="54" y="110" font-size="27" font-weight="300" fill="#E6FFF0">A year of building, <tspan font-style="italic" fill="#00FF66">one commit</tspan> at a time.</text>
     {stats_markup}
   </g>
 
-  <g class="hm-mono" font-size="10.5" fill="#72A884">{month_svg}</g>
-  <g class="hm-mono" font-size="10" fill="#72A884" text-anchor="end">
+  <g class="hm-mono" font-size="10.5" fill="#88B99A">{month_svg}</g>
+  <g class="hm-mono" font-size="10" fill="#88B99A" text-anchor="end">
     <text x="{GRID_X - 12}" y="{GRID_Y + STEP + 11}">Mon</text>
     <text x="{GRID_X - 12}" y="{GRID_Y + 3 * STEP + 11}">Wed</text>
     <text x="{GRID_X - 12}" y="{GRID_Y + 5 * STEP + 11}">Fri</text>
@@ -331,10 +331,10 @@ def build_snake_svg(input_path: Path = DEFAULT_INPUT_PATH, output_path: Path = D
   {streak_svg}
 
   <g class="hm-fade">
-    <text class="hm-mono" x="56" y="382" font-size="10.5" fill="#72A884">Source: public GitHub contribution telemetry for @mengalpratik · snapshot {fetched}</text>
-    <text class="hm-mono" x="{legend_x}" y="382" font-size="10.5" fill="#72A884">Less</text>
+    <text class="hm-mono" x="56" y="382" font-size="10.5" fill="#88B99A">Source: public GitHub contribution telemetry for @mengalpratik · snapshot {fetched} · refreshed daily</text>
+    <text class="hm-mono" x="{legend_x}" y="382" font-size="10.5" fill="#88B99A">Less</text>
     {legend_cells}
-    <text class="hm-mono" x="{legend_x + 36 + 5 * 18 + 4}" y="382" font-size="10.5" fill="#72A884">More</text>
+    <text class="hm-mono" x="{legend_x + 36 + 5 * 18 + 4}" y="382" font-size="10.5" fill="#88B99A">More</text>
   </g>
 </svg>'''
 

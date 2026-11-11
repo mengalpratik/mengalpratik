@@ -1,80 +1,66 @@
-<p align="center">
-  <a href="https://mengalpratik.github.io/PersonalPortfolioSite/">
-    <img src="assets/hero-banner.svg" width="100%" alt="Pratik Mengal — Full-Stack Software Engineer, Cybersecurity Analyst &amp; AI Systems Developer. Engineering intelligence. Building resilient architectures.">
-  </a>
-</p>
+<a href="https://mengalpratik.github.io/PersonalPortfolioSite/">
+  <img src="assets/hero-banner.svg" width="100%" alt="Pratik Mengal — Full-Stack Software Engineer, Cybersecurity Analyst &amp; AI Systems Developer. Engineering intelligence. Building resilient architectures.">
+</a>
 
 <p align="center">
-  <a href="https://mengalpratik.github.io/PersonalPortfolioSite/"><img src="https://img.shields.io/badge/Portfolio-mengalpratik.github.io-003B19?style=for-the-badge&labelColor=000000&logoColor=00FF66&logo=firefox" alt="Portfolio website"></a>
-  <a href="https://www.linkedin.com/in/pratikmengal-/"><img src="https://img.shields.io/badge/LinkedIn-pratikmengal---003B19?style=for-the-badge&labelColor=000000&logoColor=00FF66&logo=linkedin" alt="LinkedIn profile"></a>
-  <a href="https://github.com/mengalpratik"><img src="https://img.shields.io/badge/GitHub-mengalpratik-003B19?style=for-the-badge&labelColor=000000&logoColor=00FF66&logo=github" alt="GitHub profile"></a>
-  <a href="mailto:iampratikmengal@gmail.com"><img src="https://img.shields.io/badge/Email-iampratikmengal-003B19?style=for-the-badge&labelColor=000000&logoColor=00FF66&logo=gmail" alt="Email Pratik"></a>
+  <a href="https://mengalpratik.github.io/PersonalPortfolioSite/"><img src="https://img.shields.io/badge/Portfolio-mengalpratik.github.io-003B19?style=for-the-badge&labelColor=000000&logoColor=00FF66&logo=githubpages" alt="Portfolio website"></a>
+  <a href="https://www.linkedin.com/in/pratikmengal-/"><img src="https://img.shields.io/badge/LinkedIn-pratikmengal---003B19?style=for-the-badge&labelColor=000000&logoColor=00FF66&logo=data:image/svg%2bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0iIzAwRkY2NiIgZD0iTTIwLjQ1IDIwLjQ1aC0zLjU2di01LjU3YzAtMS4zMy0uMDItMy4wNC0xLjg1LTMuMDQtMS44NiAwLTIuMTQgMS40NS0yLjE0IDIuOTR2NS42N0g5LjM1VjloMy40MXYxLjU2aC4wNWMuNDgtLjkgMS42NC0xLjg1IDMuMzctMS44NSAzLjYgMCA0LjI3IDIuMzcgNC4yNyA1LjQ2djYuMjhaTTUuMzQgNy40M2EyLjA2IDIuMDYgMCAxIDEgMC00LjEzIDIuMDYgMi4wNiAwIDAgMSAwIDQuMTNaTTcuMTIgMjAuNDVIMy41NlY5aDMuNTZ2MTEuNDVaTTIyLjIyIDBIMS43N0MuNzkgMCAwIC43NyAwIDEuNzN2MjAuNTRDMCAyMy4yMy43OSAyNCAxLjc3IDI0aDIwLjQ1Yy45OCAwIDEuNzgtLjc3IDEuNzgtMS43M1YxLjczQzI0IC43NyAyMy4yIDAgMjIuMjIgMFoiLz48L3N2Zz4=" alt="LinkedIn profile"></a>
   <a href="https://leetcode.com/u/mengalpratik/"><img src="https://img.shields.io/badge/LeetCode-mengalpratik-003B19?style=for-the-badge&labelColor=000000&logoColor=00FF66&logo=leetcode" alt="LeetCode profile"></a>
-</p>
-
-<p><img src="assets/title-about.svg" width="100%" alt="01 About — Initializing System Specs."></p>
-<p><img src="assets/about-intro.svg" width="100%" alt="About: Full-Stack Software Engineer, Google Certified Cybersecurity Analyst (98.81%) &amp; AI Systems Developer. B.E. in Computer Science at DYPIEMR. Published Research Author in IJNRD (May 2025). Software Engineering Trainee at Axcentra. Ex-intern at Devtown (MERN) and Codsoft (Java)."></p>
-
-<p><img src="assets/title-recognition.svg" width="100%" alt="02 Recognition — Proof, on the record."></p>
-<p><img src="assets/achievement-motif.svg" width="100%" alt="Google Cybersecurity Professional Certificate (98.81%); Published Research Author in IJNRD 2025; 3+ Industry Internships (Axcentra, Devtown, Codsoft); 24 Public Repositories; B.E. Computer Science from DYPIEMR."></p>
-
-<p><img src="assets/title-work.svg" width="100%" alt="03 Selected work — Products, not assignments."></p>
-
-<p>
-  <a href="https://github.com/mengalpratik/NeuroMatrixLearningAcademy">
-    <img src="assets/project-neuromatrix.svg" width="100%" alt="NeuroMatrix Learning Academy: Full-stack learning &amp; engineering platform delivering a comprehensive 112-day Python engineering curriculum.">
-  </a>
-</p>
-
-<p>
-  <a href="https://github.com/mengalpratik/myraa-ai-assistant">
-    <img src="assets/project-myraa.svg" width="100%" alt="Myraa AI Assistant: Autonomous multi-modal conversational assistant and desktop agent with streaming tool calling and agentic memory.">
-  </a>
-</p>
-
-<p>
-  <a href="https://github.com/mengalpratik/neuro-node">
-    <img src="assets/project-neurostore.svg" width="100%" alt="NEURO//NODE Interface: Local-first cyberpunk personal dashboard &amp; digital command center with offline matrix clusters.">
-  </a>
-</p>
-
-<p>
-  <a href="https://github.com/mengalpratik/Axcentra-Internship-Work-2026">
-    <img src="assets/project-axcentra.svg" width="100%" alt="Axcentra Engineering Suite: Enterprise web applications and engineering modules developed during Axcentra software trainee tenure.">
-  </a>
-</p>
-
-<p><img src="assets/title-toolkit.svg" width="100%" alt="04 Toolkit — The tools I reach for."></p>
-<p><img src="assets/tech-constellation.svg" width="100%" alt="Tech stack: Languages (Java, Python, TypeScript, JavaScript, SQL, C++), Cybersecurity &amp; Forensics (Google Cyber 98.81%, Network Defense, SIEM), Frontend (React, Next.js, Tailwind CSS), Backend (Node.js, Express, FastAPI, REST, WebSockets, JWT), Data &amp; Cloud (MongoDB, PostgreSQL, Docker, AWS), DevOps &amp; Tools (Git, Linux CLI, Postman, Agile Scrum)."></p>
-
-<p><img src="assets/title-commits.svg" width="100%" alt="05 Commit log — A year of building."></p>
-<p><img src="assets/contribution-snake.svg" width="100%" alt="Animated snake eating real public GitHub contributions over the past year with telemetry."></p>
-
-<p>
-  <a href="https://github.com/mengalpratik">
-    <img src="assets/github-telemetry.svg" width="100%" alt="GitHub Telemetry &amp; Language Distribution: 24 Public Repos, 53 Verified Contributions, 13 Peak Daily Velocity, 100% Open Source Access, Primary Languages: TypeScript, JavaScript, Python, CSS/HTML, Java.">
-  </a>
-</p>
-
-<p><img src="assets/title-certifications.svg" width="100%" alt="06 Certifications &amp; Badges — Eight verified milestones."></p>
-<p>
-  <a href="https://www.linkedin.com/in/pratikmengal-/">
-    <img src="assets/certifications.svg" width="100%" alt="Verified credentials: Google Cybersecurity (98.81%), Cyber Forensics &amp; SOC, Data Structures &amp; Algorithms using Java, Programming using Java (OOP), Database Management System (SQL &amp; DBMS), Introduction to Cloud Computing, Agile Software Engineering (Scrum), and TCS ESG Virtual Experience.">
-  </a>
-</p>
-
-<p><img src="assets/title-connect.svg" width="100%" alt="07 Connect — Let's build something extraordinary."></p>
-
-<p align="center">
-  <a href="https://www.linkedin.com/in/pratikmengal-/"><img src="https://img.shields.io/badge/LinkedIn-pratikmengal---003B19?style=for-the-badge&labelColor=000000&logoColor=00FF66&logo=linkedin" alt="LinkedIn profile"></a>
-  <a href="mailto:iampratikmengal@gmail.com"><img src="https://img.shields.io/badge/Email-iampratikmengal-003B19?style=for-the-badge&labelColor=000000&logoColor=00FF66&logo=gmail" alt="Email Pratik"></a>
   <a href="https://github.com/mengalpratik"><img src="https://img.shields.io/badge/GitHub-mengalpratik-003B19?style=for-the-badge&labelColor=000000&logoColor=00FF66&logo=github" alt="GitHub profile"></a>
-  <a href="https://leetcode.com/u/mengalpratik/"><img src="https://img.shields.io/badge/LeetCode-mengalpratik-003B19?style=for-the-badge&labelColor=000000&logoColor=00FF66&logo=leetcode" alt="LeetCode profile"></a>
-  <a href="https://mengalpratik.github.io/PersonalPortfolioSite/"><img src="https://img.shields.io/badge/Portfolio-mengalpratik.github.io-003B19?style=for-the-badge&labelColor=000000&logoColor=00FF66&logo=firefox" alt="Portfolio website"></a>
+  <a href="mailto:iampratikmengal@gmail.com"><img src="https://img.shields.io/badge/Email-iampratikmengal@gmail.com-003B19?style=for-the-badge&labelColor=000000&logoColor=00FF66&logo=gmail" alt="Email iampratikmengal@gmail.com"></a>
 </p>
 
+<img src="assets/title-about.svg" width="100%" alt="01 About — Hello, I'm Pratik.">
+<img src="assets/about-intro.svg" width="100%" alt="About: Full-Stack Software Engineer, Google Certified Cybersecurity Analyst (98.81%) &amp; AI Systems Developer. B.E. in Computer Science at DYPIEMR. Published Research Author in IJNRD (May 2025). Software Engineering Trainee at Axcentra. Ex-intern at Devtown (MERN) and Codsoft (Java).">
+
+<img src="assets/title-recognition.svg" width="100%" alt="02 Recognition — Proof, on the record.">
+<img src="assets/achievement-motif-v2.svg" width="100%" alt="Google Cybersecurity Professional Certificate (98.81%); Published Research Author in IJNRD 2025; 3+ Industry Internships (Axcentra, Devtown, Codsoft); B.E. Computer Science from DYPIEMR.">
+
+<img src="assets/title-work.svg" width="100%" alt="03 Selected work — Products, not assignments.">
+
+<a href="https://github.com/mengalpratik/NeuroMatrixLearningAcademy"><img src="assets/project-neuromatrix.svg" width="100%" alt="NeuroMatrix Learning Academy: Full-stack learning &amp; engineering platform delivering a comprehensive 112-day Python engineering curriculum. Python 3.13, FastAPI, React, TypeScript, Tailwind CSS, Docker."></a>
 <p align="center">
-  <a href="https://mengalpratik.github.io/PersonalPortfolioSite/">
-    <img src="assets/footer-signature.svg" width="100%" alt="Pratik Mengal — Engineering intelligence. Building resilient architectures.">
-  </a>
+  <a href="https://github.com/mengalpratik/NeuroMatrixLearningAcademy"><img src="https://img.shields.io/badge/Repository-NeuroMatrix-003B19?style=for-the-badge&labelColor=000000&logoColor=00FF66&logo=github" alt="NeuroMatrix repository"></a>
 </p>
+
+<a href="https://github.com/mengalpratik/myraa-ai-assistant"><img src="assets/project-myraa.svg" width="100%" alt="Myraa AI Assistant: Autonomous multi-modal conversational assistant and desktop agent with streaming tool calling and agentic memory. TypeScript, Python, LLMs, Tool Calling, WebSockets, Electron."></a>
+<p align="center">
+  <a href="https://github.com/mengalpratik/myraa-ai-assistant"><img src="https://img.shields.io/badge/Repository-Myraa_AI-003B19?style=for-the-badge&labelColor=000000&logoColor=00FF66&logo=github" alt="Myraa AI repository"></a>
+</p>
+
+<a href="https://github.com/mengalpratik/neuro-node"><img src="assets/project-neurostore.svg" width="100%" alt="NEURO//NODE Interface: Local-first cyberpunk personal dashboard &amp; digital command center with offline matrix clusters. TypeScript, React, Tailwind CSS, Vite, Docker, Node.js."></a>
+<p align="center">
+  <a href="https://github.com/mengalpratik/neuro-node"><img src="https://img.shields.io/badge/Repository-NEURO__NODE-003B19?style=for-the-badge&labelColor=000000&logoColor=00FF66&logo=github" alt="NEURO//NODE repository"></a>
+</p>
+
+<a href="https://github.com/mengalpratik/Axcentra-Internship-Work-2026"><img src="assets/project-axcentra.svg" width="100%" alt="Axcentra Engineering Suite: Enterprise web applications and engineering modules developed during Axcentra software trainee tenure. JavaScript, TypeScript, Java, REST APIs, Modern CSS, Git."></a>
+<p align="center">
+  <a href="https://github.com/mengalpratik/Axcentra-Internship-Work-2026"><img src="https://img.shields.io/badge/Repository-Axcentra_Suite-003B19?style=for-the-badge&labelColor=000000&logoColor=00FF66&logo=github" alt="Axcentra repository"></a>
+</p>
+
+<img src="assets/title-toolkit.svg" width="100%" alt="04 Toolkit — The tools I reach for.">
+<img src="assets/tech-constellation-v2.svg" width="100%" alt="Tech stack: Languages (Java primary, Python, TypeScript, C++), Cybersecurity (Google Cyber 98.81%, Threat Mitigation, SIEM), Frontend (React, Next.js, Tailwind CSS), Backend (Node.js, Express, REST APIs, FastAPI), Data &amp; Infrastructure (MongoDB, PostgreSQL, Docker, AWS), Tools &amp; Systems (Git, GitHub, Linux, DSA, Agile Scrum).">
+
+<img src="assets/title-commits.svg" width="100%" alt="05 Commit log — A year of building.">
+<img src="assets/contribution-snake.svg" width="100%" alt="Animated snake eating my real public GitHub contributions over the past year, with totals, active days, longest streak and busiest day. Re-rendered daily.">
+
+<p align="center">
+  <a href="https://github.com/mengalpratik"><img src="assets/github-telemetry.svg" width="100%" alt="GitHub telemetry and language distribution"></a>
+</p>
+
+<img src="assets/title-certifications.svg" width="100%" alt="06 Certifications — Verified credentials.">
+<a href="https://www.linkedin.com/in/pratikmengal-/"><img src="assets/certifications.svg" width="100%" alt="Certifications: Google Cybersecurity Professional (98.81%); Cisco Cybersecurity Essentials; Oracle Java Foundations; Database Management Systems (SQL); Cloud Computing Fundamentals; IJNRD Published Author; Agile Software Engineering; Axcentra SWE Trainee."></a>
+
+<img src="assets/title-connect.svg" width="100%" alt="07 Connect — Let's build something extraordinary.">
+
+<p align="center">
+  <a href="mailto:iampratikmengal@gmail.com"><img src="https://img.shields.io/badge/Email-iampratikmengal@gmail.com-003B19?style=for-the-badge&labelColor=000000&logoColor=00FF66&logo=gmail" alt="Email iampratikmengal@gmail.com"></a>
+  <a href="https://www.linkedin.com/in/pratikmengal-/"><img src="https://img.shields.io/badge/LinkedIn-pratikmengal---003B19?style=for-the-badge&labelColor=000000&logoColor=00FF66&logo=data:image/svg%2bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0iIzAwRkY2NiIgZD0iTTIwLjQ1IDIwLjQ1aC0zLjU2di01LjU3YzAtMS4zMy0uMDItMy4wNC0xLjg1LTMuMDQtMS44NiAwLTIuMTQgMS40NS0yLjE0IDIuOTR2NS42N0g5LjM1VjloMy40MXYxLjU2aC4wNWMuNDgtLjkgMS42NC0xLjg1IDMuMzctMS44NSAzLjYgMCA0LjI3IDIuMzcgNC4yNyA1LjQ2djYuMjhaTTUuMzQgNy40M2EyLjA2IDIuMDYgMCAxIDEgMC00LjEzIDIuMDYgMi4wNiAwIDAgMSAwIDQuMTNaTTcuMTIgMjAuNDVIMy41NlY5aDMuNTZ2MTEuNDVaTTIyLjIyIDBIMS43N0MuNzkgMCAwIC43NyAwIDEuNzN2MjAuNTRDMCAyMy4yMy43OSAyNCAxLjc3IDI0aDIwLjQ1Yy45OCAwIDEuNzgtLjc3IDEuNzgtMS43M1YxLjczQzI0IC43NyAyMy4yIDAgMjIuMjIgMFoiLz48L3N2Zz4=" alt="LinkedIn profile"></a>
+  <a href="https://leetcode.com/u/mengalpratik/"><img src="https://img.shields.io/badge/LeetCode-mengalpratik-003B19?style=for-the-badge&labelColor=000000&logoColor=00FF66&logo=leetcode" alt="LeetCode profile"></a>
+  <a href="https://github.com/mengalpratik"><img src="https://img.shields.io/badge/GitHub-mengalpratik-003B19?style=for-the-badge&labelColor=000000&logoColor=00FF66&logo=github" alt="GitHub profile"></a>
+  <a href="https://mengalpratik.github.io/PersonalPortfolioSite/"><img src="https://img.shields.io/badge/Portfolio-mengalpratik.github.io-003B19?style=for-the-badge&labelColor=000000&logoColor=00FF66&logo=githubpages" alt="Portfolio website"></a>
+</p>
+
+<a href="https://mengalpratik.github.io/PersonalPortfolioSite/">
+  <img src="assets/footer-signature-v2.svg" width="100%" alt="Pratik Mengal — Engineering intelligence. Building resilient architectures.">
+</a>

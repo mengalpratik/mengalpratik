@@ -1,156 +1,98 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 490" width="1200" height="490" role="img" aria-labelledby="ce-title ce-desc">
-  <title id="ce-title">Official Certifications &amp; Earned Badges</title>
-  <desc id="ce-desc">Eight verified milestones from LinkedIn &amp; Resume: Google Cybersecurity (98.81%), Cyber Forensics, Java DSA, Core Java OOP, DBMS SQL, Cloud Computing, Agile Software Engineering, and TCS ESG Virtual Experience.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420" width="1200" height="420" role="img" aria-labelledby="ce-t ce-d">
+  <title id="ce-t">Certifications &amp; Credentials</title>
+  <desc id="ce-d">Google Cybersecurity Professional Certificate (98.81%); Cisco Cybersecurity Essentials; Oracle Java Foundations; Database Management Systems (SQL); Cloud Computing; IJNRD Published Author; Agile Software Engineering; and Industry Internship Credentials.</desc>
   <defs>
-    <linearGradient id="ce-card-bg" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#040F06"/>
-      <stop offset="100%" stop-color="#020603"/>
+    <linearGradient id="ce-bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#041207"/>
+      <stop offset="1" stop-color="#000000"/>
     </linearGradient>
-    <linearGradient id="ce-badge-bg" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#00240E"/>
-      <stop offset="50%" stop-color="#031609"/>
-      <stop offset="100%" stop-color="#00240E"/>
+    <radialGradient id="ce-glow" cx="15%" cy="100%" r="70%">
+      <stop offset="0" stop-color="#00FF66" stop-opacity=".3"/>
+      <stop offset="1" stop-color="#00240E" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="ce-edge" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#E6FFF0"/>
+      <stop offset="0.5" stop-color="#00FF66"/>
+      <stop offset="1" stop-color="#00FF66" stop-opacity="0"/>
     </linearGradient>
   </defs>
   <style>
-    .ce-mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", "Fira Code", monospace; }
-    .ce-heading { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Fira Code", monospace; font-weight: 700; }
-    .ce-sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif; }
+    .ce-serif { font-family: Georgia, "Iowan Old Style", "Palatino Linotype", "Times New Roman", serif; }
+    .ce-mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace; }
+    .ce-sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; }
+    .ce-tile { animation: ce-in 1s cubic-bezier(.34,1.3,.64,1) both; }
+    .ce-edge { stroke-dasharray: 870; stroke-dashoffset: 870; animation: ce-edge 6s cubic-bezier(.65,0,.35,1) infinite; }
+    @keyframes ce-in { from { opacity: 0.85; transform: translateY(18px) scale(.97); } to { opacity: 1; transform: none; } }
+    @keyframes ce-edge { 0% { stroke-dashoffset: 870; opacity: 1; } 40% { stroke-dashoffset: 0; opacity: 1; } 60%, 100% { stroke-dashoffset: 0; opacity: 0; } }
+    @media (prefers-reduced-motion: reduce) { .ce-tile { animation: none; } .ce-edge { display: none; } }
   </style>
 
-  <rect width="1200" height="490" fill="#000000"/>
+  <rect width="1200" height="420" rx="20" fill="url(#ce-bg)"/>
+  <rect width="1200" height="420" rx="20" fill="url(#ce-glow)"/>
+  <rect x=".5" y=".5" width="1199" height="419" rx="19.5" fill="none" stroke="#00FF66" stroke-opacity=".16"/>
 
-  <!-- Row 1: 4 Cards -->
-  <g transform="translate(36, 16)">
-    <g transform="translate(0, 0)">
-      <rect width="265" height="174" rx="12" fill="url(#ce-card-bg)" stroke="#00FF66" stroke-width="1.2" stroke-opacity="0.35"/>
-      <rect x="0" y="0" width="4" height="174" rx="2" fill="#00FF66"/>
-      <text class="ce-mono" x="18" y="28" font-size="10" font-weight="700" letter-spacing="1.8" fill="#00FF66">GOOGLE · COURSERA</text>
-      <text class="ce-heading" x="18" y="64" font-size="16.5" fill="#E6FFF0">Google Cybersecurity</text>
-      <text class="ce-sans" x="18" y="90" font-size="12.5" font-weight="600" fill="#00FF66">Score: 98.81 / 100 (8 Courses)</text>
-      <text class="ce-sans" x="18" y="112" font-size="11.5" fill="#88B99A">Networks, Linux, SQL, Python</text>
-      <g transform="translate(18, 134)">
-        <rect width="228" height="22" rx="4" fill="#00240E" stroke="#00FF66" stroke-width="0.8"/>
-        <text class="ce-mono" x="10" y="15" font-size="9.5" font-weight="700" fill="#00FF66">GOOGLE CYBERSECURITY PRO</text>
-      </g>
-    </g>
-    <g transform="translate(288, 0)">
-      <rect width="265" height="174" rx="12" fill="url(#ce-card-bg)" stroke="#00FF66" stroke-width="1.2" stroke-opacity="0.35"/>
-      <rect x="0" y="0" width="4" height="174" rx="2" fill="#05FFA1"/>
-      <text class="ce-mono" x="18" y="28" font-size="10" font-weight="700" letter-spacing="1.8" fill="#05FFA1">GOOGLE · FORENSICS</text>
-      <text class="ce-heading" x="18" y="64" font-size="16.5" fill="#E6FFF0">Cyber Forensics &amp; SOC</text>
-      <text class="ce-sans" x="18" y="90" font-size="12.5" font-weight="600" fill="#05FFA1">Threat Detection &amp; Response</text>
-      <text class="ce-sans" x="18" y="112" font-size="11.5" fill="#88B99A">Vulnerability Assessment</text>
-      <g transform="translate(18, 134)">
-        <rect width="228" height="22" rx="4" fill="#00240E" stroke="#05FFA1" stroke-width="0.8"/>
-        <text class="ce-mono" x="10" y="15" font-size="9.5" font-weight="700" fill="#05FFA1">SECURITY &amp; SOC ANALYSIS</text>
-      </g>
-    </g>
-    <g transform="translate(576, 0)">
-      <rect width="265" height="174" rx="12" fill="url(#ce-card-bg)" stroke="#00FF66" stroke-width="1.2" stroke-opacity="0.35"/>
-      <rect x="0" y="0" width="4" height="174" rx="2" fill="#00FF66"/>
-      <text class="ce-mono" x="18" y="28" font-size="10" font-weight="700" letter-spacing="1.8" fill="#00FF66">JAVA · ALGORITHMS</text>
-      <text class="ce-heading" x="18" y="64" font-size="16.5" fill="#E6FFF0">Data Structures &amp; Algo</text>
-      <text class="ce-sans" x="18" y="90" font-size="12.5" font-weight="600" fill="#00FF66">Trees, Graphs, Recursion</text>
-      <text class="ce-sans" x="18" y="112" font-size="11.5" fill="#88B99A">Dynamic Prog &amp; Complexity</text>
-      <g transform="translate(18, 134)">
-        <rect width="228" height="22" rx="4" fill="#00240E" stroke="#00FF66" stroke-width="0.8"/>
-        <text class="ce-mono" x="10" y="15" font-size="9.5" font-weight="700" fill="#00FF66">JAVA &amp; ALGORITHMS</text>
-      </g>
-    </g>
-    <g transform="translate(864, 0)">
-      <rect width="265" height="174" rx="12" fill="url(#ce-card-bg)" stroke="#00FF66" stroke-width="1.2" stroke-opacity="0.35"/>
-      <rect x="0" y="0" width="4" height="174" rx="2" fill="#05FFA1"/>
-      <text class="ce-mono" x="18" y="28" font-size="10" font-weight="700" letter-spacing="1.8" fill="#05FFA1">CORE JAVA · OOP</text>
-      <text class="ce-heading" x="18" y="64" font-size="16.5" fill="#E6FFF0">Programming using Java</text>
-      <text class="ce-sans" x="18" y="90" font-size="12.5" font-weight="600" fill="#05FFA1">OOP, Collections, Threads</text>
-      <text class="ce-sans" x="18" y="112" font-size="11.5" fill="#88B99A">JDBC, Exception Handling</text>
-      <g transform="translate(18, 134)">
-        <rect width="228" height="22" rx="4" fill="#00240E" stroke="#05FFA1" stroke-width="0.8"/>
-        <text class="ce-mono" x="10" y="15" font-size="9.5" font-weight="700" fill="#05FFA1">JAVA OOP &amp; ARCHITECTURE</text>
-      </g>
-    </g>
-  </g>
-
-  <!-- Row 2: 4 Cards -->
-  <g transform="translate(36, 206)">
-    <g transform="translate(0, 0)">
-      <rect width="265" height="174" rx="12" fill="url(#ce-card-bg)" stroke="#00FF66" stroke-width="1.2" stroke-opacity="0.35"/>
-      <rect x="0" y="0" width="4" height="174" rx="2" fill="#05FFA1"/>
-      <text class="ce-mono" x="18" y="28" font-size="10" font-weight="700" letter-spacing="1.8" fill="#05FFA1">DATABASE · SQL</text>
-      <text class="ce-heading" x="18" y="64" font-size="16.5" fill="#E6FFF0">Database Management</text>
-      <text class="ce-sans" x="18" y="90" font-size="12.5" font-weight="600" fill="#05FFA1">Advanced SQL &amp; ERD Design</text>
-      <text class="ce-sans" x="18" y="112" font-size="11.5" fill="#88B99A">Indexing, Tuning &amp; Concurrency</text>
-      <g transform="translate(18, 134)">
-        <rect width="228" height="22" rx="4" fill="#00240E" stroke="#05FFA1" stroke-width="0.8"/>
-        <text class="ce-mono" x="10" y="15" font-size="9.5" font-weight="700" fill="#05FFA1">RELATIONAL ARCHITECTURE</text>
-      </g>
-    </g>
-    <g transform="translate(288, 0)">
-      <rect width="265" height="174" rx="12" fill="url(#ce-card-bg)" stroke="#00FF66" stroke-width="1.2" stroke-opacity="0.35"/>
-      <rect x="0" y="0" width="4" height="174" rx="2" fill="#00FF66"/>
-      <text class="ce-mono" x="18" y="28" font-size="10" font-weight="700" letter-spacing="1.8" fill="#00FF66">CLOUD COMPUTING</text>
-      <text class="ce-heading" x="18" y="64" font-size="16.5" fill="#E6FFF0">Introduction to Cloud</text>
-      <text class="ce-sans" x="18" y="90" font-size="12.5" font-weight="600" fill="#00FF66">IaaS, PaaS, SaaS Models</text>
-      <text class="ce-sans" x="18" y="112" font-size="11.5" fill="#88B99A">Virtualization &amp; Microservices</text>
-      <g transform="translate(18, 134)">
-        <rect width="228" height="22" rx="4" fill="#00240E" stroke="#00FF66" stroke-width="0.8"/>
-        <text class="ce-mono" x="10" y="15" font-size="9.5" font-weight="700" fill="#00FF66">CLOUD ARCHITECTURE</text>
-      </g>
-    </g>
-    <g transform="translate(576, 0)">
-      <rect width="265" height="174" rx="12" fill="url(#ce-card-bg)" stroke="#00FF66" stroke-width="1.2" stroke-opacity="0.35"/>
-      <rect x="0" y="0" width="4" height="174" rx="2" fill="#05FFA1"/>
-      <text class="ce-mono" x="18" y="28" font-size="10" font-weight="700" letter-spacing="1.8" fill="#05FFA1">SOFTWARE ENGINEERING</text>
-      <text class="ce-heading" x="18" y="64" font-size="16.5" fill="#E6FFF0">Agile Software Dev</text>
-      <text class="ce-sans" x="18" y="90" font-size="12.5" font-weight="600" fill="#05FFA1">Scrum, Kanban, Sprint Life</text>
-      <text class="ce-sans" x="18" y="112" font-size="11.5" fill="#88B99A">SDLC &amp; Version Control (Git)</text>
-      <g transform="translate(18, 134)">
-        <rect width="228" height="22" rx="4" fill="#00240E" stroke="#05FFA1" stroke-width="0.8"/>
-        <text class="ce-mono" x="10" y="15" font-size="9.5" font-weight="700" fill="#05FFA1">AGILE PRACTITIONER</text>
-      </g>
-    </g>
-    <g transform="translate(864, 0)">
-      <rect width="265" height="174" rx="12" fill="url(#ce-card-bg)" stroke="#00FF66" stroke-width="1.2" stroke-opacity="0.35"/>
-      <rect x="0" y="0" width="4" height="174" rx="2" fill="#00FF66"/>
-      <text class="ce-mono" x="18" y="28" font-size="10" font-weight="700" letter-spacing="1.8" fill="#00FF66">TCS · FORAGE</text>
-      <text class="ce-heading" x="18" y="64" font-size="16.5" fill="#E6FFF0">TCS ESG Experience</text>
-      <text class="ce-sans" x="18" y="90" font-size="12.5" font-weight="600" fill="#00FF66">Governance &amp; Sustainability</text>
-      <text class="ce-sans" x="18" y="112" font-size="11.5" fill="#88B99A">Risk Mgmt &amp; Compliance</text>
-      <g transform="translate(18, 134)">
-        <rect width="228" height="22" rx="4" fill="#00240E" stroke="#00FF66" stroke-width="0.8"/>
-        <text class="ce-mono" x="10" y="15" font-size="9.5" font-weight="700" fill="#00FF66">TATA CONSULTANCY SERVICES</text>
-      </g>
-    </g>
-  </g>
-
-  <!-- Row 3: 5 DISTINCT EARNED BADGE CHIPS -->
-  <g transform="translate(36, 400)">
-    <rect width="1128" height="74" rx="12" fill="url(#ce-badge-bg)" stroke="#00FF66" stroke-width="1" stroke-opacity="0.4"/>
-    <text class="ce-mono" x="22" y="24" font-size="10" font-weight="700" letter-spacing="2" fill="#00FF66">VERIFIED BADGES &amp; ACCOLADES</text>
-
-    <!-- 5 Badge Chips -->
-    <g transform="translate(22, 34)">
-      <g transform="translate(0, 0)">
-        <rect width="210" height="28" rx="6" fill="#020C05" stroke="#00FF66" stroke-width="0.9"/>
-        <text class="ce-mono" x="12" y="18" font-size="10" font-weight="700" fill="#00FF66">🛡️ Google Cyber 98.81%</text>
-      </g>
-      <g transform="translate(222, 0)">
-        <rect width="200" height="28" rx="6" fill="#020C05" stroke="#05FFA1" stroke-width="0.9"/>
-        <text class="ce-mono" x="12" y="18" font-size="10" font-weight="700" fill="#05FFA1">📄 IJNRD Author (2025)</text>
-      </g>
-      <g transform="translate(434, 0)">
-        <rect width="210" height="28" rx="6" fill="#020C05" stroke="#00FF66" stroke-width="0.9"/>
-        <text class="ce-mono" x="12" y="18" font-size="10" font-weight="700" fill="#00FF66">☕ Java &amp; DSA Specialist</text>
-      </g>
-      <g transform="translate(656, 0)">
-        <rect width="216" height="28" rx="6" fill="#020C05" stroke="#05FFA1" stroke-width="0.9"/>
-        <text class="ce-mono" x="12" y="18" font-size="10" font-weight="700" fill="#05FFA1">☁️ Cloud Computing</text>
-      </g>
-      <g transform="translate(884, 0)">
-        <rect width="200" height="28" rx="6" fill="#020C05" stroke="#00FF66" stroke-width="0.9"/>
-        <text class="ce-mono" x="12" y="18" font-size="10" font-weight="700" fill="#00FF66">🤝 TCS Forage ESG</text>
-      </g>
-    </g>
-  </g>
+  <g class="ce-tile" style="animation-delay:0.20s"><g transform="translate(40 40)">
+    <rect width="265" height="170" rx="14" fill="#020D05" stroke="#00FF66" stroke-opacity=".24"/>
+    <rect width="265" height="170" rx="14" fill="none" stroke="url(#ce-edge)" stroke-width="1.2" class="ce-edge" style="animation-delay:2.00s"/>
+    <text class="ce-mono" x="22" y="36" font-size="11.5" letter-spacing="2.6" fill="#00FF66">GOOGLE</text>
+    <circle cx="238" cy="31" r="3.5" fill="#00FF66"/><circle cx="227" cy="31" r="3.5" fill="#00FF66"/>
+    <line x1="22" y1="54" x2="243" y2="54" stroke="#00FF66" stroke-opacity=".15"/>
+    <text class="ce-sans" x="22" y="86" font-size="14" fill="#E6FFF0">Google Cybersecurity</text><text class="ce-sans" x="22" y="108" font-size="14" fill="#E6FFF0">Professional Certificate</text><text class="ce-sans" x="22" y="130" font-size="14" fill="#00FF66">98.81% Aggregate Score</text>
+  </g></g>
+  <g class="ce-tile" style="animation-delay:0.32s"><g transform="translate(325 40)">
+    <rect width="265" height="170" rx="14" fill="#020D05" stroke="#00FF66" stroke-opacity=".24"/>
+    <rect width="265" height="170" rx="14" fill="none" stroke="url(#ce-edge)" stroke-width="1.2" class="ce-edge" style="animation-delay:2.35s"/>
+    <text class="ce-mono" x="22" y="36" font-size="11.5" letter-spacing="2.6" fill="#00FF66">CISCO</text>
+    <circle cx="238" cy="31" r="3.5" fill="#00FF66"/><circle cx="227" cy="31" r="3.5" fill="#00FF66"/>
+    <line x1="22" y1="54" x2="243" y2="54" stroke="#00FF66" stroke-opacity=".15"/>
+    <text class="ce-sans" x="22" y="86" font-size="14" fill="#E6FFF0">Cybersecurity Essentials</text><text class="ce-sans" x="22" y="108" font-size="14" fill="#E6FFF0">Network Defense &amp; Threat Intel</text><text class="ce-sans" x="22" y="130" font-size="14" fill="#88B99A">Packet Tracer &amp; Forensics</text>
+  </g></g>
+  <g class="ce-tile" style="animation-delay:0.44s"><g transform="translate(610 40)">
+    <rect width="265" height="170" rx="14" fill="#020D05" stroke="#00FF66" stroke-opacity=".24"/>
+    <rect width="265" height="170" rx="14" fill="none" stroke="url(#ce-edge)" stroke-width="1.2" class="ce-edge" style="animation-delay:2.70s"/>
+    <text class="ce-mono" x="22" y="36" font-size="11.5" letter-spacing="2.6" fill="#00FF66">ORACLE &amp; JAVA</text>
+    <circle cx="238" cy="31" r="3.5" fill="#00FF66"/><circle cx="227" cy="31" r="3.5" fill="#00FF66"/>
+    <line x1="22" y1="54" x2="243" y2="54" stroke="#00FF66" stroke-opacity=".15"/>
+    <text class="ce-sans" x="22" y="86" font-size="14" fill="#E6FFF0">Java Foundations Certified</text><text class="ce-sans" x="22" y="108" font-size="14" fill="#E6FFF0">Object-Oriented Programming</text><text class="ce-sans" x="22" y="130" font-size="14" fill="#05FFA1">Data Structures &amp; Algorithms</text>
+  </g></g>
+  <g class="ce-tile" style="animation-delay:0.56s"><g transform="translate(895 40)">
+    <rect width="265" height="170" rx="14" fill="#020D05" stroke="#00FF66" stroke-opacity=".24"/>
+    <rect width="265" height="170" rx="14" fill="none" stroke="url(#ce-edge)" stroke-width="1.2" class="ce-edge" style="animation-delay:3.05s"/>
+    <text class="ce-mono" x="22" y="36" font-size="11.5" letter-spacing="2.6" fill="#00FF66">DATABASE &amp; SQL</text>
+    <circle cx="238" cy="31" r="3.5" fill="#00FF66"/><circle cx="227" cy="31" r="3.5" fill="#00FF66"/>
+    <line x1="22" y1="54" x2="243" y2="54" stroke="#00FF66" stroke-opacity=".15"/>
+    <text class="ce-sans" x="22" y="86" font-size="14" fill="#E6FFF0">Database Management Systems</text><text class="ce-sans" x="22" y="108" font-size="14" fill="#E6FFF0">Relational Schema Design</text><text class="ce-sans" x="22" y="130" font-size="14" fill="#88B99A">SQL Indexing &amp; Queries</text>
+  </g></g>
+  <g class="ce-tile" style="animation-delay:0.68s"><g transform="translate(40 230)">
+    <rect width="265" height="170" rx="14" fill="#020D05" stroke="#00FF66" stroke-opacity=".24"/>
+    <rect width="265" height="170" rx="14" fill="none" stroke="url(#ce-edge)" stroke-width="1.2" class="ce-edge" style="animation-delay:3.40s"/>
+    <text class="ce-mono" x="22" y="36" font-size="11.5" letter-spacing="2.6" fill="#00FF66">CLOUD &amp; DEVOPS</text>
+    <circle cx="238" cy="31" r="3.5" fill="#00FF66"/><circle cx="227" cy="31" r="3.5" fill="#00FF66"/>
+    <line x1="22" y1="54" x2="243" y2="54" stroke="#00FF66" stroke-opacity=".15"/>
+    <text class="ce-sans" x="22" y="86" font-size="14" fill="#E6FFF0">Cloud Computing Fundamentals</text><text class="ce-sans" x="22" y="108" font-size="14" fill="#E6FFF0">Docker &amp; Containerization</text><text class="ce-sans" x="22" y="130" font-size="14" fill="#00FF66">AWS Architecture Basics</text>
+  </g></g>
+  <g class="ce-tile" style="animation-delay:0.80s"><g transform="translate(325 230)">
+    <rect width="265" height="170" rx="14" fill="#020D05" stroke="#00FF66" stroke-opacity=".24"/>
+    <rect width="265" height="170" rx="14" fill="none" stroke="url(#ce-edge)" stroke-width="1.2" class="ce-edge" style="animation-delay:3.75s"/>
+    <text class="ce-mono" x="22" y="36" font-size="11.5" letter-spacing="2.6" fill="#00FF66">RESEARCH</text>
+    <circle cx="238" cy="31" r="3.5" fill="#00FF66"/><circle cx="227" cy="31" r="3.5" fill="#00FF66"/>
+    <line x1="22" y1="54" x2="243" y2="54" stroke="#00FF66" stroke-opacity=".15"/>
+    <text class="ce-sans" x="22" y="86" font-size="14" fill="#E6FFF0">IJNRD Published Author</text><text class="ce-sans" x="22" y="108" font-size="14" fill="#E6FFF0">May 2025 · Volume 10 Issue 5</text><text class="ce-sans" x="22" y="130" font-size="14" fill="#05FFA1">Health Management &amp; AI</text>
+  </g></g>
+  <g class="ce-tile" style="animation-delay:0.92s"><g transform="translate(610 230)">
+    <rect width="265" height="170" rx="14" fill="#020D05" stroke="#00FF66" stroke-opacity=".24"/>
+    <rect width="265" height="170" rx="14" fill="none" stroke="url(#ce-edge)" stroke-width="1.2" class="ce-edge" style="animation-delay:4.10s"/>
+    <text class="ce-mono" x="22" y="36" font-size="11.5" letter-spacing="2.6" fill="#00FF66">SOFTWARE ENG</text>
+    <circle cx="238" cy="31" r="3.5" fill="#00FF66"/><circle cx="227" cy="31" r="3.5" fill="#00FF66"/>
+    <line x1="22" y1="54" x2="243" y2="54" stroke="#00FF66" stroke-opacity=".15"/>
+    <text class="ce-sans" x="22" y="86" font-size="14" fill="#E6FFF0">Agile Software Engineering</text><text class="ce-sans" x="22" y="108" font-size="14" fill="#E6FFF0">Scrum &amp; Sprint Workflows</text><text class="ce-sans" x="22" y="130" font-size="14" fill="#88B99A">REST APIs &amp; Microservices</text>
+  </g></g>
+  <g class="ce-tile" style="animation-delay:1.04s"><g transform="translate(895 230)">
+    <rect width="265" height="170" rx="14" fill="#020D05" stroke="#00FF66" stroke-opacity=".24"/>
+    <rect width="265" height="170" rx="14" fill="none" stroke="url(#ce-edge)" stroke-width="1.2" class="ce-edge" style="animation-delay:4.45s"/>
+    <text class="ce-mono" x="22" y="36" font-size="11.5" letter-spacing="2.6" fill="#00FF66">INDUSTRY TRACK</text>
+    <circle cx="238" cy="31" r="3.5" fill="#00FF66"/><circle cx="227" cy="31" r="3.5" fill="#00FF66"/><circle cx="216" cy="31" r="3.5" fill="#00FF66"/>
+    <line x1="22" y1="54" x2="243" y2="54" stroke="#00FF66" stroke-opacity=".15"/>
+    <text class="ce-sans" x="22" y="86" font-size="14" fill="#E6FFF0">Axcentra SWE Trainee</text><text class="ce-sans" x="22" y="108" font-size="14" fill="#E6FFF0">Devtown Full-Stack MERN</text><text class="ce-sans" x="22" y="130" font-size="14" fill="#00FF66">Codsoft Java Developer</text>
+  </g></g>
 </svg>
