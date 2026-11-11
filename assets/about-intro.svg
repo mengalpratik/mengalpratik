@@ -54,14 +54,14 @@
       </text>
     </g>
 
-    <!-- 3 Bottom Focus Highlight Cards -->
+    <!-- 3 Bottom Focus Highlight Cards (Optimized 19.5px font size for zero text wrapping) -->
     <g transform="translate(32, 236)">
       <!-- Card 1 -->
       <g class="ab-card" transform="translate(0, 0)">
         <rect width="338" height="126" rx="12" fill="#030C05" stroke="#00FF66" stroke-width="1" stroke-opacity="0.35"/>
         <rect x="0" y="0" width="4" height="126" rx="2" fill="#00FF66"/>
         <text class="ab-mono" x="20" y="30" font-size="10.5" font-weight="700" letter-spacing="2" fill="#00FF66">CORE LANGUAGES</text>
-        <text class="ab-heading" x="20" y="66" font-size="24" fill="#E6FFF0">Java · Python · TypeScript</text>
+        <text class="ab-heading" x="20" y="65" font-size="19.5" letter-spacing="-0.3" fill="#E6FFF0">Java · Python · TypeScript</text>
         <text class="ab-sans" x="20" y="94" font-size="13" fill="#88B99A">JavaScript (ES6+) · SQL · C/C++</text>
       </g>
 
@@ -70,7 +70,7 @@
         <rect width="338" height="126" rx="12" fill="#030C05" stroke="#00FF66" stroke-width="1" stroke-opacity="0.35"/>
         <rect x="0" y="0" width="4" height="126" rx="2" fill="#05FFA1"/>
         <text class="ab-mono" x="20" y="30" font-size="10.5" font-weight="700" letter-spacing="2" fill="#05FFA1">ARCHITECTURE &amp; MERN</text>
-        <text class="ab-heading" x="20" y="66" font-size="24" fill="#E6FFF0">React · Node.js · Express</text>
+        <text class="ab-heading" x="20" y="65" font-size="19.5" letter-spacing="-0.3" fill="#E6FFF0">React · Node.js · Express</text>
         <text class="ab-sans" x="20" y="94" font-size="13" fill="#88B99A">MongoDB · REST APIs · Docker · JWT</text>
       </g>
 
@@ -79,7 +79,7 @@
         <rect width="338" height="126" rx="12" fill="#030C05" stroke="#00FF66" stroke-width="1" stroke-opacity="0.35"/>
         <rect x="0" y="0" width="4" height="126" rx="2" fill="#00FF66"/>
         <text class="ab-mono" x="20" y="30" font-size="10.5" font-weight="700" letter-spacing="2" fill="#00FF66">SECURITY &amp; AI</text>
-        <text class="ab-heading" x="20" y="66" font-size="24" fill="#E6FFF0">Google Cyber (98.81%)</text>
+        <text class="ab-heading" x="20" y="65" font-size="19.5" letter-spacing="-0.3" fill="#E6FFF0">Google Cyber (98.81%)</text>
         <text class="ab-sans" x="20" y="94" font-size="13" fill="#88B99A">Threat Mitigation · LLMs · Forensics</text>
       </g>
     </g>

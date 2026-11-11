@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 500" width="1200" height="500" role="img" aria-labelledby="tc-title tc-desc">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 440" width="1200" height="440" role="img" aria-labelledby="tc-title tc-desc">
   <title id="tc-title">Tech Stack Constellation</title>
   <desc id="tc-desc">Languages: TypeScript, Python, Java, JavaScript, C/C++. AI/ML: LLMs, LangChain, Neural Networks, PyTorch. Frontend: React, Next.js, Tailwind CSS. Backend: Node.js, Express, FastAPI, REST, WebSockets, JWT. Data &amp; Cloud: MongoDB, PostgreSQL, Docker, AWS, Redis. DevOps &amp; Tools: Git, GitHub Actions, Linux CLI, Postman.</desc>
   <defs>
@@ -16,88 +16,88 @@
     .tc-mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", "Fira Code", monospace; }
     .tc-heading { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Fira Code", monospace; font-weight: 700; }
     .tc-sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif; }
-    .tc-trace { stroke-dasharray: 180 940; animation: tc-trace 7s linear infinite; }
-    @keyframes tc-trace { to { stroke-dashoffset: -1120; } }
+    .tc-trace { stroke-dasharray: 180 880; animation: tc-trace 7s linear infinite; }
+    @keyframes tc-trace { to { stroke-dashoffset: -1060; } }
     @media (prefers-reduced-motion: reduce) { .tc-trace { animation: none; } }
   </style>
 
-  <rect width="1200" height="500" fill="#000000"/>
+  <rect width="1200" height="440" fill="#000000"/>
 
   <!-- Row 1: 3 Panels -->
-  <g transform="translate(32, 20)">
+  <g transform="translate(32, 16)">
     <!-- Panel 1: Languages -->
     <g transform="translate(0, 0)">
-      <rect width="360" height="214" rx="14" fill="#040F06" stroke="#00FF66" stroke-width="1" stroke-opacity="0.3"/>
-      <rect width="360" height="214" rx="14" fill="url(#tc-panel-glow)"/>
-      <rect class="tc-trace" width="360" height="214" rx="14" fill="none" stroke="url(#tc-trace)" stroke-width="1.4"/>
-      <text class="tc-mono" x="24" y="38" font-size="11" font-weight="700" letter-spacing="2.4" fill="#00FF66">01 // LANGUAGES</text>
-      <text class="tc-heading" x="24" y="86" font-size="30" fill="#E6FFF0">Java · Python</text>
-      <text class="tc-heading" x="24" y="126" font-size="24" fill="#05FFA1">JavaScript · TypeScript</text>
-      <text class="tc-sans" x="24" y="162" font-size="16" fill="#88B99A">SQL · Bash · C / C++</text>
-      <text class="tc-mono" x="24" y="190" font-size="10" letter-spacing="1.2" fill="#72A884">DATA STRUCTURES &amp; ALGORITHMS</text>
+      <rect width="360" height="190" rx="12" fill="#040F06" stroke="#00FF66" stroke-width="1" stroke-opacity="0.3"/>
+      <rect width="360" height="190" rx="12" fill="url(#tc-panel-glow)"/>
+      <rect class="tc-trace" width="360" height="190" rx="12" fill="none" stroke="url(#tc-trace)" stroke-width="1.4"/>
+      <text class="tc-mono" x="22" y="32" font-size="10.5" font-weight="700" letter-spacing="2" fill="#00FF66">01 // LANGUAGES</text>
+      <text class="tc-heading" x="22" y="74" font-size="24" fill="#E6FFF0">Java · Python</text>
+      <text class="tc-heading" x="22" y="110" font-size="19" fill="#05FFA1">JavaScript · TypeScript</text>
+      <text class="tc-sans" x="22" y="142" font-size="13.5" fill="#88B99A">SQL · Bash · C / C++</text>
+      <text class="tc-mono" x="22" y="168" font-size="10" letter-spacing="1.2" fill="#72A884">DATA STRUCTURES &amp; ALGORITHMS</text>
     </g>
 
     <!-- Panel 2: Cybersecurity & Forensics -->
     <g transform="translate(398, 0)">
-      <rect width="360" height="214" rx="14" fill="#040F06" stroke="#00FF66" stroke-width="1" stroke-opacity="0.3"/>
-      <rect width="360" height="214" rx="14" fill="url(#tc-panel-glow)"/>
-      <rect class="tc-trace" style="animation-delay: -1.2s;" width="360" height="214" rx="14" fill="none" stroke="url(#tc-trace)" stroke-width="1.4"/>
-      <text class="tc-mono" x="24" y="38" font-size="11" font-weight="700" letter-spacing="2.4" fill="#05FFA1">02 // CYBERSECURITY &amp; FORENSICS</text>
-      <text class="tc-heading" x="24" y="86" font-size="28" fill="#E6FFF0">Google Cyber (98.8%)</text>
-      <text class="tc-heading" x="24" y="126" font-size="22" fill="#00FF66">Network Defense · Linux/SQL</text>
-      <text class="tc-sans" x="24" y="162" font-size="16" fill="#88B99A">Threat Mitigation · Python SIEM</text>
-      <text class="tc-mono" x="24" y="190" font-size="10" letter-spacing="1.2" fill="#72A884">VULNERABILITY ASSESSMENT · SOC</text>
+      <rect width="360" height="190" rx="12" fill="#040F06" stroke="#00FF66" stroke-width="1" stroke-opacity="0.3"/>
+      <rect width="360" height="190" rx="12" fill="url(#tc-panel-glow)"/>
+      <rect class="tc-trace" style="animation-delay: -1.2s;" width="360" height="190" rx="12" fill="none" stroke="url(#tc-trace)" stroke-width="1.4"/>
+      <text class="tc-mono" x="22" y="32" font-size="10.5" font-weight="700" letter-spacing="2" fill="#05FFA1">02 // CYBERSECURITY &amp; FORENSICS</text>
+      <text class="tc-heading" x="22" y="74" font-size="23" fill="#E6FFF0">Google Cyber (98.8%)</text>
+      <text class="tc-heading" x="22" y="110" font-size="18" fill="#00FF66">Network Defense · Linux/SQL</text>
+      <text class="tc-sans" x="22" y="142" font-size="13.5" fill="#88B99A">Threat Mitigation · Python SIEM</text>
+      <text class="tc-mono" x="22" y="168" font-size="10" letter-spacing="1.2" fill="#72A884">VULNERABILITY ASSESSMENT · SOC</text>
     </g>
 
     <!-- Panel 3: Frontend -->
     <g transform="translate(796, 0)">
-      <rect width="360" height="214" rx="14" fill="#040F06" stroke="#00FF66" stroke-width="1" stroke-opacity="0.3"/>
-      <rect width="360" height="214" rx="14" fill="url(#tc-panel-glow)"/>
-      <rect class="tc-trace" style="animation-delay: -2.4s;" width="360" height="214" rx="14" fill="none" stroke="url(#tc-trace)" stroke-width="1.4"/>
-      <text class="tc-mono" x="24" y="38" font-size="11" font-weight="700" letter-spacing="2.4" fill="#00FF66">03 // FRONTEND</text>
-      <text class="tc-heading" x="24" y="86" font-size="34" fill="#E6FFF0">React · Next.js</text>
-      <text class="tc-heading" x="24" y="126" font-size="24" fill="#05FFA1">Tailwind CSS · Redux</text>
-      <text class="tc-sans" x="24" y="162" font-size="16" fill="#88B99A">HTML5 · CSS3 · Modern UI</text>
-      <text class="tc-mono" x="24" y="190" font-size="10" letter-spacing="1.2" fill="#72A884">RESPONSIVE DESIGN · STATE MGMT</text>
+      <rect width="360" height="190" rx="12" fill="#040F06" stroke="#00FF66" stroke-width="1" stroke-opacity="0.3"/>
+      <rect width="360" height="190" rx="12" fill="url(#tc-panel-glow)"/>
+      <rect class="tc-trace" style="animation-delay: -2.4s;" width="360" height="190" rx="12" fill="none" stroke="url(#tc-trace)" stroke-width="1.4"/>
+      <text class="tc-mono" x="22" y="32" font-size="10.5" font-weight="700" letter-spacing="2" fill="#00FF66">03 // FRONTEND</text>
+      <text class="tc-heading" x="22" y="74" font-size="25" fill="#E6FFF0">React · Next.js</text>
+      <text class="tc-heading" x="22" y="110" font-size="19" fill="#05FFA1">Tailwind CSS · Redux</text>
+      <text class="tc-sans" x="22" y="142" font-size="13.5" fill="#88B99A">HTML5 · CSS3 · Modern UI</text>
+      <text class="tc-mono" x="22" y="168" font-size="10" letter-spacing="1.2" fill="#72A884">RESPONSIVE DESIGN · STATE MGMT</text>
     </g>
   </g>
 
   <!-- Row 2: 3 Panels -->
-  <g transform="translate(32, 256)">
+  <g transform="translate(32, 226)">
     <!-- Panel 4: Backend & APIs -->
     <g transform="translate(0, 0)">
-      <rect width="360" height="214" rx="14" fill="#040F06" stroke="#00FF66" stroke-width="1" stroke-opacity="0.3"/>
-      <rect width="360" height="214" rx="14" fill="url(#tc-panel-glow)"/>
-      <rect class="tc-trace" style="animation-delay: -3.6s;" width="360" height="214" rx="14" fill="none" stroke="url(#tc-trace)" stroke-width="1.4"/>
-      <text class="tc-mono" x="24" y="38" font-size="11" font-weight="700" letter-spacing="2.4" fill="#00FF66">04 // BACKEND &amp; APIS</text>
-      <text class="tc-heading" x="24" y="86" font-size="28" fill="#E6FFF0">Node.js · Express</text>
-      <text class="tc-heading" x="24" y="126" font-size="22" fill="#05FFA1">FastAPI · RESTful APIs</text>
-      <text class="tc-sans" x="24" y="162" font-size="16" fill="#88B99A">WebSockets · Microservices</text>
-      <text class="tc-mono" x="24" y="190" font-size="10" letter-spacing="1.2" fill="#72A884">JWT AUTH · RBAC SECURITY · CORS</text>
+      <rect width="360" height="190" rx="12" fill="#040F06" stroke="#00FF66" stroke-width="1" stroke-opacity="0.3"/>
+      <rect width="360" height="190" rx="12" fill="url(#tc-panel-glow)"/>
+      <rect class="tc-trace" style="animation-delay: -3.6s;" width="360" height="190" rx="12" fill="none" stroke="url(#tc-trace)" stroke-width="1.4"/>
+      <text class="tc-mono" x="22" y="32" font-size="10.5" font-weight="700" letter-spacing="2" fill="#00FF66">04 // BACKEND &amp; APIS</text>
+      <text class="tc-heading" x="22" y="74" font-size="24" fill="#E6FFF0">Node.js · Express</text>
+      <text class="tc-heading" x="22" y="110" font-size="18.5" fill="#05FFA1">FastAPI · RESTful APIs</text>
+      <text class="tc-sans" x="22" y="142" font-size="13.5" fill="#88B99A">WebSockets · Microservices</text>
+      <text class="tc-mono" x="22" y="168" font-size="10" letter-spacing="1.2" fill="#72A884">JWT AUTH · RBAC SECURITY · CORS</text>
     </g>
 
     <!-- Panel 5: Data & Cloud -->
     <g transform="translate(398, 0)">
-      <rect width="360" height="214" rx="14" fill="#040F06" stroke="#00FF66" stroke-width="1" stroke-opacity="0.3"/>
-      <rect width="360" height="214" rx="14" fill="url(#tc-panel-glow)"/>
-      <rect class="tc-trace" style="animation-delay: -4.8s;" width="360" height="214" rx="14" fill="none" stroke="url(#tc-trace)" stroke-width="1.4"/>
-      <text class="tc-mono" x="24" y="38" font-size="11" font-weight="700" letter-spacing="2.4" fill="#05FFA1">05 // DATA &amp; CLOUD</text>
-      <text class="tc-heading" x="24" y="86" font-size="26" fill="#E6FFF0">MongoDB · PostgreSQL</text>
-      <text class="tc-heading" x="24" y="126" font-size="22" fill="#00FF66">Docker · AWS Cloud</text>
-      <text class="tc-sans" x="24" y="162" font-size="16" fill="#88B99A">MySQL · Redis Caching</text>
-      <text class="tc-mono" x="24" y="190" font-size="10" letter-spacing="1.2" fill="#72A884">SCHEMA DESIGN · NORMALIZATION · CI</text>
+      <rect width="360" height="190" rx="12" fill="#040F06" stroke="#00FF66" stroke-width="1" stroke-opacity="0.3"/>
+      <rect width="360" height="190" rx="12" fill="url(#tc-panel-glow)"/>
+      <rect class="tc-trace" style="animation-delay: -4.8s;" width="360" height="190" rx="12" fill="none" stroke="url(#tc-trace)" stroke-width="1.4"/>
+      <text class="tc-mono" x="22" y="32" font-size="10.5" font-weight="700" letter-spacing="2" fill="#05FFA1">05 // DATA &amp; CLOUD</text>
+      <text class="tc-heading" x="22" y="74" font-size="23" fill="#E6FFF0">MongoDB · PostgreSQL</text>
+      <text class="tc-heading" x="22" y="110" font-size="18.5" fill="#00FF66">Docker · AWS Cloud</text>
+      <text class="tc-sans" x="22" y="142" font-size="13.5" fill="#88B99A">MySQL · Redis Caching</text>
+      <text class="tc-mono" x="22" y="168" font-size="10" letter-spacing="1.2" fill="#72A884">SCHEMA DESIGN · NORMALIZATION · CI</text>
     </g>
 
     <!-- Panel 6: DevOps & Tools -->
     <g transform="translate(796, 0)">
-      <rect width="360" height="214" rx="14" fill="#040F06" stroke="#00FF66" stroke-width="1" stroke-opacity="0.3"/>
-      <rect width="360" height="214" rx="14" fill="url(#tc-panel-glow)"/>
-      <rect class="tc-trace" style="animation-delay: -6.0s;" width="360" height="214" rx="14" fill="none" stroke="url(#tc-trace)" stroke-width="1.4"/>
-      <text class="tc-mono" x="24" y="38" font-size="11" font-weight="700" letter-spacing="2.4" fill="#00FF66">06 // DEVOPS &amp; TOOLS</text>
-      <text class="tc-heading" x="24" y="86" font-size="28" fill="#E6FFF0">Git · GitHub Actions</text>
-      <text class="tc-heading" x="24" y="126" font-size="22" fill="#05FFA1">Linux / Bash Scripting</text>
-      <text class="tc-sans" x="24" y="162" font-size="16" fill="#88B99A">Postman · VS Code · Agile Scrum</text>
-      <text class="tc-mono" x="24" y="190" font-size="10" letter-spacing="1.2" fill="#72A884">SYSTEM DESIGN · OOP · UNIT TESTS</text>
+      <rect width="360" height="190" rx="12" fill="#040F06" stroke="#00FF66" stroke-width="1" stroke-opacity="0.3"/>
+      <rect width="360" height="190" rx="12" fill="url(#tc-panel-glow)"/>
+      <rect class="tc-trace" style="animation-delay: -6.0s;" width="360" height="190" rx="12" fill="none" stroke="url(#tc-trace)" stroke-width="1.4"/>
+      <text class="tc-mono" x="22" y="32" font-size="10.5" font-weight="700" letter-spacing="2" fill="#00FF66">06 // DEVOPS &amp; TOOLS</text>
+      <text class="tc-heading" x="22" y="74" font-size="24" fill="#E6FFF0">Git · GitHub Actions</text>
+      <text class="tc-heading" x="22" y="110" font-size="18.5" fill="#05FFA1">Linux / Bash Scripting</text>
+      <text class="tc-sans" x="22" y="142" font-size="13.5" fill="#88B99A">Postman · VS Code · Agile Scrum</text>
+      <text class="tc-mono" x="22" y="168" font-size="10" letter-spacing="1.2" fill="#72A884">SYSTEM DESIGN · OOP · UNIT TESTS</text>
     </g>
   </g>
 </svg>

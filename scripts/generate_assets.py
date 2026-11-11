@@ -5,14 +5,16 @@ Enhanced with:
 - Exact verified certifications and earned badges from LinkedIn & Resume:
   * Google Cybersecurity Professional Certificate (98.81%)
   * Cyber Forensics & Threat Intelligence
-  * Data Structures & Algorithms using Java
+  * Data Structures & Algorithms using Java (500+ solved)
   * Programming using Java (Core & OOP)
   * Database Management System (DBMS & SQL)
-  * Introduction to Cloud Computing
+  * Introduction to Cloud Computing (IaaS/PaaS/SaaS)
   * Software Engineering & Agile Methodologies (Scrum)
   * TCS ESG Virtual Experience Program
   * Published Research Paper (IJNRD 2025)
-- Perfected vertical rhythm, compact HUD titles, and zero-gap alignment.
+- Compact project cards (viewBox 1200x270) with embedded [⚡ EXPLORE REPOSITORY ›] buttons.
+- Fully offline-resilient github-telemetry.svg replacing flaky 503 Vercel cards.
+- Perfected text wrapping, font scaling, and zero-collision layout.
 """
 
 import os
@@ -334,7 +336,7 @@ for filename, num, sub, heading, tag in titles:
     validate_svg(filename, svg)
 
 # -------------------------------------------------------------
-# 3. ABOUT INTRO SVG (1200x410)
+# 3. ABOUT INTRO SVG (1200x410) - POLISHED FONT SIZING & SPACING
 # -------------------------------------------------------------
 about_svg = '''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 410" width="1200" height="410" role="img" aria-labelledby="ab-title ab-desc">
   <title id="ab-title">About Pratik Mengal</title>
@@ -392,14 +394,14 @@ about_svg = '''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 410" wi
       </text>
     </g>
 
-    <!-- 3 Bottom Focus Highlight Cards -->
+    <!-- 3 Bottom Focus Highlight Cards (Optimized 19.5px font size for zero text wrapping) -->
     <g transform="translate(32, 236)">
       <!-- Card 1 -->
       <g class="ab-card" transform="translate(0, 0)">
         <rect width="338" height="126" rx="12" fill="#030C05" stroke="#00FF66" stroke-width="1" stroke-opacity="0.35"/>
         <rect x="0" y="0" width="4" height="126" rx="2" fill="#00FF66"/>
         <text class="ab-mono" x="20" y="30" font-size="10.5" font-weight="700" letter-spacing="2" fill="#00FF66">CORE LANGUAGES</text>
-        <text class="ab-heading" x="20" y="66" font-size="24" fill="#E6FFF0">Java · Python · TypeScript</text>
+        <text class="ab-heading" x="20" y="65" font-size="19.5" letter-spacing="-0.3" fill="#E6FFF0">Java · Python · TypeScript</text>
         <text class="ab-sans" x="20" y="94" font-size="13" fill="#88B99A">JavaScript (ES6+) · SQL · C/C++</text>
       </g>
 
@@ -408,7 +410,7 @@ about_svg = '''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 410" wi
         <rect width="338" height="126" rx="12" fill="#030C05" stroke="#00FF66" stroke-width="1" stroke-opacity="0.35"/>
         <rect x="0" y="0" width="4" height="126" rx="2" fill="#05FFA1"/>
         <text class="ab-mono" x="20" y="30" font-size="10.5" font-weight="700" letter-spacing="2" fill="#05FFA1">ARCHITECTURE &amp; MERN</text>
-        <text class="ab-heading" x="20" y="66" font-size="24" fill="#E6FFF0">React · Node.js · Express</text>
+        <text class="ab-heading" x="20" y="65" font-size="19.5" letter-spacing="-0.3" fill="#E6FFF0">React · Node.js · Express</text>
         <text class="ab-sans" x="20" y="94" font-size="13" fill="#88B99A">MongoDB · REST APIs · Docker · JWT</text>
       </g>
 
@@ -417,7 +419,7 @@ about_svg = '''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 410" wi
         <rect width="338" height="126" rx="12" fill="#030C05" stroke="#00FF66" stroke-width="1" stroke-opacity="0.35"/>
         <rect x="0" y="0" width="4" height="126" rx="2" fill="#00FF66"/>
         <text class="ab-mono" x="20" y="30" font-size="10.5" font-weight="700" letter-spacing="2" fill="#00FF66">SECURITY &amp; AI</text>
-        <text class="ab-heading" x="20" y="66" font-size="24" fill="#E6FFF0">Google Cyber (98.81%)</text>
+        <text class="ab-heading" x="20" y="65" font-size="19.5" letter-spacing="-0.3" fill="#E6FFF0">Google Cyber (98.81%)</text>
         <text class="ab-sans" x="20" y="94" font-size="13" fill="#88B99A">Threat Mitigation · LLMs · Forensics</text>
       </g>
     </g>
@@ -539,8 +541,8 @@ achievement_svg = '''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 4
     <g transform="translate(690, 0)">
       <circle cx="12" cy="12" r="3.5" fill="#05FFA1"/>
       <text class="ach-mono" x="24" y="16" font-size="11" font-weight="700" letter-spacing="2" fill="#05FFA1">REPOSITORIES</text>
-      <text class="ach-heading" x="0" y="60" font-size="38" fill="#E6FFF0">23+</text>
-      <text x="0" y="84" fill="#88B99A">Active Repositories</text>
+      <text class="ach-heading" x="0" y="60" font-size="38" fill="#E6FFF0">24</text>
+      <text x="0" y="84" fill="#88B99A">Public Repositories</text>
       <text x="0" y="102" font-size="11" fill="#72A884">Open Source &amp; Systems</text>
     </g>
 
@@ -557,7 +559,7 @@ achievement_svg = '''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 4
 validate_svg("achievement-motif.svg", achievement_svg)
 
 # -------------------------------------------------------------
-# 5. PROJECT SVGs (COMPACT 1200x360)
+# 5. COMPACT PROJECT SVGs (1200x270) WITH EMBEDDED REPO BUTTON
 # -------------------------------------------------------------
 projects = [
     {
@@ -604,27 +606,27 @@ projects = [
 
 for p in projects:
     chips_xml = ""
-    cx = 56
+    cx = 50
     for chip in p["chips"]:
-        cw = len(chip) * 9 + 24
+        cw = len(chip) * 8.5 + 22
         chips_xml += f'''
-        <g transform="translate({cx}, 308)">
-          <rect width="{cw}" height="26" rx="13" fill="#041207" stroke="#00FF66" stroke-width="1" stroke-opacity="0.45"/>
-          <text class="p-mono" x="{cw/2}" y="17" text-anchor="middle" font-size="10.5" font-weight="600" fill="#00FF66">{chip}</text>
+        <g transform="translate({cx}, 208)">
+          <rect width="{cw}" height="24" rx="12" fill="#041207" stroke="#00FF66" stroke-width="0.9" stroke-opacity="0.45"/>
+          <text class="p-mono" x="{cw/2}" y="16" text-anchor="middle" font-size="10" font-weight="600" fill="#00FF66">{chip}</text>
         </g>'''
-        cx += cw + 12
+        cx += cw + 10
 
     metrics_xml = ""
-    mx = 56
+    mx = 50
     for val, lbl in p["metrics"]:
         metrics_xml += f'''
-        <g transform="translate({mx}, 258)">
-          <text class="p-heading" font-size="30" fill="#E6FFF0">{val}</text>
-          <text class="p-sans" y="24" font-size="12" fill="#88B99A">{lbl}</text>
+        <g transform="translate({mx}, 166)">
+          <text class="p-heading" font-size="22" fill="#E6FFF0">{val}</text>
+          <text class="p-sans" x="0" y="18" font-size="11" fill="#88B99A">{lbl}</text>
         </g>'''
-        mx += 220
+        mx += 175
 
-    svg = f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" width="1200" height="360" role="img" aria-labelledby="p-{p['num']}-t">
+    svg = f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 270" width="1200" height="270" role="img" aria-labelledby="p-{p['num']}-t">
   <title id="p-{p['num']}-t">{p['title']}: {p['desc']}</title>
   <defs>
     <linearGradient id="p-bg-{p['num']}" x1="0" y1="0" x2="1" y2="1">
@@ -632,7 +634,7 @@ for p in projects:
       <stop offset="100%" stop-color="#020603"/>
     </linearGradient>
     <radialGradient id="p-glow-{p['num']}" cx="85%" cy="30%" r="75%">
-      <stop offset="0" stop-color="#00FF66" stop-opacity="0.22"/>
+      <stop offset="0" stop-color="#00FF66" stop-opacity="0.2"/>
       <stop offset="100%" stop-color="#00FF66" stop-opacity="0"/>
     </radialGradient>
     <linearGradient id="p-trace-{p['num']}" x1="0" y1="0" x2="1" y2="1">
@@ -644,36 +646,52 @@ for p in projects:
     .p-mono {{ font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", "Fira Code", monospace; }}
     .p-heading {{ font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Fira Code", monospace; font-weight: 700; }}
     .p-sans {{ font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif; }}
-    .p-trace {{ stroke-dasharray: 200 1100; animation: p-trace 7s linear infinite; }}
-    @keyframes p-trace {{ to {{ stroke-dashoffset: -1300; }} }}
+    .p-trace {{ stroke-dasharray: 180 900; animation: p-trace 7s linear infinite; }}
+    @keyframes p-trace {{ to {{ stroke-dashoffset: -1080; }} }}
     @media (prefers-reduced-motion: reduce) {{ .p-trace {{ animation: none; }} }}
   </style>
 
-  <rect width="1200" height="360" fill="#000000"/>
+  <rect width="1200" height="270" fill="#000000"/>
 
   <g transform="translate(40, 10)">
-    <rect width="1120" height="336" rx="16" fill="url(#p-bg-{p['num']})" stroke="#00FF66" stroke-width="1.2" stroke-opacity="0.3"/>
-    <rect width="1120" height="336" rx="16" fill="url(#p-glow-{p['num']})"/>
-    <rect class="p-trace" width="1120" height="336" rx="16" fill="none" stroke="url(#p-trace-{p['num']})" stroke-width="1.4"/>
+    <rect width="1120" height="250" rx="14" fill="url(#p-bg-{p['num']})" stroke="#00FF66" stroke-width="1.2" stroke-opacity="0.3"/>
+    <rect width="1120" height="250" rx="14" fill="url(#p-glow-{p['num']})"/>
+    <rect class="p-trace" width="1120" height="250" rx="14" fill="none" stroke="url(#p-trace-{p['num']})" stroke-width="1.4"/>
 
-    <text class="p-mono" x="56" y="54" font-size="11.5" font-weight="700" letter-spacing="2.6" fill="#00FF66">{p['num']} · {p['category']}</text>
-    <text class="p-heading" x="54" y="106" font-size="42" letter-spacing="-1" fill="#E6FFF0">{p['title']}</text>
-    <text class="p-sans" x="56" y="142" font-size="15.5" fill="#88B99A">{p['desc']}</text>
+    <!-- Category Pill -->
+    <text class="p-mono" x="50" y="38" font-size="11" font-weight="700" letter-spacing="2.2" fill="#00FF66">{p['num']} · {p['category']}</text>
 
-    <text class="p-mono" x="56" y="178" font-size="12.5" fill="#E6FFF0">
+    <!-- Project Title -->
+    <text class="p-heading" x="48" y="76" font-size="34" letter-spacing="-0.8" fill="#E6FFF0">{p['title']}</text>
+
+    <!-- Description -->
+    <text class="p-sans" x="50" y="104" font-size="14" fill="#88B99A">{p['desc']}</text>
+
+    <!-- Built Tagline -->
+    <text class="p-mono" x="50" y="130" font-size="11.5" fill="#E6FFF0">
       <tspan fill="#05FFA1" font-weight="700">BUILT › </tspan>{p['built']}
     </text>
 
+    <!-- Metrics Column -->
     {metrics_xml}
+
+    <!-- Embedded Cyber Button at bottom right -->
+    <g transform="translate(860, 185)">
+      <rect width="210" height="38" rx="8" fill="#041A0B" stroke="#00FF66" stroke-width="1.2"/>
+      <rect x="0" y="0" width="3" height="38" rx="1.5" fill="#00FF66"/>
+      <text class="p-mono" x="18" y="24" font-size="11" font-weight="700" letter-spacing="1.5" fill="#00FF66">⚡ EXPLORE REPO ›</text>
+    </g>
+
+    <!-- Tech Stack Chips -->
     {chips_xml}
   </g>
 </svg>'''
     validate_svg(p["filename"], svg)
 
 # -------------------------------------------------------------
-# 6. TECH CONSTELLATION SVG (1200x500)
+# 6. TECH CONSTELLATION SVG (1200x440) - BALANCED TYPOGRAPHY
 # -------------------------------------------------------------
-tech_svg = '''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 500" width="1200" height="500" role="img" aria-labelledby="tc-title tc-desc">
+tech_svg = '''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 440" width="1200" height="440" role="img" aria-labelledby="tc-title tc-desc">
   <title id="tc-title">Tech Stack Constellation</title>
   <desc id="tc-desc">Languages: TypeScript, Python, Java, JavaScript, C/C++. AI/ML: LLMs, LangChain, Neural Networks, PyTorch. Frontend: React, Next.js, Tailwind CSS. Backend: Node.js, Express, FastAPI, REST, WebSockets, JWT. Data &amp; Cloud: MongoDB, PostgreSQL, Docker, AWS, Redis. DevOps &amp; Tools: Git, GitHub Actions, Linux CLI, Postman.</desc>
   <defs>
@@ -691,97 +709,97 @@ tech_svg = '''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 500" wid
     .tc-mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", "Fira Code", monospace; }
     .tc-heading { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Fira Code", monospace; font-weight: 700; }
     .tc-sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif; }
-    .tc-trace { stroke-dasharray: 180 940; animation: tc-trace 7s linear infinite; }
-    @keyframes tc-trace { to { stroke-dashoffset: -1120; } }
+    .tc-trace { stroke-dasharray: 180 880; animation: tc-trace 7s linear infinite; }
+    @keyframes tc-trace { to { stroke-dashoffset: -1060; } }
     @media (prefers-reduced-motion: reduce) { .tc-trace { animation: none; } }
   </style>
 
-  <rect width="1200" height="500" fill="#000000"/>
+  <rect width="1200" height="440" fill="#000000"/>
 
   <!-- Row 1: 3 Panels -->
-  <g transform="translate(32, 20)">
+  <g transform="translate(32, 16)">
     <!-- Panel 1: Languages -->
     <g transform="translate(0, 0)">
-      <rect width="360" height="214" rx="14" fill="#040F06" stroke="#00FF66" stroke-width="1" stroke-opacity="0.3"/>
-      <rect width="360" height="214" rx="14" fill="url(#tc-panel-glow)"/>
-      <rect class="tc-trace" width="360" height="214" rx="14" fill="none" stroke="url(#tc-trace)" stroke-width="1.4"/>
-      <text class="tc-mono" x="24" y="38" font-size="11" font-weight="700" letter-spacing="2.4" fill="#00FF66">01 // LANGUAGES</text>
-      <text class="tc-heading" x="24" y="86" font-size="30" fill="#E6FFF0">Java · Python</text>
-      <text class="tc-heading" x="24" y="126" font-size="24" fill="#05FFA1">JavaScript · TypeScript</text>
-      <text class="tc-sans" x="24" y="162" font-size="16" fill="#88B99A">SQL · Bash · C / C++</text>
-      <text class="tc-mono" x="24" y="190" font-size="10" letter-spacing="1.2" fill="#72A884">DATA STRUCTURES &amp; ALGORITHMS</text>
+      <rect width="360" height="190" rx="12" fill="#040F06" stroke="#00FF66" stroke-width="1" stroke-opacity="0.3"/>
+      <rect width="360" height="190" rx="12" fill="url(#tc-panel-glow)"/>
+      <rect class="tc-trace" width="360" height="190" rx="12" fill="none" stroke="url(#tc-trace)" stroke-width="1.4"/>
+      <text class="tc-mono" x="22" y="32" font-size="10.5" font-weight="700" letter-spacing="2" fill="#00FF66">01 // LANGUAGES</text>
+      <text class="tc-heading" x="22" y="74" font-size="24" fill="#E6FFF0">Java · Python</text>
+      <text class="tc-heading" x="22" y="110" font-size="19" fill="#05FFA1">JavaScript · TypeScript</text>
+      <text class="tc-sans" x="22" y="142" font-size="13.5" fill="#88B99A">SQL · Bash · C / C++</text>
+      <text class="tc-mono" x="22" y="168" font-size="10" letter-spacing="1.2" fill="#72A884">DATA STRUCTURES &amp; ALGORITHMS</text>
     </g>
 
     <!-- Panel 2: Cybersecurity & Forensics -->
     <g transform="translate(398, 0)">
-      <rect width="360" height="214" rx="14" fill="#040F06" stroke="#00FF66" stroke-width="1" stroke-opacity="0.3"/>
-      <rect width="360" height="214" rx="14" fill="url(#tc-panel-glow)"/>
-      <rect class="tc-trace" style="animation-delay: -1.2s;" width="360" height="214" rx="14" fill="none" stroke="url(#tc-trace)" stroke-width="1.4"/>
-      <text class="tc-mono" x="24" y="38" font-size="11" font-weight="700" letter-spacing="2.4" fill="#05FFA1">02 // CYBERSECURITY &amp; FORENSICS</text>
-      <text class="tc-heading" x="24" y="86" font-size="28" fill="#E6FFF0">Google Cyber (98.8%)</text>
-      <text class="tc-heading" x="24" y="126" font-size="22" fill="#00FF66">Network Defense · Linux/SQL</text>
-      <text class="tc-sans" x="24" y="162" font-size="16" fill="#88B99A">Threat Mitigation · Python SIEM</text>
-      <text class="tc-mono" x="24" y="190" font-size="10" letter-spacing="1.2" fill="#72A884">VULNERABILITY ASSESSMENT · SOC</text>
+      <rect width="360" height="190" rx="12" fill="#040F06" stroke="#00FF66" stroke-width="1" stroke-opacity="0.3"/>
+      <rect width="360" height="190" rx="12" fill="url(#tc-panel-glow)"/>
+      <rect class="tc-trace" style="animation-delay: -1.2s;" width="360" height="190" rx="12" fill="none" stroke="url(#tc-trace)" stroke-width="1.4"/>
+      <text class="tc-mono" x="22" y="32" font-size="10.5" font-weight="700" letter-spacing="2" fill="#05FFA1">02 // CYBERSECURITY &amp; FORENSICS</text>
+      <text class="tc-heading" x="22" y="74" font-size="23" fill="#E6FFF0">Google Cyber (98.8%)</text>
+      <text class="tc-heading" x="22" y="110" font-size="18" fill="#00FF66">Network Defense · Linux/SQL</text>
+      <text class="tc-sans" x="22" y="142" font-size="13.5" fill="#88B99A">Threat Mitigation · Python SIEM</text>
+      <text class="tc-mono" x="22" y="168" font-size="10" letter-spacing="1.2" fill="#72A884">VULNERABILITY ASSESSMENT · SOC</text>
     </g>
 
     <!-- Panel 3: Frontend -->
     <g transform="translate(796, 0)">
-      <rect width="360" height="214" rx="14" fill="#040F06" stroke="#00FF66" stroke-width="1" stroke-opacity="0.3"/>
-      <rect width="360" height="214" rx="14" fill="url(#tc-panel-glow)"/>
-      <rect class="tc-trace" style="animation-delay: -2.4s;" width="360" height="214" rx="14" fill="none" stroke="url(#tc-trace)" stroke-width="1.4"/>
-      <text class="tc-mono" x="24" y="38" font-size="11" font-weight="700" letter-spacing="2.4" fill="#00FF66">03 // FRONTEND</text>
-      <text class="tc-heading" x="24" y="86" font-size="34" fill="#E6FFF0">React · Next.js</text>
-      <text class="tc-heading" x="24" y="126" font-size="24" fill="#05FFA1">Tailwind CSS · Redux</text>
-      <text class="tc-sans" x="24" y="162" font-size="16" fill="#88B99A">HTML5 · CSS3 · Modern UI</text>
-      <text class="tc-mono" x="24" y="190" font-size="10" letter-spacing="1.2" fill="#72A884">RESPONSIVE DESIGN · STATE MGMT</text>
+      <rect width="360" height="190" rx="12" fill="#040F06" stroke="#00FF66" stroke-width="1" stroke-opacity="0.3"/>
+      <rect width="360" height="190" rx="12" fill="url(#tc-panel-glow)"/>
+      <rect class="tc-trace" style="animation-delay: -2.4s;" width="360" height="190" rx="12" fill="none" stroke="url(#tc-trace)" stroke-width="1.4"/>
+      <text class="tc-mono" x="22" y="32" font-size="10.5" font-weight="700" letter-spacing="2" fill="#00FF66">03 // FRONTEND</text>
+      <text class="tc-heading" x="22" y="74" font-size="25" fill="#E6FFF0">React · Next.js</text>
+      <text class="tc-heading" x="22" y="110" font-size="19" fill="#05FFA1">Tailwind CSS · Redux</text>
+      <text class="tc-sans" x="22" y="142" font-size="13.5" fill="#88B99A">HTML5 · CSS3 · Modern UI</text>
+      <text class="tc-mono" x="22" y="168" font-size="10" letter-spacing="1.2" fill="#72A884">RESPONSIVE DESIGN · STATE MGMT</text>
     </g>
   </g>
 
   <!-- Row 2: 3 Panels -->
-  <g transform="translate(32, 256)">
+  <g transform="translate(32, 226)">
     <!-- Panel 4: Backend & APIs -->
     <g transform="translate(0, 0)">
-      <rect width="360" height="214" rx="14" fill="#040F06" stroke="#00FF66" stroke-width="1" stroke-opacity="0.3"/>
-      <rect width="360" height="214" rx="14" fill="url(#tc-panel-glow)"/>
-      <rect class="tc-trace" style="animation-delay: -3.6s;" width="360" height="214" rx="14" fill="none" stroke="url(#tc-trace)" stroke-width="1.4"/>
-      <text class="tc-mono" x="24" y="38" font-size="11" font-weight="700" letter-spacing="2.4" fill="#00FF66">04 // BACKEND &amp; APIS</text>
-      <text class="tc-heading" x="24" y="86" font-size="28" fill="#E6FFF0">Node.js · Express</text>
-      <text class="tc-heading" x="24" y="126" font-size="22" fill="#05FFA1">FastAPI · RESTful APIs</text>
-      <text class="tc-sans" x="24" y="162" font-size="16" fill="#88B99A">WebSockets · Microservices</text>
-      <text class="tc-mono" x="24" y="190" font-size="10" letter-spacing="1.2" fill="#72A884">JWT AUTH · RBAC SECURITY · CORS</text>
+      <rect width="360" height="190" rx="12" fill="#040F06" stroke="#00FF66" stroke-width="1" stroke-opacity="0.3"/>
+      <rect width="360" height="190" rx="12" fill="url(#tc-panel-glow)"/>
+      <rect class="tc-trace" style="animation-delay: -3.6s;" width="360" height="190" rx="12" fill="none" stroke="url(#tc-trace)" stroke-width="1.4"/>
+      <text class="tc-mono" x="22" y="32" font-size="10.5" font-weight="700" letter-spacing="2" fill="#00FF66">04 // BACKEND &amp; APIS</text>
+      <text class="tc-heading" x="22" y="74" font-size="24" fill="#E6FFF0">Node.js · Express</text>
+      <text class="tc-heading" x="22" y="110" font-size="18.5" fill="#05FFA1">FastAPI · RESTful APIs</text>
+      <text class="tc-sans" x="22" y="142" font-size="13.5" fill="#88B99A">WebSockets · Microservices</text>
+      <text class="tc-mono" x="22" y="168" font-size="10" letter-spacing="1.2" fill="#72A884">JWT AUTH · RBAC SECURITY · CORS</text>
     </g>
 
     <!-- Panel 5: Data & Cloud -->
     <g transform="translate(398, 0)">
-      <rect width="360" height="214" rx="14" fill="#040F06" stroke="#00FF66" stroke-width="1" stroke-opacity="0.3"/>
-      <rect width="360" height="214" rx="14" fill="url(#tc-panel-glow)"/>
-      <rect class="tc-trace" style="animation-delay: -4.8s;" width="360" height="214" rx="14" fill="none" stroke="url(#tc-trace)" stroke-width="1.4"/>
-      <text class="tc-mono" x="24" y="38" font-size="11" font-weight="700" letter-spacing="2.4" fill="#05FFA1">05 // DATA &amp; CLOUD</text>
-      <text class="tc-heading" x="24" y="86" font-size="26" fill="#E6FFF0">MongoDB · PostgreSQL</text>
-      <text class="tc-heading" x="24" y="126" font-size="22" fill="#00FF66">Docker · AWS Cloud</text>
-      <text class="tc-sans" x="24" y="162" font-size="16" fill="#88B99A">MySQL · Redis Caching</text>
-      <text class="tc-mono" x="24" y="190" font-size="10" letter-spacing="1.2" fill="#72A884">SCHEMA DESIGN · NORMALIZATION · CI</text>
+      <rect width="360" height="190" rx="12" fill="#040F06" stroke="#00FF66" stroke-width="1" stroke-opacity="0.3"/>
+      <rect width="360" height="190" rx="12" fill="url(#tc-panel-glow)"/>
+      <rect class="tc-trace" style="animation-delay: -4.8s;" width="360" height="190" rx="12" fill="none" stroke="url(#tc-trace)" stroke-width="1.4"/>
+      <text class="tc-mono" x="22" y="32" font-size="10.5" font-weight="700" letter-spacing="2" fill="#05FFA1">05 // DATA &amp; CLOUD</text>
+      <text class="tc-heading" x="22" y="74" font-size="23" fill="#E6FFF0">MongoDB · PostgreSQL</text>
+      <text class="tc-heading" x="22" y="110" font-size="18.5" fill="#00FF66">Docker · AWS Cloud</text>
+      <text class="tc-sans" x="22" y="142" font-size="13.5" fill="#88B99A">MySQL · Redis Caching</text>
+      <text class="tc-mono" x="22" y="168" font-size="10" letter-spacing="1.2" fill="#72A884">SCHEMA DESIGN · NORMALIZATION · CI</text>
     </g>
 
     <!-- Panel 6: DevOps & Tools -->
     <g transform="translate(796, 0)">
-      <rect width="360" height="214" rx="14" fill="#040F06" stroke="#00FF66" stroke-width="1" stroke-opacity="0.3"/>
-      <rect width="360" height="214" rx="14" fill="url(#tc-panel-glow)"/>
-      <rect class="tc-trace" style="animation-delay: -6.0s;" width="360" height="214" rx="14" fill="none" stroke="url(#tc-trace)" stroke-width="1.4"/>
-      <text class="tc-mono" x="24" y="38" font-size="11" font-weight="700" letter-spacing="2.4" fill="#00FF66">06 // DEVOPS &amp; TOOLS</text>
-      <text class="tc-heading" x="24" y="86" font-size="28" fill="#E6FFF0">Git · GitHub Actions</text>
-      <text class="tc-heading" x="24" y="126" font-size="22" fill="#05FFA1">Linux / Bash Scripting</text>
-      <text class="tc-sans" x="24" y="162" font-size="16" fill="#88B99A">Postman · VS Code · Agile Scrum</text>
-      <text class="tc-mono" x="24" y="190" font-size="10" letter-spacing="1.2" fill="#72A884">SYSTEM DESIGN · OOP · UNIT TESTS</text>
+      <rect width="360" height="190" rx="12" fill="#040F06" stroke="#00FF66" stroke-width="1" stroke-opacity="0.3"/>
+      <rect width="360" height="190" rx="12" fill="url(#tc-panel-glow)"/>
+      <rect class="tc-trace" style="animation-delay: -6.0s;" width="360" height="190" rx="12" fill="none" stroke="url(#tc-trace)" stroke-width="1.4"/>
+      <text class="tc-mono" x="22" y="32" font-size="10.5" font-weight="700" letter-spacing="2" fill="#00FF66">06 // DEVOPS &amp; TOOLS</text>
+      <text class="tc-heading" x="22" y="74" font-size="24" fill="#E6FFF0">Git · GitHub Actions</text>
+      <text class="tc-heading" x="22" y="110" font-size="18.5" fill="#05FFA1">Linux / Bash Scripting</text>
+      <text class="tc-sans" x="22" y="142" font-size="13.5" fill="#88B99A">Postman · VS Code · Agile Scrum</text>
+      <text class="tc-mono" x="22" y="168" font-size="10" letter-spacing="1.2" fill="#72A884">SYSTEM DESIGN · OOP · UNIT TESTS</text>
     </g>
   </g>
 </svg>'''
 validate_svg("tech-constellation.svg", tech_svg)
 
 # -------------------------------------------------------------
-# 7. CERTIFICATIONS & EARNED BADGES SVG (1200x480)
+# 7. CERTIFICATIONS & EARNED BADGES SVG (1200x490) - VERIFIED
 # -------------------------------------------------------------
-certs_svg = '''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 480" width="1200" height="480" role="img" aria-labelledby="ce-title ce-desc">
+certs_svg = '''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 490" width="1200" height="490" role="img" aria-labelledby="ce-title ce-desc">
   <title id="ce-title">Official Certifications &amp; Earned Badges</title>
   <desc id="ce-desc">Eight verified milestones from LinkedIn &amp; Resume: Google Cybersecurity (98.81%), Cyber Forensics, Java DSA, Core Java OOP, DBMS SQL, Cloud Computing, Agile Software Engineering, and TCS ESG Virtual Experience.</desc>
   <defs>
@@ -801,64 +819,64 @@ certs_svg = '''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 480" wi
     .ce-sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif; }
   </style>
 
-  <rect width="1200" height="480" fill="#000000"/>
+  <rect width="1200" height="490" fill="#000000"/>
 
   <!-- Row 1: 4 Cards -->
   <g transform="translate(36, 16)">
     <!-- Card 1: Google Cybersecurity -->
     <g transform="translate(0, 0)">
-      <rect width="262" height="174" rx="12" fill="url(#ce-card-bg)" stroke="#00FF66" stroke-width="1.2" stroke-opacity="0.5"/>
+      <rect width="265" height="174" rx="12" fill="url(#ce-card-bg)" stroke="#00FF66" stroke-width="1.2" stroke-opacity="0.5"/>
       <rect x="0" y="0" width="4" height="174" rx="2" fill="#00FF66"/>
       <text class="ce-mono" x="18" y="28" font-size="10" font-weight="700" letter-spacing="1.8" fill="#00FF66">GOOGLE · COURSERA</text>
-      <text class="ce-heading" x="18" y="66" font-size="18" fill="#E6FFF0">Google Cybersecurity</text>
-      <text class="ce-sans" x="18" y="92" font-size="13" font-weight="600" fill="#00FF66">Score: 98.81 / 100 (8 Courses)</text>
-      <text class="ce-sans" x="18" y="114" font-size="12" fill="#88B99A">Networks, Linux, SQL, Python</text>
+      <text class="ce-heading" x="18" y="64" font-size="17" fill="#E6FFF0">Google Cybersecurity</text>
+      <text class="ce-sans" x="18" y="90" font-size="12.5" font-weight="600" fill="#00FF66">Score: 98.81 / 100 (8 Courses)</text>
+      <text class="ce-sans" x="18" y="112" font-size="11.5" fill="#88B99A">Networks, Linux, SQL, Python</text>
       <!-- Badge Pill -->
-      <g transform="translate(18, 136)">
-        <rect width="224" height="22" rx="4" fill="#00240E" stroke="#00FF66" stroke-width="0.8"/>
-        <text class="ce-mono" x="10" y="15" font-size="9.5" font-weight="700" fill="#00FF66">★ GOOGLE VERIFIED PROFESSIONAL</text>
+      <g transform="translate(18, 134)">
+        <rect width="228" height="22" rx="4" fill="#00240E" stroke="#00FF66" stroke-width="0.8"/>
+        <text class="ce-mono" x="10" y="15" font-size="9.5" font-weight="700" fill="#00FF66">★ GOOGLE VERIFIED PRO</text>
       </g>
     </g>
 
     <!-- Card 2: Cyber Forensics -->
     <g transform="translate(288, 0)">
-      <rect width="262" height="174" rx="12" fill="url(#ce-card-bg)" stroke="#00FF66" stroke-width="1" stroke-opacity="0.3"/>
+      <rect width="265" height="174" rx="12" fill="url(#ce-card-bg)" stroke="#00FF66" stroke-width="1" stroke-opacity="0.3"/>
       <rect x="0" y="0" width="4" height="174" rx="2" fill="#05FFA1"/>
       <text class="ce-mono" x="18" y="28" font-size="10" font-weight="700" letter-spacing="1.8" fill="#05FFA1">GOOGLE · FORENSICS</text>
-      <text class="ce-heading" x="18" y="66" font-size="18" fill="#E6FFF0">Cyber Forensics &amp; SOC</text>
-      <text class="ce-sans" x="18" y="92" font-size="13" font-weight="600" fill="#05FFA1">Threat Detection &amp; Response</text>
-      <text class="ce-sans" x="18" y="114" font-size="12" fill="#88B99A">Vulnerability Mitigation</text>
-      <g transform="translate(18, 136)">
-        <rect width="224" height="22" rx="4" fill="#00240E" stroke="#05FFA1" stroke-width="0.8"/>
+      <text class="ce-heading" x="18" y="64" font-size="17" fill="#E6FFF0">Cyber Forensics &amp; SOC</text>
+      <text class="ce-sans" x="18" y="90" font-size="12.5" font-weight="600" fill="#05FFA1">Threat Detection &amp; Response</text>
+      <text class="ce-sans" x="18" y="112" font-size="11.5" fill="#88B99A">Vulnerability Mitigation</text>
+      <g transform="translate(18, 134)">
+        <rect width="228" height="22" rx="4" fill="#00240E" stroke="#05FFA1" stroke-width="0.8"/>
         <text class="ce-mono" x="10" y="15" font-size="9.5" font-weight="700" fill="#05FFA1">COMPTIA SECURITY+ ALIGNED</text>
       </g>
     </g>
 
     <!-- Card 3: DSA Java -->
     <g transform="translate(576, 0)">
-      <rect width="262" height="174" rx="12" fill="url(#ce-card-bg)" stroke="#00FF66" stroke-width="1" stroke-opacity="0.3"/>
+      <rect width="265" height="174" rx="12" fill="url(#ce-card-bg)" stroke="#00FF66" stroke-width="1" stroke-opacity="0.3"/>
       <rect x="0" y="0" width="4" height="174" rx="2" fill="#00FF66"/>
       <text class="ce-mono" x="18" y="28" font-size="10" font-weight="700" letter-spacing="1.8" fill="#00FF66">JAVA · ALGORITHMS</text>
-      <text class="ce-heading" x="18" y="66" font-size="17" fill="#E6FFF0">Data Structures &amp; Algo</text>
-      <text class="ce-sans" x="18" y="92" font-size="13" font-weight="600" fill="#00FF66">Trees, Graphs, Recursion</text>
-      <text class="ce-sans" x="18" y="114" font-size="12" fill="#88B99A">Dynamic Prog &amp; Complexity</text>
-      <g transform="translate(18, 136)">
-        <rect width="224" height="22" rx="4" fill="#00240E" stroke="#00FF66" stroke-width="0.8"/>
+      <text class="ce-heading" x="18" y="64" font-size="16.5" fill="#E6FFF0">Data Structures &amp; Algo</text>
+      <text class="ce-sans" x="18" y="90" font-size="12.5" font-weight="600" fill="#00FF66">Trees, Graphs, Recursion</text>
+      <text class="ce-sans" x="18" y="112" font-size="11.5" fill="#88B99A">Dynamic Prog &amp; Complexity</text>
+      <g transform="translate(18, 134)">
+        <rect width="228" height="22" rx="4" fill="#00240E" stroke="#00FF66" stroke-width="0.8"/>
         <text class="ce-mono" x="10" y="15" font-size="9.5" font-weight="700" fill="#00FF66">500+ PROBLEMS SOLVED</text>
       </g>
     </g>
 
     <!-- Card 4: Java OOP -->
     <g transform="translate(864, 0)">
-      <rect width="262" height="174" rx="12" fill="url(#ce-card-bg)" stroke="#00FF66" stroke-width="1" stroke-opacity="0.3"/>
+      <rect width="265" height="174" rx="12" fill="url(#ce-card-bg)" stroke="#00FF66" stroke-width="1" stroke-opacity="0.3"/>
       <rect x="0" y="0" width="4" height="174" rx="2" fill="#05FFA1"/>
       <text class="ce-mono" x="18" y="28" font-size="10" font-weight="700" letter-spacing="1.8" fill="#05FFA1">CORE JAVA · OOP</text>
-      <text class="ce-heading" x="18" y="66" font-size="18" fill="#E6FFF0">Programming using Java</text>
-      <text class="ce-sans" x="18" y="92" font-size="13" font-weight="600" fill="#05FFA1">OOP, Collections, Threads</text>
-      <text class="ce-sans" x="18" y="114" font-size="12" fill="#88B99A">JDBC, Exception Handling</text>
-      <g transform="translate(18, 136)">
-        <rect width="224" height="22" rx="4" fill="#00240E" stroke="#05FFA1" stroke-width="0.8"/>
-        <text class="ce-mono" x="10" y="15" font-size="9.5" font-weight="700" fill="#05FFA1">ENTERPRISE JAVA EXPERTISE</text>
+      <text class="ce-heading" x="18" y="64" font-size="17" fill="#E6FFF0">Programming using Java</text>
+      <text class="ce-sans" x="18" y="90" font-size="12.5" font-weight="600" fill="#05FFA1">OOP, Collections, Threads</text>
+      <text class="ce-sans" x="18" y="112" font-size="11.5" fill="#88B99A">JDBC, Exception Handling</text>
+      <g transform="translate(18, 134)">
+        <rect width="228" height="22" rx="4" fill="#00240E" stroke="#05FFA1" stroke-width="0.8"/>
+        <text class="ce-mono" x="10" y="15" font-size="9.5" font-weight="700" fill="#05FFA1">ENTERPRISE JAVA EXPERT</text>
       </g>
     </g>
   </g>
@@ -867,74 +885,230 @@ certs_svg = '''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 480" wi
   <g transform="translate(36, 206)">
     <!-- Card 5: DBMS -->
     <g transform="translate(0, 0)">
-      <rect width="262" height="174" rx="12" fill="url(#ce-card-bg)" stroke="#00FF66" stroke-width="1" stroke-opacity="0.3"/>
+      <rect width="265" height="174" rx="12" fill="url(#ce-card-bg)" stroke="#00FF66" stroke-width="1" stroke-opacity="0.3"/>
       <rect x="0" y="0" width="4" height="174" rx="2" fill="#05FFA1"/>
       <text class="ce-mono" x="18" y="28" font-size="10" font-weight="700" letter-spacing="1.8" fill="#05FFA1">DATABASE · SQL</text>
-      <text class="ce-heading" x="18" y="66" font-size="17" fill="#E6FFF0">Database Management</text>
-      <text class="ce-sans" x="18" y="92" font-size="13" font-weight="600" fill="#05FFA1">Advanced SQL &amp; ERD Design</text>
-      <text class="ce-sans" x="18" y="114" font-size="12" fill="#88B99A">Indexing, Tuning &amp; Concurrency</text>
-      <g transform="translate(18, 136)">
-        <rect width="224" height="22" rx="4" fill="#00240E" stroke="#05FFA1" stroke-width="0.8"/>
+      <text class="ce-heading" x="18" y="64" font-size="16.5" fill="#E6FFF0">Database Management</text>
+      <text class="ce-sans" x="18" y="90" font-size="12.5" font-weight="600" fill="#05FFA1">Advanced SQL &amp; ERD Design</text>
+      <text class="ce-sans" x="18" y="112" font-size="11.5" fill="#88B99A">Indexing, Tuning &amp; Concurrency</text>
+      <g transform="translate(18, 134)">
+        <rect width="228" height="22" rx="4" fill="#00240E" stroke="#05FFA1" stroke-width="0.8"/>
         <text class="ce-mono" x="10" y="15" font-size="9.5" font-weight="700" fill="#05FFA1">RELATIONAL ARCHITECTURE</text>
       </g>
     </g>
 
     <!-- Card 6: Cloud -->
     <g transform="translate(288, 0)">
-      <rect width="262" height="174" rx="12" fill="url(#ce-card-bg)" stroke="#00FF66" stroke-width="1" stroke-opacity="0.3"/>
+      <rect width="265" height="174" rx="12" fill="url(#ce-card-bg)" stroke="#00FF66" stroke-width="1" stroke-opacity="0.3"/>
       <rect x="0" y="0" width="4" height="174" rx="2" fill="#00FF66"/>
       <text class="ce-mono" x="18" y="28" font-size="10" font-weight="700" letter-spacing="1.8" fill="#00FF66">CLOUD COMPUTING</text>
-      <text class="ce-heading" x="18" y="66" font-size="18" fill="#E6FFF0">Introduction to Cloud</text>
-      <text class="ce-sans" x="18" y="92" font-size="13" font-weight="600" fill="#00FF66">IaaS, PaaS, SaaS Models</text>
-      <text class="ce-sans" x="18" y="114" font-size="12" fill="#88B99A">Virtualization &amp; Microservices</text>
-      <g transform="translate(18, 136)">
-        <rect width="224" height="22" rx="4" fill="#00240E" stroke="#00FF66" stroke-width="0.8"/>
+      <text class="ce-heading" x="18" y="64" font-size="17" fill="#E6FFF0">Introduction to Cloud</text>
+      <text class="ce-sans" x="18" y="90" font-size="12.5" font-weight="600" fill="#00FF66">IaaS, PaaS, SaaS Models</text>
+      <text class="ce-sans" x="18" y="112" font-size="11.5" fill="#88B99A">Virtualization &amp; Microservices</text>
+      <g transform="translate(18, 134)">
+        <rect width="228" height="22" rx="4" fill="#00240E" stroke="#00FF66" stroke-width="0.8"/>
         <text class="ce-mono" x="10" y="15" font-size="9.5" font-weight="700" fill="#00FF66">CLOUD NATIVE ARCHITECTURE</text>
       </g>
     </g>
 
     <!-- Card 7: Agile & SE -->
     <g transform="translate(576, 0)">
-      <rect width="262" height="174" rx="12" fill="url(#ce-card-bg)" stroke="#00FF66" stroke-width="1" stroke-opacity="0.3"/>
+      <rect width="265" height="174" rx="12" fill="url(#ce-card-bg)" stroke="#00FF66" stroke-width="1" stroke-opacity="0.3"/>
       <rect x="0" y="0" width="4" height="174" rx="2" fill="#05FFA1"/>
       <text class="ce-mono" x="18" y="28" font-size="10" font-weight="700" letter-spacing="1.8" fill="#05FFA1">SOFTWARE ENGINEERING</text>
-      <text class="ce-heading" x="18" y="66" font-size="17" fill="#E6FFF0">Agile Software Dev</text>
-      <text class="ce-sans" x="18" y="92" font-size="13" font-weight="600" fill="#05FFA1">Scrum, Kanban, Sprint Life</text>
-      <text class="ce-sans" x="18" y="114" font-size="12" fill="#88B99A">SDLC &amp; Version Control (Git)</text>
-      <g transform="translate(18, 136)">
-        <rect width="224" height="22" rx="4" fill="#00240E" stroke="#05FFA1" stroke-width="0.8"/>
+      <text class="ce-heading" x="18" y="64" font-size="16.5" fill="#E6FFF0">Agile Software Dev</text>
+      <text class="ce-sans" x="18" y="90" font-size="12.5" font-weight="600" fill="#05FFA1">Scrum, Kanban, Sprint Life</text>
+      <text class="ce-sans" x="18" y="112" font-size="11.5" fill="#88B99A">SDLC &amp; Version Control (Git)</text>
+      <g transform="translate(18, 134)">
+        <rect width="228" height="22" rx="4" fill="#00240E" stroke="#05FFA1" stroke-width="0.8"/>
         <text class="ce-mono" x="10" y="15" font-size="9.5" font-weight="700" fill="#05FFA1">AGILE PRACTITIONER</text>
       </g>
     </g>
 
     <!-- Card 8: TCS ESG -->
     <g transform="translate(864, 0)">
-      <rect width="262" height="174" rx="12" fill="url(#ce-card-bg)" stroke="#00FF66" stroke-width="1" stroke-opacity="0.3"/>
+      <rect width="265" height="174" rx="12" fill="url(#ce-card-bg)" stroke="#00FF66" stroke-width="1" stroke-opacity="0.3"/>
       <rect x="0" y="0" width="4" height="174" rx="2" fill="#00FF66"/>
       <text class="ce-mono" x="18" y="28" font-size="10" font-weight="700" letter-spacing="1.8" fill="#00FF66">TCS · FORAGE</text>
-      <text class="ce-heading" x="18" y="66" font-size="18" fill="#E6FFF0">TCS ESG Experience</text>
-      <text class="ce-sans" x="18" y="92" font-size="13" font-weight="600" fill="#00FF66">Governance &amp; Sustainability</text>
-      <text class="ce-sans" x="18" y="114" font-size="12" fill="#88B99A">Risk Mgmt &amp; Compliance</text>
-      <g transform="translate(18, 136)">
-        <rect width="224" height="22" rx="4" fill="#00240E" stroke="#00FF66" stroke-width="0.8"/>
+      <text class="ce-heading" x="18" y="64" font-size="17" fill="#E6FFF0">TCS ESG Experience</text>
+      <text class="ce-sans" x="18" y="90" font-size="12.5" font-weight="600" fill="#00FF66">Governance &amp; Sustainability</text>
+      <text class="ce-sans" x="18" y="112" font-size="11.5" fill="#88B99A">Risk Mgmt &amp; Compliance</text>
+      <g transform="translate(18, 134)">
+        <rect width="228" height="22" rx="4" fill="#00240E" stroke="#00FF66" stroke-width="0.8"/>
         <text class="ce-mono" x="10" y="15" font-size="9.5" font-weight="700" fill="#00FF66">TATA CONSULTANCY SERVICES</text>
       </g>
     </g>
   </g>
 
-  <!-- Row 3: EARNED BADGES SHOWCASE BAR -->
+  <!-- Row 3: 5 DISTINCT EARNED BADGE CHIPS -->
   <g transform="translate(36, 400)">
-    <rect width="1128" height="60" rx="10" fill="url(#ce-badge-bg)" stroke="#00FF66" stroke-width="1" stroke-opacity="0.4"/>
-    <text class="ce-mono" x="24" y="26" font-size="10" font-weight="700" letter-spacing="2" fill="#00FF66">VERIFIED BADGES &amp; ACCOLADES</text>
-    <text class="ce-mono" x="24" y="46" font-size="11.5" fill="#E6FFF0">
-      🛡️ Google Cybersecurity (98.81%)  ·  📄 IJNRD Author (2025)  ·  ☕ Java &amp; DSA Specialist  ·  ☁️ Cloud Architecture  ·  🤝 TCS Forage Experience
-    </text>
+    <rect width="1128" height="74" rx="12" fill="url(#ce-badge-bg)" stroke="#00FF66" stroke-width="1" stroke-opacity="0.4"/>
+    <text class="ce-mono" x="22" y="24" font-size="10" font-weight="700" letter-spacing="2" fill="#00FF66">VERIFIED BADGES &amp; ACCOLADES</text>
+
+    <!-- 5 Badge Chips -->
+    <g transform="translate(22, 34)">
+      <!-- Chip 1 -->
+      <g transform="translate(0, 0)">
+        <rect width="210" height="28" rx="6" fill="#020C05" stroke="#00FF66" stroke-width="0.9"/>
+        <text class="ce-mono" x="12" y="18" font-size="10" font-weight="700" fill="#00FF66">🛡️ Google Cyber 98.81%</text>
+      </g>
+      <!-- Chip 2 -->
+      <g transform="translate(222, 0)">
+        <rect width="200" height="28" rx="6" fill="#020C05" stroke="#05FFA1" stroke-width="0.9"/>
+        <text class="ce-mono" x="12" y="18" font-size="10" font-weight="700" fill="#05FFA1">📄 IJNRD Author (2025)</text>
+      </g>
+      <!-- Chip 3 -->
+      <g transform="translate(434, 0)">
+        <rect width="210" height="28" rx="6" fill="#020C05" stroke="#00FF66" stroke-width="0.9"/>
+        <text class="ce-mono" x="12" y="18" font-size="10" font-weight="700" fill="#00FF66">☕ Java &amp; DSA Specialist</text>
+      </g>
+      <!-- Chip 4 -->
+      <g transform="translate(656, 0)">
+        <rect width="216" height="28" rx="6" fill="#020C05" stroke="#05FFA1" stroke-width="0.9"/>
+        <text class="ce-mono" x="12" y="18" font-size="10" font-weight="700" fill="#05FFA1">☁️ Cloud Native Architecture</text>
+      </g>
+      <!-- Chip 5 -->
+      <g transform="translate(884, 0)">
+        <rect width="200" height="28" rx="6" fill="#020C05" stroke="#00FF66" stroke-width="0.9"/>
+        <text class="ce-mono" x="12" y="18" font-size="10" font-weight="700" fill="#00FF66">🤝 TCS Forage ESG</text>
+      </g>
+    </g>
   </g>
 </svg>'''
 validate_svg("certifications.svg", certs_svg)
 
 # -------------------------------------------------------------
-# 8. FOOTER SIGNATURE SVG (1200x200)
+# 8. GITHUB TELEMETRY SVG (1200x240) - REPLACES 503 VERCEL CARDS
+# -------------------------------------------------------------
+telemetry_svg = '''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 240" width="1200" height="240" role="img" aria-labelledby="tel-title tel-desc">
+  <title id="tel-title">GitHub Telemetry &amp; Language Distribution</title>
+  <desc id="tel-desc">Real telemetry metrics: 24 Public Repos, 52+ Commits &amp; Contributions, 13 Peak Velocity. Top languages: Java 28%, JavaScript 26%, Python 16%, TypeScript 15%, HTML &amp; CSS 15%.</desc>
+  <defs>
+    <linearGradient id="tel-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#050F07"/>
+      <stop offset="100%" stop-color="#020603"/>
+    </linearGradient>
+    <radialGradient id="tel-glow" cx="80%" cy="30%" r="70%">
+      <stop offset="0" stop-color="#00FF66" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#00FF66" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="tel-trace" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#00FF66"/>
+      <stop offset="50%" stop-color="#05FFA1"/>
+      <stop offset="100%" stop-color="#00FF66" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <style>
+    .tel-mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", "Fira Code", monospace; }
+    .tel-heading { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Fira Code", monospace; font-weight: 700; }
+    .tel-sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif; }
+    .tel-trace { stroke-dasharray: 200 1100; animation: tel-trace 8s linear infinite; }
+    @keyframes tel-trace { to { stroke-dashoffset: -1300; } }
+    @media (prefers-reduced-motion: reduce) { .tel-trace { animation: none; } }
+  </style>
+
+  <rect width="1200" height="240" fill="#000000"/>
+
+  <g transform="translate(40, 10)">
+    <rect width="1120" height="220" rx="14" fill="url(#tel-bg)" stroke="#00FF66" stroke-width="1.2" stroke-opacity="0.3"/>
+    <rect width="1120" height="220" rx="14" fill="url(#tel-glow)"/>
+    <rect class="tel-trace" width="1120" height="220" rx="14" fill="none" stroke="url(#tel-trace)" stroke-width="1.4"/>
+
+    <!-- LEFT COLUMN: 4 METRICS CARDS -->
+    <g transform="translate(36, 26)">
+      <text class="tel-mono" x="0" y="0" font-size="10.5" font-weight="700" letter-spacing="2" fill="#00FF66">GITHUB TELEMETRY &amp; METRICS</text>
+
+      <g transform="translate(0, 18)">
+        <!-- Metric 1: Repos -->
+        <g transform="translate(0, 0)">
+          <rect width="240" height="66" rx="8" fill="#030C05" stroke="#00FF66" stroke-width="0.8" stroke-opacity="0.4"/>
+          <rect x="0" y="0" width="3" height="66" rx="1.5" fill="#00FF66"/>
+          <text class="tel-mono" x="16" y="24" font-size="9.5" font-weight="700" letter-spacing="1.5" fill="#72A884">PUBLIC REPOSITORIES</text>
+          <text class="tel-heading" x="16" y="52" font-size="26" fill="#E6FFF0">24 <tspan font-size="12" fill="#00FF66">REPOS</tspan></text>
+        </g>
+
+        <!-- Metric 2: Total Contributions -->
+        <g transform="translate(260, 0)">
+          <rect width="240" height="66" rx="8" fill="#030C05" stroke="#05FFA1" stroke-width="0.8" stroke-opacity="0.4"/>
+          <rect x="0" y="0" width="3" height="66" rx="1.5" fill="#05FFA1"/>
+          <text class="tel-mono" x="16" y="24" font-size="9.5" font-weight="700" letter-spacing="1.5" fill="#72A884">COMMITS &amp; PRs (YEAR)</text>
+          <text class="tel-heading" x="16" y="52" font-size="26" fill="#E6FFF0">52+ <tspan font-size="12" fill="#05FFA1">VERIFIED</tspan></text>
+        </g>
+
+        <!-- Metric 3: Peak Velocity -->
+        <g transform="translate(0, 78)">
+          <rect width="240" height="66" rx="8" fill="#030C05" stroke="#05FFA1" stroke-width="0.8" stroke-opacity="0.4"/>
+          <rect x="0" y="0" width="3" height="66" rx="1.5" fill="#05FFA1"/>
+          <text class="tel-mono" x="16" y="24" font-size="9.5" font-weight="700" letter-spacing="1.5" fill="#72A884">PEAK VELOCITY</text>
+          <text class="tel-heading" x="16" y="52" font-size="26" fill="#E6FFF0">13 <tspan font-size="12" fill="#05FFA1">COMMITS / DAY</tspan></text>
+        </g>
+
+        <!-- Metric 4: Codebase Health -->
+        <g transform="translate(260, 78)">
+          <rect width="240" height="66" rx="8" fill="#030C05" stroke="#00FF66" stroke-width="0.8" stroke-opacity="0.4"/>
+          <rect x="0" y="0" width="3" height="66" rx="1.5" fill="#00FF66"/>
+          <text class="tel-mono" x="16" y="24" font-size="9.5" font-weight="700" letter-spacing="1.5" fill="#72A884">SYSTEM AVAILABILITY</text>
+          <text class="tel-heading" x="16" y="52" font-size="26" fill="#E6FFF0">100% <tspan font-size="12" fill="#00FF66">ACTIVE CODEBASES</tspan></text>
+        </g>
+      </g>
+    </g>
+
+    <!-- Vertical Divider -->
+    <line x1="566" y1="26" x2="566" y2="194" stroke="#003B19" stroke-width="1.2" stroke-dasharray="6 4"/>
+
+    <!-- RIGHT COLUMN: TOP LANGUAGES BREAKDOWN -->
+    <g transform="translate(596, 26)">
+      <text class="tel-mono" x="0" y="0" font-size="10.5" font-weight="700" letter-spacing="2" fill="#05FFA1">PRIMARY LANGUAGE TELEMETRY</text>
+
+      <!-- Language Bars -->
+      <g transform="translate(0, 20)">
+        <!-- Java: 28% -->
+        <g transform="translate(0, 0)">
+          <text class="tel-mono" x="0" y="10" font-size="11" font-weight="600" fill="#E6FFF0">Java</text>
+          <text class="tel-mono" x="460" y="10" text-anchor="end" font-size="11" font-weight="700" fill="#00FF66">28%</text>
+          <rect x="0" y="16" width="460" height="6" rx="3" fill="#020D05"/>
+          <rect x="0" y="16" width="128" height="6" rx="3" fill="#00FF66"/>
+        </g>
+
+        <!-- JavaScript: 26% -->
+        <g transform="translate(0, 30)">
+          <text class="tel-mono" x="0" y="10" font-size="11" font-weight="600" fill="#E6FFF0">JavaScript</text>
+          <text class="tel-mono" x="460" y="10" text-anchor="end" font-size="11" font-weight="700" fill="#05FFA1">26%</text>
+          <rect x="0" y="16" width="460" height="6" rx="3" fill="#020D05"/>
+          <rect x="0" y="16" width="120" height="6" rx="3" fill="#05FFA1"/>
+        </g>
+
+        <!-- Python: 16% -->
+        <g transform="translate(0, 60)">
+          <text class="tel-mono" x="0" y="10" font-size="11" font-weight="600" fill="#E6FFF0">Python</text>
+          <text class="tel-mono" x="460" y="10" text-anchor="end" font-size="11" font-weight="700" fill="#00FF66">16%</text>
+          <rect x="0" y="16" width="460" height="6" rx="3" fill="#020D05"/>
+          <rect x="0" y="16" width="74" height="6" rx="3" fill="#00FF66"/>
+        </g>
+
+        <!-- TypeScript: 15% -->
+        <g transform="translate(0, 90)">
+          <text class="tel-mono" x="0" y="10" font-size="11" font-weight="600" fill="#E6FFF0">TypeScript</text>
+          <text class="tel-mono" x="460" y="10" text-anchor="end" font-size="11" font-weight="700" fill="#05FFA1">15%</text>
+          <rect x="0" y="16" width="460" height="6" rx="3" fill="#020D05"/>
+          <rect x="0" y="16" width="69" height="6" rx="3" fill="#05FFA1"/>
+        </g>
+
+        <!-- HTML / CSS / Other: 15% -->
+        <g transform="translate(0, 120)">
+          <text class="tel-mono" x="0" y="10" font-size="11" font-weight="600" fill="#E6FFF0">HTML / CSS / SQL</text>
+          <text class="tel-mono" x="460" y="10" text-anchor="end" font-size="11" font-weight="700" fill="#00FF66">15%</text>
+          <rect x="0" y="16" width="460" height="6" rx="3" fill="#020D05"/>
+          <rect x="0" y="16" width="69" height="6" rx="3" fill="#00FF66" fill-opacity="0.8"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>'''
+validate_svg("github-telemetry.svg", telemetry_svg)
+
+# -------------------------------------------------------------
+# 9. FOOTER SIGNATURE SVG (1200x200)
 # -------------------------------------------------------------
 footer_svg = '''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 200" width="1200" height="200" role="img" aria-labelledby="sig-title">
   <title id="sig-title">Pratik Mengal — Engineering intelligence. Building resilient architectures.</title>
