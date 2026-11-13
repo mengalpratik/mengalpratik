@@ -9,6 +9,7 @@
   <a href="https://github.com/mengalpratik"><img src="https://img.shields.io/badge/GitHub-mengalpratik-003B19?style=for-the-badge&labelColor=000000&logoColor=00FF66&logo=github" alt="GitHub profile"></a>
   <a href="mailto:iampratikmengal@gmail.com"><img src="https://img.shields.io/badge/Email-iampratikmengal@gmail.com-003B19?style=for-the-badge&labelColor=000000&logoColor=00FF66&logo=gmail" alt="Email iampratikmengal@gmail.com"></a>
   <a href="https://buymeacoffee.com/pratikmengal" target="_blank"><img src="https://img.shields.io/badge/Buy_Me_A_Coffee-pratikmengal-003B19?style=for-the-badge&labelColor=000000&logoColor=FFDD00&logo=buy-me-a-coffee" alt="Buy Me A Coffee"></a>
+  <a href="upi://pay?pa=iampratikmengal-2@okaxis&pn=Pratik%20Mengal&cu=INR"><img src="https://img.shields.io/badge/UPI-iampratikmengal--2%40okaxis-003B19?style=for-the-badge&labelColor=000000&logoColor=00FF66&logo=google-pay" alt="Pay via UPI"></a>
 </p>
 
 <img src="assets/title-about.svg" width="100%" alt="01 About — Hello, I'm Pratik.">
@@ -68,6 +69,15 @@
     <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" height="42" style="border-radius: 8px;">
   </a>
 </p>
+
+<div align="center">
+  <details>
+    <summary><b>🇮🇳 Scan to Pay via UPI (GPay / PhonePe / Paytm / BHIM)</b></summary>
+    <br/>
+    <img src="assets/upi-qr.png" alt="Pratik Mengal UPI QR Code" width="230" style="border-radius: 12px; border: 1px solid rgba(0,255,102,0.3); box-shadow: 0 4px 20px rgba(0,0,0,0.5);" />
+    <p><code>iampratikmengal-2@okaxis</code></p>
+  </details>
+</div>
 
 <a href="https://mengalpratik.github.io/PersonalPortfolioSite/">
   <img src="assets/footer-signature-v2.svg" width="100%" alt="Pratik Mengal — Engineering intelligence. Building resilient architectures.">
